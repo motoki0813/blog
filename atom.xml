@@ -6,7 +6,7 @@
   <link href="https://jpdynamicserp.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://jpdynamicserp.github.io/blog/"/>
-  <updated>2022-05-12T06:51:26.005Z</updated>
+  <updated>2022-05-12T06:51:55.359Z</updated>
   <id>https://jpdynamicserp.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://jpdynamicserp.github.io/blog/D365FO%20Tech/update-subscription-estimator/"/>
     <id>https://jpdynamicserp.github.io/blog/D365FO%20Tech/update-subscription-estimator/</id>
     <published>2022-05-11T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.005Z</updated>
+    <updated>2022-05-12T06:51:55.359Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、日本マイクロソフトの福原です。<br>この記事では、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご案内致します。</p><span id="more"></span><p>本番環境を構築する際には、その時点での購入済みライセンス数、見込まれるトランザクション量をLCSのサブスクリプション試算(Subscription estimator)に登録することで、ライセンス数(ユーザー数)、トランザクション量に見合った本番環境のスペックがシステムにより決まり、そのスペックで本番環境は構築されます。</p><p><strong>本番環境の構築後、追加のライセンスの購入等により、ライセンス数、見込まれるトランザクション量が増えましても、ライセンス数、見込まれるトランザクション量はサブスクリプション試算(Subscription estimator)に自動で反映されないものとなっておりますことをご注意して頂きますようお願い致します。</strong><br><strong>ユーザー数が増えた場合にはサブスクリプション試算(Subscription estimator)を再度登録して頂きますようお願い致します。</strong><br>再度、LCSにてサブスクリプション試算(Subscription estimator)を登録して頂くことで、変更後のライセンス数、見込まれるトランザクション量に見合うスペックが再度決定され、場合によりましては本番環境のスペックが良くなることがございます。</p><p>サブスクリプション試算(Subscription estimator)のご利用手順につきましては以下の弊社公開資料をご確認頂きますようお願い致します。<br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator">https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator</a></p><p>スペックの変化の有無はサブスクリプション見積もりの結果によるものとなっており、スペックの変化が起こる場合には、環境の再起動が必要になりますので、パッケージを環境に適用頂くか、再起動依頼のお問合せを弊社までご起票頂けますと幸いです。<br>※尚、環境の詳細なスペックの情報につきましては、非公開情報となっておりますので、具体的にどの程度スペックが向上したのか、弊社から回答は致しかねます。</p><hr><h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><p>以上、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご紹介させていただきました。<br>もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。</p>]]></content>
     
@@ -42,7 +42,7 @@
     <link href="https://jpdynamicserp.github.io/blog/D365FO%20Tech/peap-retire/"/>
     <id>https://jpdynamicserp.github.io/blog/D365FO%20Tech/peap-retire/</id>
     <published>2022-05-05T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.001Z</updated>
+    <updated>2022-05-12T06:51:55.355Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、日本マイクロソフトの福原です。</p><p>この記事では、Dynamics 365 for Finance and Operations のPEAP(Preview Early Access Program)の変更点についてご案内致します。</p><span id="more"></span><p>今まではPEAP(*1)プログラムに参加して頂いたお客様のみ、LCS上のPEAPプロジェクトからPEAPのバージョンを取得することができましたが、この度、LCSのPEAPプロジェクトは廃止され、全てのお客様に共有アセットライブラリ(Shared Asset Library)にてPEAPが公開されるようになりました。</p><p>PEAPで取得したサービスアップデートに関して問題や御質問ございましたら以下のお問い合わせフォームにて弊社までお問い合わせ頂きますようお願い致します。<br><a href="https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR9LUjsllSb5PooVobHrJTqtUMVUySk9PUkwxMzhYM1Q2TUtDSFUyUzA5Ni4u">https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR9LUjsllSb5PooVobHrJTqtUMVUySk9PUkwxMzhYM1Q2TUtDSFUyUzA5Ni4u</a></p><p>(*1)<br>PEAPとは一般提供される前のバージョンをいち早くご使用して頂けるプログラムです。PEAPの公開及び、一般提供の公開の日程につきましては以下の弊社公開資料をご確認頂きますようお願い申し上げます。<br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases#targeted-release-schedule-dates-subject-to-change">https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases#targeted-release-schedule-dates-subject-to-change</a></p><hr><h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><p>以上、 Dynamics 365 for Finance and Operations のPEAP(Preview Early Access Program)プロジェクトの変更点についてご紹介させていただきました。<br>もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。</p>]]></content>
     
@@ -64,7 +64,7 @@
     <link href="https://jpdynamicserp.github.io/blog/D365FO%20Tech/FO-extend-trial/"/>
     <id>https://jpdynamicserp.github.io/blog/D365FO%20Tech/FO-extend-trial/</id>
     <published>2022-04-17T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.001Z</updated>
+    <updated>2022-05-12T06:51:55.355Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、日本マイクロソフトの福原です。</p><p>この記事では、Dynamics 365 for Finance and Operationsにて、パートナー試用版の延長方法を紹介します。</p><span id="more"></span><h2 id="パートナー試用版の延長方法"><a href="#パートナー試用版の延長方法" class="headerlink" title="パートナー試用版の延長方法"></a>パートナー試用版の延長方法</h2><p>WebブラウザをInPrivateモードで起動して以下のURLにアクセスします。<br><a href="https://signup.microsoft.com/Signup?OfferId=AA972CC1-91DB-4CF9-94A1-4A9163ED50C9&amp;pc=2c50e379-9378-4761-84f9-e328da74e657&amp;dl=ERP_INSTANCE_SKU&amp;ispolaris=0&amp;ali=1">https://signup.microsoft.com/Signup?OfferId=AA972CC1-91DB-4CF9-94A1-4A9163ED50C9&amp;pc=2c50e379-9378-4761-84f9-e328da74e657&amp;dl=ERP_INSTANCE_SKU&amp;ispolaris=0&amp;ali=1</a></p><p>ページ内のサインインをクリックして、現在のパートナー試用版を取得した際に使用したメールアドレスでサインインし、画面に従って進んで頂きますと、試用版を延長することが可能でございます。<br>(関連情報)<br><a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription">https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription</a></p><hr><h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><p>以上、パートナー試用版の延長方法 をご紹介させていただきました。<br>もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。</p>]]></content>
     
@@ -86,7 +86,7 @@
     <link href="https://jpdynamicserp.github.io/blog/D365FO%20Tech/Export%20to%20Data%20Lake%E3%81%AEYammer%20group%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/"/>
     <id>https://jpdynamicserp.github.io/blog/D365FO%20Tech/Export%20to%20Data%20Lake%E3%81%AEYammer%20group%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</id>
     <published>2022-04-03T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.001Z</updated>
+    <updated>2022-05-12T06:51:55.355Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、Dynamics ERP サポートの岡田です。<br>この記事では、Export to Data Lake 機能の仕様、動作に関するご質問が可能な Yammer group をご案内させて頂きます。</p><span id="more"></span><p>Export to Data Lake 機能の仕様、動作に関するご質問につきましては、当該機能の開発責任者と直接やりとりができる Yammer group [Project Como] がございますので、Yammer group にご参加頂き、ご質問頂けますと幸いでございます。Yammer group への参加手順は、以下をご確認ください。</p><!-- 見出し --><h2 id="Yammer-group-Project-Como-への参加手順"><a href="#Yammer-group-Project-Como-への参加手順" class="headerlink" title="Yammer group [Project Como] への参加手順"></a>Yammer group [Project Como] への参加手順</h2><hr><!-- 数字リスト --><ol><li>以下 URL を開きます。<br><a href="https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&amp;feedId=32768909312&amp;view=all">https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&amp;feedId=32768909312&amp;view=all</a></li><li>[Finance and Operations Insider Program]に参加していない場合は、以下入力欄に Email アドレスを入力し、Sign Up をクリックします。参加している場合は、[Log In] をクリックし、Microsoft アカウントでサインインします。<!-- 画像 (リポジトリ内ファイルを参照 --><img src="/blog/D365FO%20Tech/Export%20to%20Data%20Lake%E3%81%AEYammer%20group%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ExportToDataLake1.png"></li><li>[PRIVATE: Project Como]の Join Group をクリックし、Pending ステータスになることを確認します。<!-- 画像 (リポジトリ内ファイルを参照 --><img src="/blog/D365FO%20Tech/Export%20to%20Data%20Lake%E3%81%AEYammer%20group%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ExportToDataLake3.png"><br>Join のリクエストを申請後に承認がされ、Project Como グループでの質問や回答が見られるようになります。</li></ol><p>尚、Project Como グループでのご質問は、Question タブをクリック頂き、Export to Data Lake 機能の PM と Solution archiect を以下のようにメンションして頂き、ご質問頂けますと幸いでございます。</p><!-- 画像 (リポジトリ内ファイルを参照 --><p><img src="/blog/D365FO%20Tech/Export%20to%20Data%20Lake%E3%81%AEYammer%20group%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/ExportToDataLake2.png"></p><!-- 区切り線 --><h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><hr><p>以上、Export to Data Lake の Yammer group をご紹介させていただきました。<br>Export to Data Lake 機能に関するアップデート情報は、Yammer group に通知がされますので、ぜひご活用いただけますと幸いです！</p>]]></content>
     
@@ -105,7 +105,7 @@
     <link href="https://jpdynamicserp.github.io/blog/D365FO%20Tech/temporary-change-language-d365fo/"/>
     <id>https://jpdynamicserp.github.io/blog/D365FO%20Tech/temporary-change-language-d365fo/</id>
     <published>2022-03-06T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.001Z</updated>
+    <updated>2022-05-12T06:51:55.355Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、日本マイクロソフトの永吉です。</p><p>この記事では、Dynamics 365 Finance and Operationsにて、ユーザオプションの設定を変更せずに表示言語を変更する方法を紹介します。</p><span id="more"></span><h2 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h2><ol><li>環境のURLの最後に <code>&amp;lng=表示したい言語</code> を追記する<br><code> (例) https://...operations.dynamics.com/?cmp=USMF&amp;lng=ja</code></li><li>ページをリフレッシュする（F5を押下）</li></ol><h2 id="対応している言語と指定方法"><a href="#対応している言語と指定方法" class="headerlink" title="対応している言語と指定方法"></a>対応している言語と指定方法</h2><p>ユーザオプション &gt; 基本設定 &gt; 言語と国/地域の基本設定 &gt; 言語にて設定できる言語をそのまま記載することで、その言語で表示することが可能です。</p><table><thead><tr><th align="center">言語</th><th align="center">指定するコード</th></tr></thead><tbody><tr><td align="center">日本語</td><td align="center">ja</td></tr><tr><td align="center">英語（米国）</td><td align="center">en-us</td></tr><tr><td align="center">ドイツ語</td><td align="center">de</td></tr><tr><td align="center">中国語（簡体字）</td><td align="center">zh-Hans</td></tr></tbody></table><h2 id="実際の画面"><a href="#実際の画面" class="headerlink" title="実際の画面"></a>実際の画面</h2><ul><li><p>初期画面（英語（米国）表示）<br><img src="/blog/D365FO%20Tech/temporary-change-language-d365fo/d365fo-en-us.png"></p></li><li><p>日本語に変更したときの画面（日本語表示）<br><img src="/blog/D365FO%20Tech/temporary-change-language-d365fo/d365fo-ja.png"></p></li><li><p>ユーザオプションの設定値（en-usが設定されている）<br><img src="/blog/D365FO%20Tech/temporary-change-language-d365fo/d365fo-user-option.png"></p></li></ul><hr><h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><p>異なる言語をご利用のお客様へデモンストレーションを予定している際や、サポートチームから英語での画面ショットの提供を依頼された際にご活用ください。</p>]]></content>
     
@@ -127,7 +127,7 @@
     <link href="https://jpdynamicserp.github.io/blog/D365FO%20Tech/D365FO%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85/"/>
     <id>https://jpdynamicserp.github.io/blog/D365FO%20Tech/D365FO%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85/</id>
     <published>2022-03-03T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.001Z</updated>
+    <updated>2022-05-12T06:51:55.355Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、Dynamics ERP サポートチームの今岡です。<br>この記事では、Dynamics 365 Finance and Operations (D365FO) のアップデートに関する注意事項を紹介します。  </p><span id="more"></span><p>D365FOのサービスアップデートにつきまして、以下のドキュメントに記載されていますように、<br>最大3つまでの更新を続けて一時停止することができます。  </p><p><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/one-version#can-the-update-be-delayed-what-is-the-policy">更新を遅らせることができますか、ポリシーとは何ですか。</a></p><p>４回以上の一時停止は、<strong>いかなる理由でも実施できません</strong>のでご注意ください。<br>本番環境は、サービス終了する前にアップデートして頂くことで、常にサポートされている環境を維持頂き<br>何らかの理由で、サービス終了までにアップデートできなかった場合も、3つの一時停止の範囲内で最新のサービスアップデートをご適用ください。  </p><p>ただし、４回目のアップデート期日前に、本番環境に手動で最新サービスアップデートを適用した場合は、LCSから一時停止が可能となります。<br>遅くとも自動適用予定日の１週間前には手動でご適用ください。  </p><h1 id="「サービス終了」の期日"><a href="#「サービス終了」の期日" class="headerlink" title="「サービス終了」の期日"></a>「サービス終了」の期日</h1><p>各サービスアップデートの「サービス終了」期日は以下のドキュメントでご確認頂けます。<br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases">サービス更新の可用性</a></p><h1 id="サービス終了前にアップデートを適用するメリット"><a href="#サービス終了前にアップデートを適用するメリット" class="headerlink" title="サービス終了前にアップデートを適用するメリット"></a>サービス終了前にアップデートを適用するメリット</h1><p>サービス終了前にアップデート頂くことで、常にサポートされている環境を維持でき、以下のようなメリットもございます。  </p><ol><li>問題発生時に調査及びトラブルシューティングを依頼可能です。  </li><li>Criticalな問題が発見された場合、新しいサービスアップデートを適用することなく、Quality Updateから修正を入手可能です。  </li></ol><h1 id="「サービス終了」した環境の制約"><a href="#「サービス終了」した環境の制約" class="headerlink" title="「サービス終了」した環境の制約"></a>「サービス終了」した環境の制約</h1><p>「サービス終了」した環境では多くの制約が発生しますのでご注意ください。  </p><ol><li>Microsoft は、サービスの終了に達しているバージョンに対して、修正プログラムをリリースしません。  </li><li>3つのサービス更新より古いバージョンで発生した問題の調査とトラブルシューティングを行いません。  </li><li>以下のLCS機能が使用不可となる可能性がございます。  <ul><li>メンテナンス モードの有効化  </li><li>環境または環境間でデータベースを移動するために提供されるすべての機能を使用する  </li><li>SQL Server データベースへのファイアウォール アクセスの有効化  </li><li>RSAT 証明書のダウンロード  </li><li>RSAT 証明書を再生成する  </li></ul></li></ol><p>(参考URL)<br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-does-end-of-service-mean">サービスの終了にはどのような意味がありますか?</a><br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-happens-to-an-environment-that-is-running-a-finance-and-operations-version-that-is-no-longer-supported">サポートされなくなった Finance and Operations バージョンを実行している環境はどうなりますか？</a>  </p><h1 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h1><p>より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。  </p>]]></content>
     
@@ -145,8 +145,8 @@
     <title>Japan Dynamics ERP Support Blog 開設のお知らせ</title>
     <link href="https://jpdynamicserp.github.io/blog/information/infomation/"/>
     <id>https://jpdynamicserp.github.io/blog/information/infomation/</id>
-    <published>2021-02-07T15:00:00.000Z</published>
-    <updated>2022-05-12T06:51:26.005Z</updated>
+    <published>2022-02-07T15:00:00.000Z</published>
+    <updated>2022-05-12T06:51:55.359Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、日本マイクロソフト Dynamics ERP サポート チームです。</p><p>この度、GitHub Blog にてサポートブログを開設いたしました！<br>本ブログでは、日本マイクロソフト Dynamics ERP サポート チームに所属する社員より、皆様のお役に立てる情報の発信に努めてまいりますので、ぜひご参照いただけますと幸いです。</p><span id="more"></span><p>なお、これまで Microsoft Forum に掲載していた記事は、随時本 GitHub Blog の Archive に移行を進めてまいります。<br>※ForumのJapan Dynamics ERP support Blogは以下になります。<br><a href="https://social.msdn.microsoft.com/Forums/ja-jp/home?forum=DERPSupport">https://social.msdn.microsoft.com/Forums/ja-jp/home?forum=DERPSupport</a><br>製品の特性上、情報が古くなってしまった記事につきましては移行しない場合がございますため、あらかじめご了承ください。</p><p>本 Blog が、皆様のお役にたてれば幸いです。<br>今後ともよろしくお願いたします。</p><!-- 区切り線 --><hr>]]></content>
     
