@@ -4,21 +4,31 @@
   <meta charset="utf-8">
   
   
-  <title>Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項 | Japan Dynamics ERP Support Blog</title>
+  <title>D365FOで品質更新プログラムを適用する方法 | Japan Dynamics ERP Support Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="こんにちは、日本マイクロソフトの福原です。この記事では、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご案内致します。">
+  <meta name="description" content="こんにちは、日本マイクロソフトの細野です。 この記事では、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法を紹介します。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項">
-<meta property="og:url" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/update-subscription-estimator/index.html">
+<meta property="og:title" content="D365FOで品質更新プログラムを適用する方法">
+<meta property="og:url" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/index.html">
 <meta property="og:site_name" content="Japan Dynamics ERP Support Blog">
-<meta property="og:description" content="こんにちは、日本マイクロソフトの福原です。この記事では、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご案内致します。">
+<meta property="og:description" content="こんにちは、日本マイクロソフトの細野です。 この記事では、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法を紹介します。">
 <meta property="og:locale" content="ja_JP">
-<meta property="article:published_time" content="2022-05-11T15:00:00.000Z">
-<meta property="article:modified_time" content="2022-05-30T07:41:20.410Z">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step4.png">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step5.png">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step7.png">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step8.png">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step9.png">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step10.png">
+<meta property="og:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step12.png">
+<meta property="article:published_time" content="2022-05-29T15:00:00.000Z">
+<meta property="article:modified_time" content="2022-05-30T07:41:20.402Z">
 <meta property="article:author" content="Dynamics ERP Support Japan">
 <meta property="article:tag" content="D365FO">
 <meta property="article:tag" content="tips">
+<meta property="article:tag" content="LCS">
+<meta property="article:tag" content="Quality Update">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/step4.png">
   
     <link rel="alternate" href="../../atom.xml" title="Japan Dynamics ERP Support Blog" type="application/atom+xml">
   
@@ -80,7 +90,7 @@
 </header>
 
       <div class="outer">
-        <section id="main"><article id="post-D365FO Tech/update-subscription-estimator" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-D365FO Tech/apply-quality-update-d365fo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     
@@ -89,7 +99,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項
+      D365FOで品質更新プログラムを適用する方法
     </h1>
   
 
@@ -97,27 +107,54 @@
       <div class="article-share">
         Last Update: 
         <a href="" class="article-date-single">
-  <time datetime="2022-05-11T15:00:00.000Z" itemprop="datePublished">2022-05-12</time>
+  <time datetime="2022-05-29T15:00:00.000Z" itemprop="datePublished">2022-05-30</time>
 </a>
         
         
-        <a href="https://github.com/jpdynamicserp/issues/new?title=&body=%0A%0A---%0A%0A%23%23%23%23+Document+Details%0A%0A%E2%9A%A0+*Do+not+edit+this+section.%0A%0A*+ID%3A+5079f8d5-bce6-5e30-a008-a4888a1024e8%0A*+%E5%AF%BE%E8%B1%A1%E8%A8%98%E4%BA%8B%3A+%5BDynamics+365+for+Finance+and+Operations+%E3%81%AE%E6%9C%AC%E7%95%AA%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0%E3%81%8C%E5%A2%97%E3%81%88%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85%5D%28https%3A%2F%2Fjpdynamicserp.github.io%2Fblog%2FD365FO%2520Tech%2Fupdate-subscription-estimator%2F%29%0A*+Content+Source%3A+%5Barticles%2FD365FO+Tech%2Fupdate-subscription-estimator.md%5D%28https%3A%2F%2Fgithub.com%2Fjpdynamicserp%2Fblob%2Fmain%2Farticles%2FD365FO%2520Tech%2Fupdate-subscription-estimator.md%29%0A*+Author%3A+" class="article-github-issue-link" target="_blank" rel="noopener noreferrer">feedback</a>
+        <a href="https://github.com/jpdynamicserp/issues/new?title=&body=%0A%0A---%0A%0A%23%23%23%23+Document+Details%0A%0A%E2%9A%A0+*Do+not+edit+this+section.%0A%0A*+ID%3A+92ba636d-494b-592e-884f-1c6768c2223b%0A*+%E5%AF%BE%E8%B1%A1%E8%A8%98%E4%BA%8B%3A+%5BD365FO%E3%81%A7%E5%93%81%E8%B3%AA%E6%9B%B4%E6%96%B0%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E9%81%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%5D%28https%3A%2F%2Fjpdynamicserp.github.io%2Fblog%2FD365FO%2520Tech%2Fapply-quality-update-d365fo%2F%29%0A*+Content+Source%3A+%5Barticles%2FD365FO+Tech%2Fapply-quality-update-d365fo.md%5D%28https%3A%2F%2Fgithub.com%2Fjpdynamicserp%2Fblob%2Fmain%2Farticles%2FD365FO%2520Tech%2Fapply-quality-update-d365fo.md%29%0A*+Author%3A+" class="article-github-issue-link" target="_blank" rel="noopener noreferrer">feedback</a>
         
-        <a data-url="https://jpdynamicserp.github.io/blog/D365FO%20Tech/update-subscription-estimator/" data-id="cl3sf9jpq000b0mmsc7i83cue" class="article-share-link">共有</a>
+        <a data-url="https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/" data-id="cl3sf9jpl00050mms91x545zm" class="article-share-link">共有</a>
       </div>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>こんにちは、日本マイクロソフトの福原です。<br>この記事では、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご案内致します。</p>
+        <p>こんにちは、日本マイクロソフトの細野です。</p>
+<p>この記事では、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法を紹介します。</p>
 <span id="more"></span>
 
 
-<p>本番環境を構築する際には、その時点での購入済みライセンス数、見込まれるトランザクション量をLCSのサブスクリプション試算(Subscription estimator)に登録することで、ライセンス数(ユーザー数)、トランザクション量に見合った本番環境のスペックがシステムにより決まり、そのスペックで本番環境は構築されます。</p>
-<p><strong>本番環境の構築後、追加のライセンスの購入等により、ライセンス数、見込まれるトランザクション量が増えましても、ライセンス数、見込まれるトランザクション量はサブスクリプション試算(Subscription estimator)に自動で反映されないものとなっておりますことをご注意して頂きますようお願い致します。</strong><br><strong>ユーザー数が増えた場合にはサブスクリプション試算(Subscription estimator)を再度登録して頂きますようお願い致します。</strong><br>再度、LCSにてサブスクリプション試算(Subscription estimator)を登録して頂くことで、変更後のライセンス数、見込まれるトランザクション量に見合うスペックが再度決定され、場合によりましては本番環境のスペックが良くなることがございます。</p>
-<p>サブスクリプション試算(Subscription estimator)のご利用手順につきましては以下の弊社公開資料をご確認頂きますようお願い致します。<br><a target="_blank" rel="noopener" href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator">https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator</a></p>
-<p>スペックの変化の有無はサブスクリプション見積もりの結果によるものとなっており、スペックの変化が起こる場合には、環境の再起動が必要になりますので、パッケージを環境に適用頂くか、再起動依頼のお問合せを弊社までご起票頂けますと幸いです。<br>※尚、環境の詳細なスペックの情報につきましては、非公開情報となっておりますので、具体的にどの程度スペックが向上したのか、弊社から回答は致しかねます。</p>
+<h2 id="手順"><a href="#手順" class="headerlink" title="手順"></a>手順</h2><ol>
+<li><p>LCSを開く</p>
+</li>
+<li><p>LCSにて対象の環境を選択し、対象環境の詳細画面を開く</p>
+</li>
+<li><p> 「利用可能な更新プログラム」のパネルを開く</p>
+</li>
+<li><p>「品質更新プログラム」の「ビューの更新」を選択する<br> <img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step4.png"></p>
+</li>
+<li><p>「バイナリ更新プログラム」にて、「パッケージの保存」を選択する<br><img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step5.png"></p>
+<p> ※ 対象環境の修正プログラムの適用状況により、使用可能な修正プログラムに表示される内容は異なります。</p>
+</li>
+<li><p>「更新プログラムの確認と保存」にて、「パッケージの保存」を選択する</p>
+</li>
+<li><p>「資産ライブラリへのパッケージの保存」にて、名前を入力し「パッケージの保存」を選択する<br> <img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step7.png"></p>
+</li>
+<li><p>「資産ライブラリへのパッケージの保存」にて「パッケージの保存」が完了後、「完了」を選択する<br> <img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step8.png"></p>
+</li>
+<li><p>LCSにて対象の環境を開き、「管理」より「更新プログラムの適用」を選択する<br> <img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step9.png"></p>
+</li>
+<li><p>手順7で保存したパッケージを選択し、「適用」を選択する<br>※ 手順7の実施後、ダイアログにパッケージが表示されるまでに時間を要する場合があります。<br><img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step10.png"></p>
+</li>
+<li><p>   確認ダイアログにて「はい」を選択する</p>
+</li>
+<li><p>LCSにて対象の環境を開き、「環境の更新」にて適用状況を確認する<br><img src="/blog/D365FO%20Tech/apply-quality-update-d365fo/step12.png"></p>
+</li>
+</ol>
+<p>（関連情報）<br><a target="_blank" rel="noopener" href="https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system</a></p>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>品質更新プログラムの適用にあたり、対象環境にはダウンタイムが発生します。関連するサービスはすべて停止し、パッケージの適用中は環境を使用できなくなります。</p>
+<p>上記の手順、手順内の画像については本記事の執筆時のものです。<br>実際の画面とは挙動に違いがある可能性がございます。</p>
 <hr>
-<h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><p>以上、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご紹介させていただきました。<br>もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。</p>
+<h2 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h2><p>以上、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法をご紹介させていただきました。<br>もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。</p>
 
       
       
@@ -131,10 +168,10 @@
     <footer class="article-footer">
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../tags/D365FO/" rel="tag">D365FO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../tags/tips/" rel="tag">tips</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../tags/D365FO/" rel="tag">D365FO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../tags/LCS/" rel="tag">LCS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../tags/Quality-Update/" rel="tag">Quality Update</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="../../tags/tips/" rel="tag">tips</a></li></ul>
 
         
-        <a href="https://github.com/jpdynamicserp/edit/main/articles/D365FO%20Tech/update-subscription-estimator.md" class="article-github-edit-link" target="_blank" rel="noopener noreferrer">GitHub で編集</a>
+        <a href="https://github.com/jpdynamicserp/edit/main/articles/D365FO%20Tech/apply-quality-update-d365fo.md" class="article-github-edit-link" target="_blank" rel="noopener noreferrer">GitHub で編集</a>
         
     </footer>
   </div>
@@ -142,19 +179,10 @@
     
 <nav id="article-nav">
   
-    <a href="../../D365FO%20App%20SCM/restrict-po-edit/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">次の記事</strong>
-      <div class="article-nav-title">
-        
-          請求後の発注書の編集制御方法
-        
-      </div>
-    </a>
   
-  
-    <a href="../peap-retire/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="../no-one-can-access-LCS-project/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">前の記事</strong>
-      <div class="article-nav-title">Dynamics 365 for Finance and Operations のPEAPの変更点について</div>
+      <div class="article-nav-title">LCS プロジェクトにアクセスできるアカウントが見つからない場合の対処法</div>
     </a>
   
 </nav>
@@ -173,7 +201,7 @@
       <ul>
         
           <li>
-            <a href="../apply-quality-update-d365fo/">D365FOで品質更新プログラムを適用する方法</a>
+            <a href="">D365FOで品質更新プログラムを適用する方法</a>
           </li>
         
           <li>
@@ -185,7 +213,7 @@
           </li>
         
           <li>
-            <a href="">Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項</a>
+            <a href="../update-subscription-estimator/">Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項</a>
           </li>
         
           <li>
