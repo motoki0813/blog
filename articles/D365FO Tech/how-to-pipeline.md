@@ -19,15 +19,19 @@ disableDisclaimer: false
 ## ステップ1:Azure DevOpsでプロジェクトの作成
 1. Organizationを作成します。
 2. New Projectからプロジェクトを作成します。
-    ![](./how-to-pipeline/CreateProject1.png)
+    |![](./how-to-pipeline/CreateProject1.png)|
+    |:-:|
+    
 3. [Repos]で下記のようにフォルダ構成を作成します。
 [Trunk] > [Main] > [Metadata]との構成ができていれば大丈夫です。
-    ![](./how-to-pipeline/CreateProject2.png)
+    |![](./how-to-pipeline/CreateProject2.png)|
+    |:-:|
 4. Visual Studioを開き、Team ExplorerからDevOpsとVMのプロジェクトとソリューション、モデルを同期します。
 
 サンプルとしてModel ManagementからModel1を作成します。名前とPublisher以外の設定は変更しません。
-    ![](./how-to-pipeline/CreateProject3.png)
-    ![](./how-to-pipeline/CreateProject4.png)
+|![](./how-to-pipeline/CreateProject3.png)|
+|:-:|
+|![](./how-to-pipeline/CreateProject4.png)|
 
 Model1を使用して、プロジェクトを作成し、プロジェクト内にサンプルとして下記のコードを用いたクラスを作成します。
 ```javascript
@@ -44,20 +48,34 @@ class RunnableClass1
 }
 ```
 クラス名はRunnableClass1としています。
-    ![](./how-to-pipeline/CreateProject5.png)
+|![](./how-to-pipeline/CreateProject5.png)|
+|:-:|
 
 作成したクラスはTeam ExplorerからAzure DevOpsに接続します。
-    ![](./how-to-pipeline/CreateProject6.png)
+|![](./how-to-pipeline/CreateProject6.png)|
+|:-:|
 
 Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させます。
 この場合下記のようにWorkspaceが作成できれば大丈夫です。
-    ![](./how-to-pipeline/CreateProject7.png)
+|![](./how-to-pipeline/CreateProject7.png)|
+|:-:|
 
 5. DevOpsの画面に戻り、[Repos]の形としてはこのように配置されていれば大丈夫です。Nuget.configとpackages.configについては後ほど説明いたします。
 
+またプロジェクトの作成とWorkspaceのマッピングに関する詳細は下記の公開資料をご参照ください。
+
+プロジェクト作成
+
+https://docs.microsoft.com/ja-jp/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser![image](https://user-images.githubusercontent.com/103909480/187136565-1161d4ce-0501-4f3c-b3e8-77cccc5fafd9.png)
+
+Workspaceのマッピング
+
+https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#map-your-azure-devops-project-to-your-local-model-store-and-projects-folder![image](https://user-images.githubusercontent.com/103909480/187136612-3ba93edd-a589-401f-a28b-f80ca8040e66.png)
+
 ## ステップ2:Azure DevOpsのFeedの作成
 1. まずVMで下記のファイルをまとめるようなフォルダを作成します。ここではフォルダ名をNugetsとします。
-    ![](./how-to-pipeline/CreateFeed1.png)
+    |![](./how-to-pipeline/CreateFeed1.png)|
+    |:-:|
 
     ダウンロードするファイル・フォルダ
     * nuget.exe
@@ -72,30 +90,39 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
     これらのファイル、フォルダに関しては後ほど手順を記載します。
 
 2. 次にDevOpsの[Artifacts]から[Feed]の作成を行います。名前以外、設定の変更は特にしません（今回のFeed名は"D365FOAutoBuild"とします）。
-    ![](./how-to-pipeline/CreateFeed2.png)
+    |![](./how-to-pipeline/CreateFeed2.png)|
+    |:-:|
 
 3. 作成した[Feed]で、[Connect to Feed] > [Nuget.exe] > [Project setup]の内容をそのままコピーし、nuget.configをVMフォルダ（Nugets）に作成します。
-    ![](./how-to-pipeline/CreateFeed3.png)
-    ![](./how-to-pipeline/CreateFeed4.png)
+    |![](./how-to-pipeline/CreateFeed3.png)|
+    |:-:|
+    |![](./how-to-pipeline/CreateFeed4.png)|
     Nuget.config
-    ![](./how-to-pipeline/CreateFeed5.png)
+    |![](./how-to-pipeline/CreateFeed5.png)|
+    
 4. VMフォルダ（Nugets）に下記のリンクからnuget.exeをダウンロードします。
     https://www.nuget.org/downloads
-    ![](./how-to-pipeline/CreateFeed6.png)
+    |![](./how-to-pipeline/CreateFeed6.png)|
+    |:-:|
 
 5. 	下記のgithubからinstallcredprovider.ps1を作成し、ローカルのPowershellで実行します。スクリプトが資格情報を要求し続けて失敗する場合は、パラメーターとして -AddNetfx を追加してみてください。
 
 	https://github.com/Microsoft/artifacts-credprovider/blob/master/helpers/installcredprovider.ps1
 
-    ![](./how-to-pipeline/CreateFeed1-2.png)
+    |![](./how-to-pipeline/CreateFeed1-2.png)|
+    |:-:|
 
 実行したらpluginのnetcore, netfxのフォルダが作成されるので、Nugetsフォルダにコピーします。
 
 6. LCSプロジェクトの[資産ライブラリ] > [NuGet packages] > [インポート]でデプロイ先のバージョンの.nupkgファイルを4種類ダウンロードします。また、このときの[追加の詳細]の[説明]からそれぞれのVersionを記録しておきます。
-    ![](./how-to-pipeline/CreateFeed7.png)
-    ![](./how-to-pipeline/CreateFeed8.png)
+    |![](./how-to-pipeline/CreateFeed7.png)|
+    |:-:|
+    |![](./how-to-pipeline/CreateFeed8.png)|
+    
 ダウンロードした.nupkgファイルのVersionに沿ってPackages.configを作成します。下記のコードのVersionは.nupkgファイルの情報によって随時変更してください。
-    ![](./how-to-pipeline/CreateFeed9.png)
+|![](./how-to-pipeline/CreateFeed9.png)|
+|:-:|
+
 ```javascript
 <?xml version="1.0" encoding="utf-8"?>
 <packages>
@@ -107,7 +134,8 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
 ```
 7. PowershellからAzure DevOpsのFeedに.nupkgファイルを送ります。
 ※このときにリモートデスクトップ画面から行うと通信速度が早い可能性があります。
-    ![](./how-to-pipeline/CreateFeed10.png)
+    |![](./how-to-pipeline/CreateFeed10.png)|
+    |:-:|
 
 ```javascript
 	.\nuget.exe push -Source "対象のFeed名" -ApiKey az Microsoft.Dynamics.AX.Application.DevALM.BuildXpp.nupkg -Timeout 3600
@@ -119,54 +147,95 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
 UserNameとパスワードを求められます
 * UserNameはAzureDevOpsのサインインアカウント
 * PasswordはPersonal Access Tokenで作成
-    ![](./how-to-pipeline/CreateFeed13.png)
+|![](./how-to-pipeline/CreateFeed13.png)|
+|:-:|
 
 ## Azure Pipelineの設定
 1. 	下記から、定義済みのパイプラインのダウンロードを行います（xpp-classic-ci.json）
 https://github.com/microsoft/Dynamics365-Xpp-Samples-Tools/tree/master/CI-CD/Pipeline-Samples
-    ![](./how-to-pipeline/CreatePipe1.png)
+    |![](./how-to-pipeline/CreatePipe1.png)|
+    |:-:|
 
 2. Pipelineを作成します。
-    ![](./how-to-pipeline/CreatePipe2.png)
+    |![](./how-to-pipeline/CreatePipe2.png)|
+    |:-:|
 3. 先ほどダウンロードしたxpp-classic-ci.jsonを[Import a pipeline]で選択します。
-    ![](./how-to-pipeline/CreatePipe3.png)
-4. 	Pipelineは下記のようになります。
-    ![](./how-to-pipeline/CreatePipe4-0.png)
+    |![](./how-to-pipeline/CreatePipe3.png)|
+    |:-:|
+    
+4. Pipelineは下記のようになります。
+    |![](./how-to-pipeline/CreatePipe4-0.png)|
+    |:-:|
 タスクIDの不一致により、テンプレート内の古いタスクが認識されないと思われます。そのため、古いタスクを削除し、同じ新しいタスクを1つ追加してください。以下のスクリーンショットが今回作成するパイプラインになります。
-    ![](./how-to-pipeline/CreatePipe4.png)
-該当のタスクが見つからない場合、Dynamics 365 Finance and Operations Toolsのインストールを確認してください。
-    ![](./how-to-pipeline/CreatePipe4-1.png)
+|![](./how-to-pipeline/CreatePipe4.png)|
+|:-:|
+
+該当のタスクが見つからない場合、下記のDynamics 365 Finance and Operations Toolsのインストールを確認してください。
+https://marketplace.visualstudio.com/items?itemName=Dyn365FinOps.dynamics365-finops-tools
+
+|![](./how-to-pipeline/CreatePipe4-1.png)|
+|:-:|
 
 5. 各タスクを設定していきます。
 * Pipeline
-    ![](./how-to-pipeline/CreatePipe5.png)
+
+|![](./how-to-pipeline/CreatePipe5.png)|
+|:-:|
+
 * Get sources
-    ![](./how-to-pipeline/CreatePipe7.png)
+
+|![](./how-to-pipeline/CreatePipe7.png)|
+|:-:|
+
 * Nuget installer
-    ![](./how-to-pipeline/CreatePipe8.png)
+
+|![](./how-to-pipeline/CreatePipe8.png)|
+|:-:|
+
 * Update Model Version
-    ![](./how-to-pipeline/CreatePipe9.png)
+
+|![](./how-to-pipeline/CreatePipe9.png)|
+|:-:|
+
 * Visual Studio Build
 MSBuild Argumentsには下記を入力します
 ```javascript
 /p:BuildTasksDirectory="$(NugetsPath)\$(ToolsPackage)\DevAlm"  /p:MetadataDirectory="$(MetadataPath)"  /p:FrameworkDirectory="$(NuGetsPath)\$(ToolsPackage)"  /p:ReferenceFolder="$(NuGetsPath)\$(PlatPackage)\ref\net40;$(NuGetsPath)\$(AppPackage)\ref\net40;$(NuGetsPath)\$(AppSuitePackage)\ref\net40;$(MetadataPath);$(Build.BinariesDirectory)"  /p:ReferencePath="$(NuGetsPath)\$(ToolsPackage)"  /p:OutputDirectory="$(Build.BinariesDirectory)"
 ```
 その他はスクリーンショットをご参照ください
-    ![](./how-to-pipeline/CreatePipe10.png)
+
+|![](./how-to-pipeline/CreatePipe10.png)|
+|:-:|
 
 * Copy Files
-    ![](./how-to-pipeline/CreatePipe11.png)
+
+|![](./how-to-pipeline/CreatePipe11.png)|
+|:-:|
+
 * NuGet Tool Installer
-    ![](./how-to-pipeline/CreatePipe12.png)
+
+|![](./how-to-pipeline/CreatePipe12.png)|
+|:-:|
+
 * Create Deployable Package
-    ![](./how-to-pipeline/CreatePipe13-1.png)
+
+|![](./how-to-pipeline/CreatePipe13-1.png)|
+|:-:|
+
 * Publish Artifact: drop
-    ![](./how-to-pipeline/CreatePipe14.png)
+
+|![](./how-to-pipeline/CreatePipe14.png)|
+|:-:|
 
 6. [Save & Queue]を実行します。Artifactができれば成功です。
-    ![](./how-to-pipeline/CreatePipe15.png)
+
+|![](./how-to-pipeline/CreatePipe15.png)|
+|:-:|
 
 ## Release Pipelineで自動アップロード・資産のデプロイを設定
+
+2022/08/29の時点で、LCS 認証には、多要素認証(MFA) が有効になっていない AAD アカウントが必要です。現在、LCSの新しい認証機能として、サービス間認証などのオプションを検討中です。
+
 1. Azure Active Directory アプリケーションを作成します
 
     1. Azure ポータル(https://ms.portal.azure.com/#home) > Azure Active Directory > 管理 > アプリの登録に移動します。
@@ -174,16 +243,24 @@ MSBuild Argumentsには下記を入力します
 	3. アプリケーションの詳細画面から、[管理] > [API のアクセス許可] > [構成されたアクセス許可] > [アクセス許可の追加] に移動します
 	4. [所属する組織で使用している API] の下の[ Dynamics Lifecycle services] を選択します。
 	5. [user_impersonation]権限を追加します
-    6. [Microsoftに管理者の同意を与えます]をクリックします。
-    ![](./how-to-pipeline/CreateDeploy1.png)
-    7. アプリケーションの詳細画面の[管理] > [認証] に移動します
-    8. [詳細設定] > [パブリック クライアント フローを許可する] で、[次のモバイルおよびデスクトップ フローを有効にする]を [はい]に構成します。
-    ![](./how-to-pipeline/CreateDeploy2.png)
+	6. [Microsoftに管理者の同意を与えます]をクリックします
+	
+	|![](./how-to-pipeline/CreateDeploy1.png)|
+	|:-:|
 
-2. Azure DevOps でサービス接続を作成します 
+   7. アプリケーションの詳細画面の[管理] > [認証] に移動します
+   8. [詳細設定] > [パブリック クライアント フローを許可する] で、[次のモバイルおよびデスクトップ フローを有効にする]を [はい]に構成します。
+   
+   |![](./how-to-pipeline/CreateDeploy2.png)|
+   |:-:|
+
+2. Azure DevOps でLCSへのサービス接続を作成します
+
     1. DevOps プロジェクトの [プロジェクト設定] > [パイプライン] > [サービス接続] に移動します。
     2. [新しいサービス接続]をクリックします
-    ![](./how-to-pipeline/CreateDeploy3.png)
+    
+    |![](./how-to-pipeline/CreateDeploy3.png)|
+    |:-:|
 
     3. [Dynamics Lifecycle Services]を選択します
     4. 次の詳細を入力します。
@@ -193,31 +270,56 @@ MSBuild Argumentsには下記を入力します
         サービス接続名:任意の名前を指定します
 
         下記のスクリーンショットの黄色の四角には同じドメインを入力してください。
-    ![](./how-to-pipeline/CreateDeploy4.png)      
+	
+    |![](./how-to-pipeline/CreateDeploy4.png)|
+    |:-:|
+    
     5. [保存]をクリック
 
 3. リリースパイプラインを作成します
     1. [Pipeline] > [Releases] > [New] > [New Release pipeline]を開きます。（名前を"Upload and Deploy"としています）
-    ![](./how-to-pipeline/CreateDeploy5.png)
+    
+    |![](./how-to-pipeline/CreateDeploy5.png)|
+    |:-:|
 
     2. [Artifact] > [Add]から作成したPipelineを選択します。また、[Stages] > [Add] > [New Stage]からStageを作成します。
-    ![](./how-to-pipeline/CreateDeploy6.png)
+    
+    |![](./how-to-pipeline/CreateDeploy6.png)|
+    |:-:|
 
     3. [Task]バーからtaskを作成します。
-        * Agent jpb
-        ![](./how-to-pipeline/CreateDeploy7.png)
-        * Insatll MSAL.PS to enable authentication
-        ![](./how-to-pipeline/CreateDeploy8.png)
-        * Dynamics Lifecycle Servicies (LCS) Asset Upload
-        ![](./how-to-pipeline/CreateDeploy10.png)
-        ![](./how-to-pipeline/CreateDeploy9.png)
-        * Dynamics Lifecycle Servicies (LCS) Asset Deployment
-        ![](./how-to-pipeline/CreateDeploy11.png)
+* Agent jpb
+
+|![](./how-to-pipeline/CreateDeploy7.png)|
+|:-:|
+	
+* Insatll MSAL.PS to enable authentication
+	
+|![](./how-to-pipeline/CreateDeploy8.png)|
+|:-:|
+	
+* Dynamics Lifecycle Servicies (LCS) Asset Upload
+	
+|![](./how-to-pipeline/CreateDeploy10.png)|
+|:-:|
+|![](./how-to-pipeline/CreateDeploy9.png)|
+	
+* Dynamics Lifecycle Servicies (LCS) Asset Deployment
+        
+|![](./how-to-pipeline/CreateDeploy11.png)|
+|:-:|
+	
 4. Artifactの右上のマークから[Continuous deployment trigger]を[Enabled]に設定して、[Create release]をすると、Pipelineのビルドが終わったときに自動的にリリースパイプラインが実行されます。
-        ![](./how-to-pipeline/CreateDeploy12.png)
-##　リリースパイプラインで起こる可能性のあるエラー
+
+|![](./how-to-pipeline/CreateDeploy12.png)|
+|:-:|
+
+## リリースパイプラインで起こる可能性のあるエラー
 * 環境の不一致では下記のエラーが確認されます
-        ![](./how-to-pipeline/CreateDeploy13.png)
+
+|![](./how-to-pipeline/CreateDeploy13.png)|
+|:-:|
+
 ```javascript
 ##[error]Error in request to deploy file asset: 'Deployable package environment validation failed' (Operation Activity Id: '~~~~~~~~~~~~~~~~~~~')
 ```
@@ -228,7 +330,9 @@ MSBuild Argumentsには下記を入力します
 ##[error]The process '/usr/bin/docker' failed with exit code 1
 ```
 その際は[Feed] > [Feed Setting] > [Add users/group]で『"プロジェクト名"（組織名）』で"Contributor"を選択と解決する可能性がございます。
-        ![](./how-to-pipeline/CreateDeploy14.png)
+
+|![](./how-to-pipeline/CreateDeploy14.png)|
+|:-:|
 
 
 ## 注意
