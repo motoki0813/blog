@@ -299,6 +299,8 @@ MSBuild Argumentsには下記を入力します
 |:-:|
 	
 * Dynamics Lifecycle Servicies (LCS) Asset Upload
+
+LCS Project IDは、デプロイ対象の環境をブラウザで開いた際のURLの末尾にある数字7桁を入力します
 	
 |![](./how-to-pipeline/CreateDeploy10.png)|
 |:-:|
@@ -329,7 +331,7 @@ MSBuild Argumentsには下記を入力します
 ```javascript
 ##[error]The process '/usr/bin/docker' failed with exit code 1
 ```
-その際は[Feed] > [Feed Setting] > [Add users/group]で『"プロジェクト名"（組織名）』で"Contributor"を選択と解決する可能性がございます。
+その際は[Feed] > [Feed Setting] > [Add users/group]で『"プロジェクト名"（組織名）』で"Contributor"を選択すると解決する可能性がございます。
 
 |![](./how-to-pipeline/CreateDeploy14.png)|
 |:-:|
