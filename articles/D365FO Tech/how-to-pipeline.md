@@ -64,15 +64,16 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
 
 またプロジェクトの作成とWorkspaceのマッピングに関する詳細は下記の公開資料をご参照ください。
 
-プロジェクト作成
+[Azure DevOpsでのプロジェクト作成](https://docs.microsoft.com/ja-jp/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser)
 
-https://docs.microsoft.com/ja-jp/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser![image](https://user-images.githubusercontent.com/103909480/187136565-1161d4ce-0501-4f3c-b3e8-77cccc5fafd9.png)
-
-Workspaceのマッピング
-
-https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#map-your-azure-devops-project-to-your-local-model-store-and-projects-folder![image](https://user-images.githubusercontent.com/103909480/187136612-3ba93edd-a589-401f-a28b-f80ca8040e66.png)
+[Visual Studio をコンフィギュレーションしてチーム プロジェクトに接続する](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#map-your-azure-devops-project-to-your-local-model-store-and-projects-folder)
 
 ## ステップ2:Azure DevOpsのFeedの作成
+
+以下の手順は、下記のdocsに記載されている手順となっております。
+
+[Microsoft ホステッド エージェントと Azure Pipelines を使用するビルドの自動化](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/hosted-build-automation)
+
 1. まずVMで下記のファイルをまとめるようなフォルダを作成します。ここではフォルダ名をNugetsとします。
     |![](./how-to-pipeline/CreateFeed1.png)|
     |:-:|
@@ -234,7 +235,13 @@ MSBuild Argumentsには下記を入力します
 
 ## Release Pipelineで自動アップロード・資産のデプロイを設定
 
-2022/08/29の時点で、LCS 認証には、多要素認証(MFA) が有効になっていない AAD アカウントが必要です。現在、LCSの新しい認証機能として、サービス間認証などのオプションを検討中です。
+2022/08/29の時点で、LCS 認証には、多要素認証(MFA) が有効になっていない AAD アカウントが必要です。現在、LCSの新しい認証機能として、サービス間認証などのオプションを検討中です。また以下の手順は、下記のdocsに記載されている手順となっております。
+
+[Azure Pipelines で LCS 接続を作成する](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/pipeline-lcs-connection)
+
+[Azure Pipelines を使用した資産のアップロード](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/pipeline-asset-upload)
+
+[Azure Pipelines を使用した資産のデプロイ](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/pipeline-deploy-asset)
 
 1. Azure Active Directory アプリケーションを作成します
 
