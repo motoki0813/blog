@@ -14,6 +14,16 @@ disableDisclaimer: false
 
 この記事では、Azure PipelinesとMicrosoft-hosted agentsを使用したビルドの手順をまとめます。AzureDevOpsとVMのリモートデスクトップ画面から、この手順を行うことを推奨いたします。
 
+本記事は下記の4つのステップから構成されています。
+
+[ステップ1:Azure DevOpsでプロジェクトの作成](#ステップ1:Azure DevOpsでプロジェクトの作成)
+
+[ステップ2:Azure DevOpsのFeedの作成](#ステップ2:Azure DevOpsのFeedの作成)
+
+[ステップ3:Azure Pipelineの設定](#ステップ3:Azure Pipelineの設定)
+
+[ステップ4:Release Pipelineで自動アップロード・資産のデプロイを設定](#ステップ4:Release Pipelineで自動アップロード・資産のデプロイを設定)
+
 <!-- more -->
 
 ## ステップ1:Azure DevOpsでプロジェクトの作成
@@ -151,7 +161,7 @@ UserNameとパスワードを求められます
 |![](./how-to-pipeline/CreateFeed13.png)|
 |:-:|
 
-## Azure Pipelineの設定
+## ステップ3:Azure Pipelineの設定
 1. 	下記から、定義済みのパイプラインのダウンロードを行います（xpp-classic-ci.json）
 https://github.com/microsoft/Dynamics365-Xpp-Samples-Tools/tree/master/CI-CD/Pipeline-Samples
     |![](./how-to-pipeline/CreatePipe1.png)|
@@ -233,7 +243,7 @@ MSBuild Argumentsには下記を入力します
 |![](./how-to-pipeline/CreatePipe15.png)|
 |:-:|
 
-## Release Pipelineで自動アップロード・資産のデプロイを設定
+## ステップ4:Release Pipelineで自動アップロード・資産のデプロイを設定
 
 2022/08/29の時点で、LCS 認証には、多要素認証(MFA) が有効になっていない AAD アカウントが必要です。現在、LCSの新しい認証機能として、サービス間認証などのオプションを検討中です。また以下の手順は、下記のdocsに記載されている手順となっております。
 
