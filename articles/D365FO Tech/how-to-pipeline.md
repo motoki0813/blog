@@ -14,19 +14,21 @@ disableDisclaimer: false
 
 この記事では、Azure PipelinesとMicrosoft-hosted agentsを使用したビルドの手順をまとめます。AzureDevOpsとVMのリモートデスクトップ画面から、この手順を行うことを推奨いたします。
 
-本記事は下記の4つのステップから構成されています。
+本記事は下記の5つの項目から構成されています。
 
-[ステップ1:Azure DevOpsでプロジェクトの作成](#ステップ1:Azure DevOpsでプロジェクトの作成)
+[ステップ1:AzureDevOpsでプロジェクトの作成](#ステップ1:AzureDevOpsでプロジェクトの作成)
 
-[ステップ2:Azure DevOpsのFeedの作成](#ステップ2:Azure DevOpsのFeedの作成)
+[ステップ2:AzureDevOpsのFeedの作成](#ステップ2:AzureDevOpsのFeedの作成)
 
-[ステップ3:Azure Pipelineの設定](#ステップ3:Azure Pipelineの設定)
+[ステップ3:AzurePipelineの設定](#ステップ3:AzurePipelineの設定)
 
-[ステップ4:Release Pipelineで自動アップロード・資産のデプロイを設定](#ステップ4:Release Pipelineで自動アップロード・資産のデプロイを設定)
+[ステップ4:ReleasePipelineで自動アップロード・資産のデプロイを設定](#ステップ4:ReleasePipelineで自動アップロード・資産のデプロイを設定)
+
+[ReleasePipelineで起こる可能性のあるエラー](#ReleasePipelineで起こる可能性のあるエラー)
 
 <!-- more -->
 
-## ステップ1:Azure DevOpsでプロジェクトの作成
+## ステップ1:AzureDevOpsでプロジェクトの作成
 1. Organizationを作成します。
 2. New Projectからプロジェクトを作成します。
     |![](./how-to-pipeline/CreateProject1.png)|
@@ -78,7 +80,7 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
 
 [Visual Studio をコンフィギュレーションしてチーム プロジェクトに接続する](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#map-your-azure-devops-project-to-your-local-model-store-and-projects-folder)
 
-## ステップ2:Azure DevOpsのFeedの作成
+## ステップ2:AzureDevOpsのFeedの作成
 
 以下の手順は、下記のdocsに記載されている手順となっております。
 
@@ -161,7 +163,7 @@ UserNameとパスワードを求められます
 |![](./how-to-pipeline/CreateFeed13.png)|
 |:-:|
 
-## ステップ3:Azure Pipelineの設定
+## ステップ3:AzurePipelineの設定
 1. 	下記から、定義済みのパイプラインのダウンロードを行います（xpp-classic-ci.json）
 https://github.com/microsoft/Dynamics365-Xpp-Samples-Tools/tree/master/CI-CD/Pipeline-Samples
     |![](./how-to-pipeline/CreatePipe1.png)|
@@ -243,7 +245,7 @@ MSBuild Argumentsには下記を入力します
 |![](./how-to-pipeline/CreatePipe15.png)|
 |:-:|
 
-## ステップ4:Release Pipelineで自動アップロード・資産のデプロイを設定
+## ステップ4:ReleasePipelineで自動アップロード・資産のデプロイを設定
 
 2022/08/29の時点で、LCS 認証には、多要素認証(MFA) が有効になっていない AAD アカウントが必要です。現在、LCSの新しい認証機能として、サービス間認証などのオプションを検討中です。また以下の手順は、下記のdocsに記載されている手順となっております。
 
@@ -333,7 +335,7 @@ LCS Project IDは、デプロイ対象の環境をブラウザで開いた際の
 |![](./how-to-pipeline/CreateDeploy12.png)|
 |:-:|
 
-## リリースパイプラインで起こる可能性のあるエラー
+## ReleasePipelineで起こる可能性のあるエラー
 * 環境の不一致では下記のエラーが確認されます
 
 |![](./how-to-pipeline/CreateDeploy13.png)|
