@@ -1,6 +1,6 @@
 ---
 title: LCSにてDynamics 365 Finance and Operationsに関するサポートリクエストを起票する方法
-date: 2022-06-23
+date: 2022-10-13
 tags:
   - D365FO
   - tips
@@ -12,7 +12,7 @@ disableDisclaimer: false
 
 こんにちは、日本マイクロソフトの永吉です。
 
-この記事では、LCSにてDynamics 365 Finance and Operationsに関するサポートリクエストを起票する方法を紹介します。
+この記事では、LCS にて Dynamics 365 Finance and Operations に関するサポートリクエストを起票する方法を紹介します。
 <!-- more -->
 
 
@@ -49,12 +49,12 @@ disableDisclaimer: false
 ※ 本項目は Microsoft にて管理している環境情報等を、本件の調査にて確認することに関する同意となりますため、 Allow をご選択いただけますと幸いです。
     ![](./submit-an-incident-in-lcs/step8a.png)
 
-10.  「この要求に関する連絡先の情報」画面が表示されるので、国/地域、メールアドレス(TO, CC)、電話番号、希望の連絡方法を選択し、「送信」を選択する  
+10.  「この要求に関する連絡先の情報」画面が表示されるので、国/地域、メールアドレス (TO, CC) 、電話番号、希望の連絡方法を選択し、「送信」を選択する  
     ![](./submit-an-incident-in-lcs/step9.png)
 
 
 （関連情報）  
-https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/cloud-powered-support-lcs#open-a-new-incident  
+https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/cloud-powered-support-lcs#open-a-new-incident  
   
   
 ---
