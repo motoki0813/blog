@@ -3,14 +3,14 @@ title: 顧客の一時的な与信限度額の登録方法
 date: 2022-09-26
 tags:
   - D365FO
-  - credit limit
+  - Finance
+  - Credit limit
   - tips
-  - finance
-
+  - 10.0.29
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 顧客の一時的な与信限度額の登録に必要な手順を紹介します。
 
 

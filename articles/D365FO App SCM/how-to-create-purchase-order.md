@@ -1,18 +1,17 @@
 ---
 title: 発注書作成の一連の流れ
-
 date: 2022-09-21
 tags:
   - D365FO
+  - SCM
   - purchase order
   - tips
-  - SCM
-
+  - 10.0.28
 disableDisclaimer: false
 ---
 
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 発注書を作成する際の一連の流れについて紹介します。
 
 <!-- more -->

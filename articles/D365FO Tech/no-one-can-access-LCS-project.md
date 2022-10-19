@@ -3,13 +3,14 @@ title: LCS プロジェクトにアクセスできるアカウントが見つか
 date: 2022-05-27
 tags:
   - D365FO
+  - LCS
   - tips
-
+  - 10.0.26
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの福原です。
-この記事では、 Dynamics 365 for Finance and Operations のLCS (Lifecycle Services) プロジェクトにアクセスできるアカウントが見つからない場合の対処法についてご案内致します。
+こんにちは、Dynamics ERP サポートチームの福原です。
+この記事では、 Dynamics 365 Finance and Operations のLCS (Lifecycle Services) プロジェクトにアクセスできるアカウントが見つからない場合の対処法についてご案内致します。
 
 <!-- more -->
 
@@ -45,5 +46,5 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-se
 ---
 ## おわりに  
 
-以上、 Dynamics 365 for Finance and Operations のLCS (Lifecycle Services) プロジェクトにアクセスできるアカウントが見つからない場合の対処法についてご紹介させていただきました。
+以上、 Dynamics 365 Finance and Operations のLCS (Lifecycle Services) プロジェクトにアクセスできるアカウントが見つからない場合の対処法についてご紹介させていただきました。
 もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

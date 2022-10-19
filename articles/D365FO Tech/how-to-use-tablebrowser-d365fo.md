@@ -4,11 +4,11 @@ date: 2022-09-07
 tags:
   - D365FO
   - tips
-
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの永吉です。  
+こんにちは、Dynamics ERP サポートチームの永吉です。  
 この記事では、Dynamics 365 Finance and Operations の画面上で、データベースのテーブルデータを確認する方法を紹介します。
 
 <!-- more -->

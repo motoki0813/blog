@@ -3,16 +3,15 @@ title: Dual Write 環境で販売注文のピッキングリストを削除し�
 date: 2022-10-14
 tags:
   - D365FO
-  - will fix
-  - sales order
-  - Dual Write
   - SCM
+  - Sales order
+  - Dual Write
+  - fixing
   - 10.0.26
-  
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの呉です。  
+こんにちは、Dynamics ERP サポートチームの呉です。  
 この記事では、 Dynamics 365 Finance and Operations (D365FO) と Dynamics 365 Customer Engagement (D365CE) を Dual Write で連携している環境にて、D365FO の販売注文のピッキングリストを削除した場合、 D365CE の受注データの配送日が変更できない挙動について紹介します。
 
 <!-- more -->

@@ -3,14 +3,14 @@ title: 販売注文にて「梱包明細の転記」を実施した際に処理�
 date: 2022-09-28
 tags:
   - D365FO
-  - tips
-  - packing slip
   - SCM
-  
+  - Packing slip
+  - tips
+  - 10.0.29
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 販売注文作成時に「梱包明細の転記」を実施した際に処理が中断されるエラーの解決方法を紹介します。
 
 

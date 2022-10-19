@@ -3,10 +3,12 @@ title: 償却資産申告書の作成手順
 date: 2022-08-25
 tags:
   - D365FO
-  - Japan
-  - Fixed Assets
+  - Finance
+  - Fixed assets
   - Form 26
-
+  - Japan
+  - tips
+  - 10.0.29
 disableDisclaimer: false
 ---
 

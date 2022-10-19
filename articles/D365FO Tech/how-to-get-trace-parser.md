@@ -3,13 +3,14 @@ title: Trace Parserを使用したトレースの実行方法
 date: 2022-09-29
 tags:
   - D365FO
-  - trace parser
+  - Tech
+  - Trace parser
   - tips
-
+  - 10.0.29
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 Trace Parser を使用したトレースの実行手順を紹介します。
 
 <!-- more -->

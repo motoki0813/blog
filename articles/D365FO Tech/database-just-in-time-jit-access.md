@@ -3,13 +3,15 @@ title: Sandbox 環境のデータベースでクエリを実行する方法に�
 date: 2022-07-29
 tags:
   - D365FO
-  - database
-
+  - Tech
+  - Database
+  - tips
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの岡田です。
-Dynamics 365 for Finance and Operations のSandbox 環境のデータベースに対して、クエリを実行することが可能です。
+こんにちは、Dynamics ERP サポートチームの岡田です。
+Dynamics 365 Finance and Operations のSandbox 環境のデータベースに対して、クエリを実行することが可能です。
 そのため Sandbox 環境では、さまざまな問題のトラブルシューティングのため、クエリ実行で問題を解消して頂くことが可能となっております。
 本記事では、Sandbox 環境のデータベースへのアクセスを有効にし、クエリを実行する手順をご案内させていただきます。
 

@@ -3,16 +3,17 @@ title: 特定操作における必要なロールとライセンスをVisual Stu
 date: 2022-06-13
 tags:
   - D365FO
+  - Tech
   - Visual Studio
   - License
   - tips
-
+  - 10.0.24
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの陳です。
+こんにちは、Dynamics ERP サポートチームの陳です。
 
-この記事では、実際の使用例を基に、 Dynamics 365 for Finance and Operations の特定操作における必要なロールとライセンスをVisual Studioにて確認する方法についてご案内致します。
+この記事では、実際の使用例を基に、 Dynamics 365 Finance and Operations の特定操作における必要なロールとライセンスをVisual Studioにて確認する方法についてご案内致します。
 
 <!-- more -->
 ## 検証に用いた製品・バージョン
@@ -61,6 +62,6 @@ https://go.microsoft.com/fwlink/p/?LinkId=866544
 ---
 ## おわりに  
 
-以上、 Dynamics 365 for Finance and Operations の特定操作における必要なロールとライセンスをVisual Studioにて確認する方法についてご紹介させていただきました。
+以上、 Dynamics 365 Finance and Operations の特定操作における必要なロールとライセンスをVisual Studioにて確認する方法についてご紹介させていただきました。
 
 もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。
