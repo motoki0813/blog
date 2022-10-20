@@ -3,14 +3,14 @@ title: D365FOで品質更新プログラムを適用する方法
 date: 2022-05-30
 tags:
   - D365FO
-  - tips
   - LCS
   - Quality Update
-
+  - tips
+  - 10.0.22
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの細野です。
+こんにちは、Dynamics ERP サポートチームの細野です。
 
 この記事では、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法を紹介します。
 <!-- more -->

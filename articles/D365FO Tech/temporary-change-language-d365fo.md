@@ -3,12 +3,13 @@ title: D365FOで使用する言語を一時的に変更する方法
 date: 2022-03-07
 tags:
   - D365FO
+  - Tech
   - tips
-
+  - 10.0.24
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの永吉です。
+こんにちは、Dynamics ERP サポートチームの永吉です。
 
 この記事では、Dynamics 365 Finance and Operationsにて、ユーザオプションの設定を変更せずに表示言語を変更する方法を紹介します。
 <!-- more -->

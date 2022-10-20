@@ -3,10 +3,11 @@ title: 一括償却資産の減価償却手順について
 date: 2022-09-09
 tags:
   - D365FO
-  - Japan
+  - Finance
   - Fixed Assets
-
-
+  - Japan
+  - fixing
+  - 10.0.27
 disableDisclaimer: false
 ---
 

@@ -3,17 +3,16 @@ title: クラウドホスト環境でWinRM 証明書をアップデートする�
 date: 2022-07-04
 tags:
   - D365FO
-  - WinRM
   - LCS
-  - certification
-  - cloudhost
-
+  - WinRM
+  - tips
+  - 10.0.26
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの佐藤です。
+こんにちは、Dynamics ERP サポートチームの佐藤です。
 
-Dynamics 365 for Finance and Operations のクラウドホスト環境でシークレットの入れ替えを実施した際に、  
+Dynamics 365 Finance and Operations のクラウドホスト環境でシークレットの入れ替えを実施した際に、  
 WinRM SSL 証明書の有効期限が切れている旨のエラーが出ることがありますので、WinRM SSL 証明書の有効期限をアップデートする方法を紹介します。  
 
 <!-- more -->
@@ -87,6 +86,6 @@ WinRM SSL 証明書の有効期限が切れていない状態になった後、[
 ---
 ## おわりに  
 
-Dynamics 365 for Finance and Operations のクラウドホスト環境でシークレットの入れ替えを実施した際に、  
+Dynamics 365 Finance and Operations のクラウドホスト環境でシークレットの入れ替えを実施した際に、  
 WinRM SSL 証明書の有効期限が切れている旨のエラーが出ることがありますので、WinRM SSL 証明書の有効期限をアップデートする方法を紹介しました。  
 もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。  

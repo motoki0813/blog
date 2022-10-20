@@ -3,14 +3,14 @@ title: 販売注文の作成にて「販売注文の確認」を実施した際�
 date: 2022-09-27
 tags:
   - D365FO
-  - tips
   - SCM
   - Sales order
-
+  - tips
+  - 10.0.29
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 販売注文の作成にて「販売注文の確認」を実施した際に生じる可能性のある警告の解決方法を紹介します。
 
 

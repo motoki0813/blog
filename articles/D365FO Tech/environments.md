@@ -3,13 +3,12 @@ title: Dynamics 365 for Finance and Operations の環境ごとの違い
 date: 2022-09-06
 tags:
   - D365FO
-  - tips
-
+  - Information
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの福原です。
-この記事では、 Dynamics 365 for Finance and Operations (D365FO) の環境ごとの違いについてご案内します。
+こんにちは、Dynamics ERP サポートチームの福原です。
+この記事では、 Dynamics 365 Finance and Operations (D365FO) の環境ごとの違いについてご案内します。
 クラウドホスト環境、サンドボックス環境、Tier2環境、本番環境等、様々な呼び方の環境があり、また、それぞれの環境で使える機能も異なるので、分かりづらいというお声をいただくことがありますので、そのような場合には本記事をご参考ください。
 
 <!-- more -->

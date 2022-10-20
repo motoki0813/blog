@@ -2,11 +2,14 @@
 title: Export to Data Lake の Yammer group について
 date: 2022-04-04
 tags:
+  - D365FO
+  - Tech
   - Export to Data Lake
+  - Information
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートの岡田です。
+こんにちは、Dynamics ERP サポートチームの岡田です。
 この記事では、Export to Data Lake 機能の仕様、動作に関するご質問が可能な Yammer group をご案内させて頂きます。
 
 <!-- more -->

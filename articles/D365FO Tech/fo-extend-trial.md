@@ -3,14 +3,16 @@ title: Dynamics 365 for Finance and Operations パートナー試用版の延長
 date: 2022-04-18
 tags:
   - D365FO
+  - Tech
   - tips
-
+  - License
+  - 10.0.26
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの福原です。
+こんにちは、Dynamics ERP サポートチームの福原です。
 
-この記事では、Dynamics 365 for Finance and Operationsにて、パートナー試用版の延長方法を紹介します。
+この記事では、Dynamics 365 Finance and Operationsにて、パートナー試用版の延長方法を紹介します。
 <!-- more -->
 
 ## パートナー試用版の延長方法

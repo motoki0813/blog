@@ -3,14 +3,14 @@ title: 既定の注文設定の購買管理フィールド取得元について
 date: 2022-10-13
 tags:
   - D365FO
+  - SCM
   - sales order
   - tips
-  - SCM
   - 10.0.29
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの木村です。  
+こんにちは、Dynamics ERP サポートチームの木村です。  
 この記事では、 Dynamics 365 Finance and Operations における[既定の注文設定] の[購買管理] フィールド取得元について紹介します。
 
 <!-- more -->

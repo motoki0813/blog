@@ -1,16 +1,16 @@
 ---
-title: Dynamics 365 for Finance and Operations のPEAPの変更点について
+title: Dynamics 365 Finance and Operations のPEAPの変更点について
 date: 2022-05-06
 tags:
   - D365FO
-  - tips
-
+  - LCS
+  - Information
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの福原です。
+こんにちは、Dynamics ERP サポートチームの福原です。
 
-この記事では、Dynamics 365 for Finance and Operations のPEAP(Preview Early Access Program)の変更点についてご案内致します。
+この記事では、Dynamics 365 Finance and Operations のPEAP(Preview Early Access Program)の変更点についてご案内致します。
 <!-- more -->
 
 
@@ -27,5 +27,5 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/pu
 ---
 ## おわりに  
 
-以上、 Dynamics 365 for Finance and Operations のPEAP(Preview Early Access Program)プロジェクトの変更点についてご紹介させていただきました。
+以上、 Dynamics 365 Finance and Operations のPEAP(Preview Early Access Program)プロジェクトの変更点についてご紹介させていただきました。
 もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

@@ -3,13 +3,14 @@ title: Azure AD 条件付きアクセスを使用して D365FO へのアクセ�
 date: 2022-10-04
 tags:
   - D365FO
-  - tips
+  - Tech
   - Azure AD
-
+  - tips
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの福原です。  
+こんにちは、Dynamics ERP サポートチームの福原です。  
 この記事では、 Azure AD 条件付きアクセスを使用して Dynamics 365 for Finance and Operations (D365FO) へのアクセスを制御する方法をご案内します。
 Azure Active Directory (以下 Azure AD) の条件付きアクセス により、ユーザー、デバイス、場所などを基にして、 D365FO の環境へのアクセスを制御することが可能となります。
 

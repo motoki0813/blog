@@ -1,15 +1,15 @@
 ---
 title: お客様のビジネスインパクトをお伺いする目的や算出について
-
 date: 2022-09-20
 tags:
+  - D365FO
+  - D365BC
   - Business Impact
   - Ideas
   - Information
-
 disableDisclaimer: false
 ---
-こんにちは、日本マイクロソフトの道浦です。
+こんにちは、Dynamics ERP サポートチームの道浦です。
 いつも Dynamics 365 Finance and Operations をご利用くださいまして、ありがとうございます。
 この記事では、技術サポートにお問合せいただいている「お客様にて想定されていない事象」に対して、お客様の業務への影響度（以下ビジネスインパクト）をお伺いする目的や算出方法について解説させて頂きます。
 

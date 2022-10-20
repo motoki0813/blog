@@ -1,15 +1,17 @@
 ---
 title: 請求後の発注書の編集制御方法
-date: 2022-5-24
+date: 2022-05-24
 tags: 
     - D365FO
+    - SCM
     - Purchase order
     - Procurement and sourcing parameters
-    
+    - tips
+    - 10.0.24
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートの木村です。  
+こんにちは、Dynamics ERP サポートチームの木村です。  
 この記事では、請求後の発注書の編集を制御するパラメータについてご案内いたします。  
 
 <!-- more -->

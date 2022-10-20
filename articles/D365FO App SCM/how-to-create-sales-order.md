@@ -1,18 +1,17 @@
 ---
 title: 販売注文作成の一連の流れ
-
 date: 2022-09-22
 tags:
   - D365FO
-  - sales order
-  - tips
   - SCM
-
+  - sales order
+  - Tips
+  - 10.0.28
 disableDisclaimer: false
 ---
 
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 販売注文作成の一連の流れについて紹介します。
 
 

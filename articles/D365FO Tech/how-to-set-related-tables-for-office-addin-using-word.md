@@ -3,14 +3,14 @@ title: Office 統合の Word テンプレートにおける関連テーブルの
 date: 2022-09-07
 tags:
   - D365FO
-  - Office
-  - add-in
-  - Word
-
+  - Tech
+  - Office add-in
+  - tips
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 Office 統合の Word テンプレートを用いる際に関連テーブルのリレーション設定で必要な手順を紹介します。
 
 <!-- more -->

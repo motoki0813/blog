@@ -3,14 +3,13 @@ title: LCSにてDynamics 365 Finance and Operationsに関するサポートリ�
 date: 2022-10-13
 tags:
   - D365FO
-  - tips
   - LCS
   - Support Request
-
+  - Information
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの永吉です。
+こんにちは、Dynamics ERP サポートチームの永吉です。
 
 この記事では、LCS にて Dynamics 365 Finance and Operations に関するサポートリクエストを起票する方法を紹介します。
 <!-- more -->

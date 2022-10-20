@@ -3,13 +3,15 @@ title: 販売注文に紐づく発注書の製品受領書のキャンセル方�
 date: 2022-09-07
 tags: 
     - D365FO
+    - SCM
     - Sales order
     - Purchase order
-    
+    - tips
+    - 10.0.25    
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートの木村です。  
+こんにちは、Dynamics ERP サポートチームの木村です。  
 この記事では、販売注文に紐づく発注書の製品受領書のキャンセル方法についてご案内いたします。  
 
 <!-- more -->

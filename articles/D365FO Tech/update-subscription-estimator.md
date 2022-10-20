@@ -3,13 +3,15 @@ title: Dynamics 365 for Finance and Operations の本番環境を使用するユ
 date: 2022-05-12
 tags:
   - D365FO
+  - Tech
+  - LCS
   - tips
-
+  - 10.0.26
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの福原です。
-この記事では、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご案内致します。
+こんにちは、Dynamics ERP サポートチームの福原です。
+この記事では、 Dynamics 365 Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご案内致します。
 <!-- more -->
 
 
@@ -29,5 +31,5 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-se
 ---
 ## おわりに  
 
-以上、 Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご紹介させていただきました。
+以上、 Dynamics 365 Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご紹介させていただきました。
 もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

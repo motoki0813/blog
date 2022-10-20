@@ -3,13 +3,16 @@ title: 請求後の販売注文の編集制御方法
 date: 2022-06-14
 tags: 
     - D365FO
+    - SCM
     - Sales order
     - Accounts receivable parameters
+    - tips
+    - 10.0.24
     
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートの木村です。  
+こんにちは、Dynamics ERP サポートチームの木村です。  
 この記事では、請求後の販売注文の編集を制御するパラメータについてご案内いたします。  
 
 <!-- more -->

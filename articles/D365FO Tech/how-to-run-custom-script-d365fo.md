@@ -3,12 +3,14 @@ title: D365FOでダウンタイムなしでカスタム X++ スクリプトを�
 date: 2022-08-30
 tags:
   - D365FO
+  - Tech
   - Data fix
-
+  - tips
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの細野です。
+こんにちは、Dynamics ERP サポートチームの細野です。
 この記事では、Dynamics 365 Finance and Operationsにて、ダウンタイムなしでカスタム X++ スクリプトを実行する方法を紹介します。
 
 <!-- more -->

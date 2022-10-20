@@ -3,13 +3,15 @@ title: 棚卸グループを使用した棚卸の実施方法
 date: 2022-07-01
 tags: 
     - D365FO
+    - SCM
     - Inventory management
     - Inventory counting
-    
+    - tips
+    - 10.0.25
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートの細野です。  
+こんにちは、Dynamics ERP サポートチームの細野です。  
 この記事では、棚卸グループを使用した棚卸の実施方法についてご案内いたします。  
 
 <!-- more -->

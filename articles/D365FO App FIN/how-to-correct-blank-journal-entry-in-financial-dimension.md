@@ -3,14 +3,14 @@ title: 財務分析コードで空白の仕訳が発生した際の訂正方法
 date: 2022-09-21
 tags:
   - D365FO
+  - Finance
   - financial dimensions
   - tips
-  - finance
-
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームの道浦です。  
 この記事では、 Dynamics 365 Finance and Operations にて、 財務分析コードが空白の仕訳が発生した際の訂正で必要な手順を紹介します。
 
 <!-- more -->

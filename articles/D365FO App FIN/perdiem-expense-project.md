@@ -3,8 +3,11 @@ title: ワークスペース「経費管理」から特定のプロジェクト�
 date: 2022-10-04
 tags:
   - D365FO
+  - Finance
+  - Project management
   - Japan
-  - project 
+  - tips
+  - 10.0.26
 disableDisclaimer: false
 ---
 こんにちは、Dynamics ERP サポートチームの西田です。  

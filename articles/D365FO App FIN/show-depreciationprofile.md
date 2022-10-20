@@ -2,13 +2,16 @@
 title: 固定資産の帳簿に減価償却プロファイルを表示する方法
 date: 2022-06-14
 tags: 
-    - D365FO
-    - Fixed assets
+  - D365FO
+  - Finance
+  - Fixed assets
+  - tips
+  - 10.0.24
     
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートの木村です。  
+こんにちは、Dynamics ERP サポートチームの木村です。  
 この記事では、固定資産の帳簿に減価償却プロファイルの変更機能を表示する方法についてご案内いたします。  
 
 <!-- more -->

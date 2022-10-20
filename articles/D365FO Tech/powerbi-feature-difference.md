@@ -3,13 +3,15 @@ title: Power BI.com integration と Power BI Embedded の違いについて
 date: 2022-07-15
 tags:
   - D365FO
+  - Tech
   - Power BI.com integration
   - Power BI Embedded
-
+  - tips
+  - 10.0.26
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの岡田です。
+こんにちは、Dynamics ERP サポートチームの岡田です。
 Dynamics 365 Finance and Operations (以下D365FO) では、Power BI レポートの形式でデータを表示、及び参照することが可能です。
 D365FO のデータを Power BI レポートで表示、参照する機能は、主に2つございますが、この記事ではその2つの違いについてご紹介させていただきます。
 

@@ -3,13 +3,13 @@ title: Dynamics 365 for Finance and Operations のプロアクティブな品質
 date: 2022-09-15
 tags:
   - D365FO
-  - tips
-
+  - Tech
+  - Information
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトのDynamics サポートチームです。
-この記事では、 Dynamics 365 for Finance and Operations のプロアクティブな品質更新プログラムの適用についてご案内します。
+こんにちは、日本マイクロソフトのDynamics ERP サポートチームです。
+この記事では、 Dynamics 365 Finance and Operations のプロアクティブな品質更新プログラムの適用についてご案内します。
 
 品質更新プログラム (Quality update program) は修正プログラム (Hotfix) の累積的なものとなり、今まではお客様が手動でサンドボックス環境、本番環境に適用して頂く必要がございましたが、今後はマイクロソフトにより自動で適用致します。
 こちらの変更は2022 年 9 月末または 10 月より段階的にサンドボックス環境に対して開始される予定となっており、2022 年 9 月中には対象環境のスケジュールに対してメールにて通知をさせて頂きます。

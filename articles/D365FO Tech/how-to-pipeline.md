@@ -3,15 +3,17 @@ title: Azure Pipelines と Microsoft-hosted agents を使用したビルドの�
 date: 2022-09-06
 tags:
   - D365FO
+  - Tech
   - Azure Pipelines
   - Microsoft-hosted agents
   - Azure DevOps
-
+  - tips
+  - 10.0.28
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフトの佐藤です。
-この記事では、Azure Pipelines と Microsoft-hosted agents を使用した Dynamcis 365 for Finance and Operations (D365FO) のカスタムコードのビルド自動化の手順をご案内します。
+こんにちは、Dynamics ERP サポートチームの佐藤です。
+この記事では、Azure Pipelines と Microsoft-hosted agents を使用した Dynamcis 365 Finance and Operations (D365FO) のカスタムコードのビルド自動化の手順をご案内します。
 この手順により、開発環境の Visual Studio で開発したコードを AzureDevOps 上にアップロードした際に、X++ コードのビルド及びパッケージの作成を行い、そのパッケージを LCS 上の資産ライブラリに保存し、パッケージを実際の環境に適用するまでの一連の処理を Azure Pipelines を用いて Azure 上で自動で行うことができます。
 公開資料のみでは手順がわかりづらいというお声をいただくことがありますので、本記事がご参考になれば幸いです。
 
@@ -324,11 +326,6 @@ LCS Project ID は、デプロイ対象の環境をブラウザで開いた際�
 ```
 その際は [Feed] > [Feed Setting] > [Add users/group] で『"プロジェクト名"（組織名）』で "Contributor" を選択すると解決する可能性がございます。
     <img src="./CreateDeploy14.png" style="border: 1px black solid;">
-
-
-## 注意
-上記の手順、手順内の画像については本記事の執筆時のものです。
-実際の画面とは挙動に違いがある可能性がございます。
 
 ---
 ## おわりに  
