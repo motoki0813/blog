@@ -11,11 +11,11 @@ disableDisclaimer: false
 
 こんにちは、Dynamics ERP サポートチームの福原です。
 
-この記事では、 Dynamics 365 Finance and Operations のサンドボックス環境・本番環境に対してパッケージ適用を開始した際に、 LCS 上でサービス提供前 (Pre-Servicing) という環境のステータスが数時間続く場合がございますことをご案内いたします。
+この記事では、Dynamics 365 Finance and Operations のサンドボックス環境・本番環境に対してパッケージ適用を開始した際に、LCS 上でサービス提供前 (Pre-Servicing) という環境のステータスが数時間続く場合がございますことをご案内いたします。
 <!-- more -->
 ---
 
-まず、 Dynamics 365 Finance and Operations のサンドボックス環境、本番環境に対して LCS よりパッケージ適用を開始した際に、始めに環境のステータスはサービス提供前 (Pre-Servicing) [*1](#link1) というものに変化いたします。  
+まず、Dynamics 365 Finance and Operations のサンドボックス環境、本番環境に対して LCS よりパッケージ適用を開始した際に、始めに環境のステータスはサービス提供前 (Pre-Servicing) [*1](#link1) というものに変化いたします。  
 サービス提供前 (Pre-Servicing) 中では、環境自体にアクセスすることが可能なまま、システムのバックグラウンドにてパッケージ適用に問題が発生しないか等の事前チェックが実施されます。  
 注意事項と致しまして、サービス提供前 (Pre-Servicing) を含めたパッケージ適用全体で、 1, 2 時間で完了する場合もございますが、システム側の負荷状況や適用されるパッケージによりましては、サービス提供前 (Pre-Servicing) だけでそれ以上の時間がかかることがございます。  
 <a id='link1'></a> (*1) : [サービス提供前およびサービス提供後](https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing)
@@ -32,5 +32,5 @@ disableDisclaimer: false
   
 ---
 ## おわりに  
-以上、 Dynamics 365 Finance and Operations のサンドボックス環境・本番環境に対してパッケージ適用を開始した際に、 LCS 上でサービス提供前 (Pre-Servicing) という環境のステータスが数時間続く場合がございますことを紹介いたしました。
+以上、Dynamics 365 Finance and Operations のサンドボックス環境・本番環境に対してパッケージ適用を開始した際に、LCS 上でサービス提供前 (Pre-Servicing) という環境のステータスが数時間続く場合がございますことを紹介いたしました。
 より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
