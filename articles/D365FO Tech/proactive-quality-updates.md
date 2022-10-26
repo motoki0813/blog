@@ -12,14 +12,14 @@ disableDisclaimer: false
 この記事では、 Dynamics 365 Finance and Operations のプロアクティブな品質更新プログラムの適用についてご案内します。
 
 品質更新プログラム (Quality update program) は修正プログラム (Hotfix) の累積的なものとなり、今まではお客様が手動でサンドボックス環境、本番環境に適用して頂く必要がございましたが、今後はマイクロソフトにより自動で適用致します。
-こちらの変更は2022 年 9 月末または 10 月より段階的にサンドボックス環境に対して開始される予定となっており、2022 年 9 月中には対象環境のスケジュールに対してメールにて通知をさせて頂きます。
+こちらの変更は2022 年 9 月末または 10 月より段階的にサンドボックス環境から開始される予定となっており、対象環境に対しまして順次通知をさせて頂きます。
 
 <!-- more -->
 ---
 
 下記公開情報を基にご説明いたします。各項目について公開情報内にも詳細を記載しておりますのでご参照ください。
-https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance
-https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
 
 ## 更新履歴
 2022 年 10 月 26 日 (水) : 上記の公開資料の内容の変更に伴い一部内容を修正しました。
@@ -37,7 +37,7 @@ https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/
 ## 重要事項
 品質更新プログラムの自動適用に関する重要事項を以下にまとめております。
 1. **自動適用の対象の段階的な拡大**
-まずは、2022 年 9 月末または 10 月より段階的にサンドボックス環境に対して開始される予定となっており、2022 年 9 月中にはスケジュールに対してメールにて通知をさせて頂きます。
+まずは、2022 年 9 月末または 10 月より段階的にサンドボックス環境に対して開始される予定となっており、2022 年 9 月より対象環境に対しましては順次通知をさせて頂きます。
 正常に自動適用が完了していく環境の割合が増えたことを確認後、本番環境への自動適用が開始される予定です。
 現時点では以下の公開資料の通り、本番環境の自動適用は決まっておりませんが、スケジュールが決まり次第、通知いたします。
 https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates#when-will-quality-updates-start-for-production-environments
@@ -45,24 +45,28 @@ https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/q
 
 2. **Near-zero downtime updating (ゼロに近いダウンタイム更新)**
 以下の公開資料の最小限のダウンタイムで自動適用は実施されますので、自動適用時の影響は最小限なものとなります。
-https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-does-near-zero-downtime-maintenance-mean
+https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-does-near-zero-downtime-maintenance-mean
 以下の公開資料の優先順位に基づくバッチ スケジューリングにより、自動適用の際のバッチジョブ実行を対策することができ、バッチのスケジューリングと処理は自動適用直後に復旧し、再開されます。 
-https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/sysadmin/priority-based-batch-scheduling
-https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#priority-based-scheduling
+https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/sysadmin/priority-based-batch-scheduling
+https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#priority-based-scheduling
 
 2. **自動適用スケジュールの公開**
-以下の公開資料の通り、各リージョンごとに自動適用が実施される4 日間のウィンドウが決定され、5 営業日前にはメールにて通知いたします。そのウィンドウ内にて自動適用を実施致します。
-https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
-
+以下の公開資料の通り、各リージョンごとに自動適用が実施される4 日間のウィンドウが決定され、5 日前には通知いたします。そのウィンドウ内にて自動適用を実施致します。
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
+スケジュールは以下の公開資料にてご確認頂くことができます。
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance#what-is-the-schedule-for-sandbox-proactive-quality-updates
+なお、通知に関しましては、以下の公開資料の通り、Microsoft 365 Message Centerにてご確認頂きますようお願い致します。
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance#process-changes
+>  Note The Microsoft Communications team is investigating an ongoing degradation of the email tooling which is preventing the delivery of email notifications. Please continue to monitor the Microsoft 365 Message Center for onboarding and notification related messages.
 
 4. **Dark hours (暗い時間帯)**
 以下の公開資料の通り、環境が配置されているリージョンごとに、深夜から早朝のDark hours (暗い時間帯、営業時間外)が定義されており、そのDark hours 内で自動適用が実施されますので、自動適用時の環境のご利用に対する影響は最小限となります。
 日本リージョンは 1:00 AM ~ 7:00 AM (日本時間) となります。
-https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-are-the-planned-maintenance-windows
+https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-are-the-planned-maintenance-windows
 
 
 また、以下の公開資料の下部にQ&Aがございますので、こちらもご確認して頂けますと幸いでございます。
-https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance
 
 ---
 ## おわりに  
