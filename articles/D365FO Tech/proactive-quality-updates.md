@@ -21,6 +21,9 @@ disableDisclaimer: false
 https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance
 https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
 
+## 更新履歴
+2022 年 10 月 26 日 (水) : 上記の公開資料の内容の変更に伴い一部内容を修正しました。
+
 ## 今まで
 今までは、セキュリティ、プライバシー、信頼性、可用性、パフォーマンスなどの基本的な要素に対する修正プログラム (Hotfix) の累積である品質更新プログラム (Quality update program) は、LCS にて公開されるごとに、以下のブログの手順よりお客様が手動でサンドボックス環境、本番環境に適用して頂く必要がございました。
 https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/
@@ -36,7 +39,9 @@ https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/
 1. **自動適用の対象の段階的な拡大**
 まずは、2022 年 9 月末または 10 月より段階的にサンドボックス環境に対して開始される予定となっており、2022 年 9 月中にはスケジュールに対してメールにて通知をさせて頂きます。
 正常に自動適用が完了していく環境の割合が増えたことを確認後、本番環境への自動適用が開始される予定です。
-現時点では本番環境は2022 年 11 月以降に自動適用が開始される予定です。
+現時点では以下の公開資料の通り、本番環境の自動適用は決まっておりませんが、スケジュールが決まり次第、通知いたします。
+https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates#when-will-quality-updates-start-for-production-environments
+
 
 2. **Near-zero downtime updating (ゼロに近いダウンタイム更新)**
 以下の公開資料の最小限のダウンタイムで自動適用は実施されますので、自動適用時の影響は最小限なものとなります。
