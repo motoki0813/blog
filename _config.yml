@@ -30,6 +30,9 @@ root_tag_generator:
   - Dynamics 365 Business Central Tech
   - Dynamics 365 Business Central SCM
   - Dynamics 365 Business Central Finance
+  - Information
+  - 重要な変更点
+  - 重要な変更点 (廃止)
   sub_tag_limit: 20
 
 # URL
