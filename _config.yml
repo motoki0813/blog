@@ -24,14 +24,13 @@ author: Dynamics ERP Support Japan
 root_tag_generator:
   root_tag_names:
   - D365FO Tech
-  - D365FO App
-  - D365BC Tech
-  - D365BC App
-  - D365 Commerce Tech 
-  - D365 Commerce App
-  - 情報採取
+  - D365FO SCM
+  - D365FO Finance
+  - Dynamics 365 Commerce
+  - Dynamics 365 Business Central Tech
+  - Dynamics 365 Business Central SCM
+  - Dynamics 365 Business Central Finance
   sub_tag_limit: 20
-  sub_tag_sort: 'name'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
