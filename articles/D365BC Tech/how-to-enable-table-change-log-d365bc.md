@@ -3,6 +3,7 @@ title: D365BC でテーブルの変更ログを記録する方法
 date: 2022-11-16
 tags:
   - Dynamics 365 Business Central Tech
+  - Tips
   - 21.0
 
 disableDisclaimer: false
@@ -35,8 +36,9 @@ Version: W2 21.0
 6.	追跡対象のテーブルの追跡レベルを適宜設定する
     ![](./how-to-enable-table-change-log-d365bc/step6.png)
 
-    変更を追跡すると、パフォーマンスに影響を与える可能性があります。
-    重要なフィールドのみを追跡することが推奨されます。
+[!NOTE]
+変更を追跡すると、パフォーマンスに影響を与える可能性があります。
+重要なフィールドのみを追跡することが推奨されます。
 
 7. Some Fields として設定した場合は、3 点リーダーより、追跡対象のフィールドを設定する
     ![](./how-to-enable-table-change-log-d365bc/step7-1.png)
