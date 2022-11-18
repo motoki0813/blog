@@ -23,6 +23,7 @@ https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/
 
 ## 更新履歴
 2022 年 10 月 26 日 (水) : 上記の公開資料の内容の変更に伴い一部内容を修正しました。
+2022 年 11 月 18 日 (金) : Microsoft 365 Message Center だけでなく、メールでも通知を開始いたしましたので、内容を修正致しました。
 
 ## 今まで
 今までは、セキュリティ、プライバシー、信頼性、可用性、パフォーマンスなどの基本的な要素に対する修正プログラム (Hotfix) の累積である品質更新プログラム (Quality update program) は、LCS にて公開されるごとに、以下のブログの手順よりお客様が手動でサンドボックス環境、本番環境に適用して頂く必要がございました。
@@ -55,9 +56,8 @@ https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/
 https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
 スケジュールは以下の公開資料にてご確認頂くことができます。
 https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance#what-is-the-schedule-for-sandbox-proactive-quality-updates
-なお、通知に関しましては、以下の公開資料の通り、Microsoft 365 Message Centerにてご確認頂きますようお願い致します。
-https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance#process-changes
->  Note The Microsoft Communications team is investigating an ongoing degradation of the email tooling which is preventing the delivery of email notifications. Please continue to monitor the Microsoft 365 Message Center for onboarding and notification related messages.
+なお、Microsoft 365 Message Center にて対象環境に対しまして通知致しております。
+また、"Dynamics 365 Finance and Operations – schedule Notification of Proactive Quality Updates for 10.0.** Release" というタイトルのメールにて、対象環境に対しまして、プロアクティブな品質更新プログラムの適用についての通知を開始いたしました。
 
 4. **Dark hours (暗い時間帯)**
 以下の公開資料の通り、環境が配置されているリージョンごとに、深夜から早朝のDark hours (暗い時間帯、営業時間外)が定義されており、そのDark hours 内で自動適用が実施されますので、自動適用時の環境のご利用に対する影響は最小限となります。
