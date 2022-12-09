@@ -2,11 +2,8 @@
 title: お客様のビジネスインパクトをお伺いする目的や算出について
 date: 2022-09-20
 tags:
-  - D365FO
-  - D365BC
-  - Business Impact
-  - Ideas
   - Information
+  - Business Impact
 disableDisclaimer: false
 ---
 こんにちは、Dynamics ERP サポートチームの道浦です。

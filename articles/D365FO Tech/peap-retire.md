@@ -2,9 +2,8 @@
 title: Dynamics 365 Finance and Operations のPEAPの変更点について
 date: 2022-05-06
 tags:
-  - D365FO
-  - LCS
-  - Information
+  - D365FO Tech
+  - PEAP
 disableDisclaimer: false
 ---
 

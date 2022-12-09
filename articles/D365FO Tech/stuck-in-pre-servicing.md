@@ -2,10 +2,8 @@
 title: パッケージ適用時にサービス提供前 (Pre-Servicing) という環境のステータスが数時間続く場合について
 date: 2022-10-24
 tags:
-  - D365FO
-  - Tech
+  - D365FO Tech
   - LCS
-  - Information
 disableDisclaimer: false
 ---
 

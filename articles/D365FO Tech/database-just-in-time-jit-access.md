@@ -2,11 +2,8 @@
 title: Sandbox 環境のデータベースでクエリを実行する方法について
 date: 2022-07-29
 tags:
-  - D365FO
-  - Tech
+  - D365FO Tech
   - Database
-  - tips
-  - 10.0.28
 disableDisclaimer: false
 ---
 

@@ -4,7 +4,6 @@ date: 2022-11-16
 tags:
   - D365FO Tech
   - 情報採取
-  - 10.0.31
 disableDisclaimer: false
 ---
 

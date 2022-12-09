@@ -2,8 +2,8 @@
 title: Dynamics 365 for Finance and Operations の環境ごとの違い
 date: 2022-09-06
 tags:
-  - D365FO
-  - Information
+  - D365FO Tech
+  - Tips
 disableDisclaimer: false
 ---
 
