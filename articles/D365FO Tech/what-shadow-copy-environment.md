@@ -2,9 +2,8 @@
 title: Dynamics 365 Finance and Operations の調査に用いるシャドウ コピー環境について
 date: 2022-10-24
 tags:
-  - D365FO
-  - Tech
   - Information
+  - Shadow copy
 disableDisclaimer: false
 ---
 

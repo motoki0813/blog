@@ -2,11 +2,8 @@
 title: 環境名・環境IDの取得方法
 date: 2022-09-27
 tags:
-  - D365FO
-  - Tech
-  - Japan
-  - tips
-  - 10.0.29
+  - D365FO Tech
+  - Tips
 disableDisclaimer: false
 ---
 こんにちは、Dynamics ERP サポートチームの西田です。  

@@ -2,9 +2,8 @@
 title: D365FOの画面上でテーブルデータを確認する方法
 date: 2022-09-07
 tags:
-  - D365FO
-  - tips
-  - 10.0.28
+  - D365FO Tech
+  - Tips
 disableDisclaimer: false
 ---
 

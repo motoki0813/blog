@@ -2,11 +2,8 @@
 title: Azure AD 条件付きアクセスを使用して D365FO へのアクセスを制御する方法
 date: 2022-10-04
 tags:
-  - D365FO
-  - Tech
+  - D365FO Tech
   - Azure AD
-  - tips
-  - 10.0.28
 disableDisclaimer: false
 ---
 

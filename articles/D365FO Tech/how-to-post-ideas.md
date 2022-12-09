@@ -2,8 +2,8 @@
 title: Dynamics 365 製品のフィードバックサイト Ideas について
 date: 2022-07-22
 tags:
-  - D365FO
   - Information
+  - Ideas
 disableDisclaimer: false
 ---
 

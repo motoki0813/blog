@@ -2,12 +2,9 @@
 title: 特定操作における必要なロールとライセンスをVisual Studioにて確認する方法
 date: 2022-06-13
 tags:
-  - D365FO
-  - Tech
+  - D365FO Tech
   - Visual Studio
-  - License
-  - tips
-  - 10.0.24
+  - Security Roles
 disableDisclaimer: false
 ---
 

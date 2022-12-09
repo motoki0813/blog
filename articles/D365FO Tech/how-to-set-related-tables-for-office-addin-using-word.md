@@ -2,11 +2,8 @@
 title: Office 統合の Word テンプレートにおける関連テーブルのリレーション設定方法
 date: 2022-09-07
 tags:
-  - D365FO
-  - Tech
+  - D365FO Tech
   - Office add-in
-  - tips
-  - 10.0.28
 disableDisclaimer: false
 ---
 

@@ -2,11 +2,9 @@
 title: D365FOで品質更新プログラムを適用する方法
 date: 2022-05-30
 tags:
-  - D365FO
+  - D365FO Tech
   - LCS
   - Quality Update
-  - tips
-  - 10.0.22
 disableDisclaimer: false
 ---
 

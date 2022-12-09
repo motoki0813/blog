@@ -2,9 +2,7 @@
 title: Dynamics 365 for Finance and Operations のプロアクティブな品質更新プログラムの適用について
 date: 2022-09-15
 tags:
-  - D365FO
-  - Tech
-  - Information
+  - 重要な変更点
 disableDisclaimer: false
 ---
 

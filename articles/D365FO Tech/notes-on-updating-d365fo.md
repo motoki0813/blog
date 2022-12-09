@@ -2,8 +2,6 @@
 title: D365FOのアップデートに関する注意事項
 date: 2022-03-04
 tags:
-  - D365FO
-  - LCS
   - Information
 disableDisclaimer: false
 ---
