@@ -2,11 +2,8 @@
 title: 販売注文の作成にて「販売注文の確認」を実施した際に生じる警告の解決方法
 date: 2022-09-27
 tags:
-  - D365FO
-  - SCM
+  - D365FO SCM
   - Sales order
-  - tips
-  - 10.0.29
 disableDisclaimer: false
 ---
 

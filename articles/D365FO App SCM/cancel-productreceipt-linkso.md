@@ -2,12 +2,9 @@
 title: 販売注文に紐づく発注書の製品受領書のキャンセル方法
 date: 2022-09-07
 tags: 
-    - D365FO
-    - SCM
+    - D365FO SCM
     - Sales order
-    - Purchase order
-    - tips
-    - 10.0.25    
+    - Purchase order    
 disableDisclaimer: false
 ---
 

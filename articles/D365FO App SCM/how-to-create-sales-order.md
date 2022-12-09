@@ -2,11 +2,8 @@
 title: 販売注文作成の一連の流れ
 date: 2022-09-22
 tags:
-  - D365FO
-  - SCM
-  - sales order
-  - Tips
-  - 10.0.28
+  - D365FO SCM
+  - Sales order
 disableDisclaimer: false
 ---
 

@@ -2,11 +2,8 @@
 title: 販売注文にて「梱包明細の転記」を実施した際に処理が中断されるエラーの解決方法
 date: 2022-09-28
 tags:
-  - D365FO
-  - SCM
+  - D365FO SCM
   - Packing slip
-  - tips
-  - 10.0.29
 disableDisclaimer: false
 ---
 
