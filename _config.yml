@@ -27,12 +27,13 @@ root_tag_generator:
   - D365FO SCM
   - D365FO Finance
   - Dynamics 365 Commerce
-  - Dynamics 365 Business Central Tech
-  - Dynamics 365 Business Central SCM
-  - Dynamics 365 Business Central Finance
+  - D365BC Tech
+  - D365BC SCM
+  - D365BC Finance
   - Information
   - 重要な変更点
   - 重要な変更点 (廃止)
+  - Bug Info
   sub_tag_limit: 20
 
 # URL
