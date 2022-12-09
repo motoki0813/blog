@@ -2,11 +2,8 @@
 title: 発注書作成の一連の流れ
 date: 2022-09-21
 tags:
-  - D365FO
-  - SCM
-  - purchase order
-  - tips
-  - 10.0.28
+  - D365FO SCM
+  - Purchase order
 disableDisclaimer: false
 ---
 

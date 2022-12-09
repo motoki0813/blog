@@ -2,12 +2,8 @@
 title: Dual Write 環境で販売注文のピッキングリストを削除しても D365CE 側の受注データの配送日が変更できない挙動について
 date: 2022-10-14
 tags:
-  - D365FO
-  - SCM
-  - Sales order
-  - Dual Write
-  - fixing
-  - 10.0.26
+  - Bug Info
+  - Dual Write issue
 disableDisclaimer: false
 ---
 

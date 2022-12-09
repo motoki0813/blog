@@ -2,11 +2,8 @@
 title: 既定の注文設定の購買管理フィールド取得元について
 date: 2022-10-13
 tags:
-  - D365FO
-  - SCM
-  - sales order
-  - tips
-  - 10.0.29
+  - D365FO SCM
+  - Sales order
 disableDisclaimer: false
 ---
 
