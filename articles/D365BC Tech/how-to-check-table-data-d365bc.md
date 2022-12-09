@@ -2,9 +2,7 @@
 title: D365BCの画面上でテーブルデータを確認する方法
 date: 2022-09-07
 tags:
-  - D365BC
-  - Tech
-  - 20.4
+  - D365BC Tech
   - tips
 
 disableDisclaimer: false
