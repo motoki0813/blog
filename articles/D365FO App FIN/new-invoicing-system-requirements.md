@@ -1,9 +1,9 @@
 ---
 title: 適格請求書等保存方式 (インボイス制度) の対応状況について
-date: 2022-11-11
+date: 2022-12-22
 tags:
   - D365FO Finance
-  - Invoice
+  - New Invoicing system requirements
   - Japan localization
 disableDisclaimer: false
 ---
