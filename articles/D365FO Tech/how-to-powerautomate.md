@@ -26,7 +26,7 @@ Platform version: PU54
 ```javascript
 Status eq Microsoft.Dynamics.DataEntities.BatchStatus'Error'
 ```
-![](./how-to-PowerAutomate/Automate1.png)
+![](./how-to-powerautomate/automate1.png)
 
 上記のうち、テーブル列名(*1) eq Microsoft.Dynamics.DataEntities.***(*2) '値(*3)'
 にあたる3つは取得したいデータに併せて設定する必要があります。
@@ -35,26 +35,26 @@ Status eq Microsoft.Dynamics.DataEntities.BatchStatus'Error'
 まずテーブル列名 (*1) とその値 (*3) の参照方法を説明いたします。いくつか方法はございますが、本 Blog では PowerAutomate を使用した方法を1つ紹介いたします。
 
 1. 「テーブルに存在する項目を一覧表示する」のコネクタにて、参照したいエンティティに関してフィルターを設定せずに一度テストを実行します。
-![](./how-to-PowerAutomate/Automate2.png)
+![](./how-to-powerautomate/automate2.png)
 
 2. テスト終了後、実行履歴からダウンロード取得したデータをダウンロードします。
-![](./how-to-PowerAutomate/Automate3.png)
+![](./how-to-powerautomate/automate3.png)
 
 3. データを開き、取得したいデータを検索すると "Status" という列名に "Error" という情報で格納されていることがわかります。
-![](./how-to-PowerAutomate/Automate4.png)
+![](./how-to-powerautomate/automate4.png)
 
 ## List items present in table のフィルタークエリの設定 (*2)
 続いて、Microsoft.Dynamics.DataEntities. の後の (*2) について PowerAutomate を使用した参照方法を説明いたします。
 
 1. 「テーブルに存在する項目を一覧表示する」のコネクタにて、参照したいエンティティに関して、上記の手順で判明した (*1) と (*3) を用いてフィルターを設定します。その後テストを実行します。
-![](./how-to-PowerAutomate/Automate5.png)
+![](./how-to-powerautomate/automate5.png)
 
 2. テスト終了後、実行履歴を確認するとテストは失敗しているはずです。この失敗は想定の挙動ですので問題ございません。エラーの内容を確認すると下記のようにエラーが表示されます。
-![](./how-to-PowerAutomate/Automate6.png)
+![](./how-to-powerautomate/automate6.png)
 
 3. 上記のエラーで表示された Microsoft.Dynamics.DataEntities. の後の文字列 ( 今回は BatchStatus ) を (*2) の値として使用します。
 すると下記のような設定となり、データのフィルタリングができます。
-![](./how-to-PowerAutomate/Automate1.png)
+![](./how-to-powerautomate/automate1.png)
 
 ## OData のサービスエンドポイント使用時のフィルター設定
 本ブログのフィルター設定を OData のサービスエンドポイント使用時に実行する場合は、下記のように設定します。
