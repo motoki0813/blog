@@ -19,9 +19,8 @@ D365FO の UI 上にてエラー等が発生した際に、ブラウザーセッ
 
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.31  
-Platform version: PU55  
-
+Application version: 10.0.31
+Platform version: PU55
 
 
 ## Dynamics 365 Finance and Operations のブラウザーセッション ID の取得方法

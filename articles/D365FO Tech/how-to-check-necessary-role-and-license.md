@@ -15,8 +15,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.24 
-Platform version: PU48
+Application version: 10.0.31
+Platform version: PU55
 
 ユーザーにロールを付与する際に、使用したい機能に対して、異なるロールとライセンスが必要になります。
 その際に、どのロールが必要かをVisual Studioにてご確認いただけます。
