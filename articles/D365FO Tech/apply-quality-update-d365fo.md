@@ -14,8 +14,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.22
-Platform version: PU46
+Application version: 10.0.31
+Platform version: PU55
 
 ## 手順
 1. LCSを開く

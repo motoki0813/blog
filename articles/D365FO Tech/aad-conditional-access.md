@@ -12,10 +12,10 @@ disableDisclaimer: false
 Azure Active Directory (以下 Azure AD) の条件付きアクセス により、ユーザー、デバイス、場所などを基にして、 D365FO の環境へのアクセスを制御することが可能となります。
 
 <!-- more -->
-## 検証に用いた製品・バージョン:
-Dynamics 365 Finance and Operations  
-Application version: 10.0.28  
-Platform version: PU52  
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.31
+Platform version: PU55
 Azure AD Premium P2 ライセンス
 
 ## はじめに

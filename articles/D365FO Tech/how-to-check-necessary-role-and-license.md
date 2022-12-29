@@ -13,10 +13,13 @@ disableDisclaimer: false
 この記事では、実際の使用例を基に、 Dynamics 365 Finance and Operations の特定操作における必要なロールとライセンスをVisual Studioにて確認する方法についてご案内致します。
 
 <!-- more -->
+## 更新履歴
+2022 年 12 月 29 日 (木) : Application version: 10.0.30 、Platform version: PU54 でも同様の内容であることを確認したので、検証に用いた製品・バージョンを更新しました。
+
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.24 
-Platform version: PU48
+Application version: 10.0.31
+Platform version: PU55
 
 ユーザーにロールを付与する際に、使用したい機能に対して、異なるロールとライセンスが必要になります。
 その際に、どのロールが必要かをVisual Studioにてご確認いただけます。

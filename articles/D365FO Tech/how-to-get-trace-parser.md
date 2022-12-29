@@ -13,9 +13,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.29  
-Platform version: PU53  
-
+Application version: 10.0.31
+Platform version: PU55
 
 
 ## Trace Parser を使用したトレースの実行手順

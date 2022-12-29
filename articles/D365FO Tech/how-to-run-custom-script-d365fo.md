@@ -11,10 +11,10 @@ disableDisclaimer: false
 この記事では、Dynamics 365 Finance and Operationsにて、ダウンタイムなしでカスタム X++ スクリプトを実行する方法を紹介します。
 
 <!-- more -->
-## 検証に用いた製品・バージョン:
-Dynamics 365 Finance and Operations
-Application version: 10.0.28
-Platform version: PU52
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.31
+Platform version: PU55
 
 ## 手順
 1. クラウドホスト環境、開発環境等にて Visual Studio を開く
