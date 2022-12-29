@@ -10,7 +10,7 @@ disableDisclaimer: false
 この記事では、 Dynamics 365 Finance and Operations のプロアクティブな品質更新プログラムの適用についてご案内します。
 
 品質更新プログラム (Quality update program) は修正プログラム (Hotfix) の累積的なものとなり、今まではお客様が手動でサンドボックス環境、本番環境に適用して頂く必要がございましたが、今後はマイクロソフトにより自動で適用致します。
-こちらの変更は2022 年 9 月末または 10 月より段階的にサンドボックス環境から開始される予定となっており、対象環境に対しまして順次通知をさせて頂きます。
+
 
 <!-- more -->
 ---
@@ -22,6 +22,8 @@ https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/
 ## 更新履歴
 2022 年 10 月 26 日 (水) : 上記の公開資料の内容の変更に伴い一部内容を修正しました。
 2022 年 11 月 18 日 (金) : Microsoft 365 Message Center だけでなく、メールでも通知を開始いたしましたので、内容を修正致しました。
+2022 年 12 月 29 日 (木) : 2023 年のプロアクティブな品質更新プログラムの適用のスケジュールについて公開されましたので、スケジュールが記載されているページのリンクを追記しました。また、本番環境へのプロアクティブな品質更新プログラムの適用が2023 年 1 月 21 日より一部の環境から開始されることを追記しました。
+
 
 ## 今まで
 今までは、セキュリティ、プライバシー、信頼性、可用性、パフォーマンスなどの基本的な要素に対する修正プログラム (Hotfix) の累積である品質更新プログラム (Quality update program) は、LCS にて公開されるごとに、以下のブログの手順よりお客様が手動でサンドボックス環境、本番環境に適用して頂く必要がございました。
@@ -38,9 +40,7 @@ https://jpdynamicserp.github.io/blog/D365FO%20Tech/apply-quality-update-d365fo/
 1. **自動適用の対象の段階的な拡大**
 まずは、2022 年 9 月末または 10 月より段階的にサンドボックス環境に対して開始される予定となっており、2022 年 9 月より対象環境に対しましては順次通知をさせて頂きます。
 正常に自動適用が完了していく環境の割合が増えたことを確認後、本番環境への自動適用が開始される予定です。
-現時点では以下の公開資料の通り、本番環境の自動適用は決まっておりませんが、スケジュールが決まり次第、通知いたします。
-https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates#when-will-quality-updates-start-for-production-environments
-
+本番環境での自動適用は2023 年 1 月 21 日より一部の本番環境から開始されます。
 
 2. **Near-zero downtime updating (ゼロに近いダウンタイム更新)**
 以下の公開資料の最小限のダウンタイムで自動適用は実施されますので、自動適用時の影響は最小限なものとなります。
@@ -52,10 +52,11 @@ https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/
 2. **自動適用スケジュールの公開**
 以下の公開資料の通り、各リージョンごとに自動適用が実施される4 日間のウィンドウが決定され、5 日前には通知いたします。そのウィンドウ内にて自動適用を実施致します。
 https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/plannedmaintenance-selfservice#what-is-the-schedule-for-proactive-quality-updates
-スケジュールは以下の公開資料にてご確認頂くことができます。
-https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance#what-is-the-schedule-for-sandbox-proactive-quality-updates
+2023 年のプロアクティブな品質更新プログラムの適用のスケジュールについて公開されましたので、現時点でのスケジュールを以下のリンクのページにてご確認いただくことが可能です。
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/quality-updates?context=%2Fdynamics365%2Fcontext%2Ffinance#Stations-Regions
 なお、Microsoft 365 Message Center にて対象環境に対しまして通知致しております。
-また、"Dynamics 365 Finance and Operations – schedule Notification of Proactive Quality Updates for 10.0.** Release" というタイトルのメールにて、対象環境に対しまして、プロアクティブな品質更新プログラムの適用についての通知を開始いたしました。
+また、対象環境に対しまして、プロアクティブな品質更新プログラムの適用についてのメールでの通知を開始いたしました。
+
 
 4. **Dark hours (暗い時間帯)**
 以下の公開資料の通り、環境が配置されているリージョンごとに、深夜から早朝のDark hours (暗い時間帯、営業時間外)が定義されており、そのDark hours 内で自動適用が実施されますので、自動適用時の環境のご利用に対する影響は最小限となります。
