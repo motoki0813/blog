@@ -21,14 +21,14 @@ Platform version: PU54
 
 ## PowerAutomate の Fin&Ops Apps(Dynamics365) コネクタにおけるフィルターの設定方法
 
-例えば、ステータスが'エラー'である Batch ジョブだけの情報を取得したい場合は、下記のようにフローを設定することで、情報を取得できます。
+例えば、ステータスが 'エラー' である Batch ジョブだけの情報を取得したい場合は、下記のようにフローを設定することで、情報を取得できます。
 
 ```javascript
 Status eq Microsoft.Dynamics.DataEntities.BatchStatus'Error'
 ```
 ![](./how-to-powerautomateapi/automate1.png)
 
-上記のうち、テーブル列名(*1) eq Microsoft.Dynamics.DataEntities.***(*2) '値(*3)'
+上記のうち、テーブル列名 (*1) eq Microsoft.Dynamics.DataEntities.***(*2) '値(*3)'
 にあたる 3 つは取得したいデータに併せて設定する必要があります。
 
 ## List items present in table のフィルタークエリの設定 (*1 *3)
