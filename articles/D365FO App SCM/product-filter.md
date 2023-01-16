@@ -1,13 +1,10 @@
 ---
 title: 特定の顧客にのみ商品の販売を許可する方法
-date: 2023-01-15
+date: 2023-01-16
 tags: 
-    - D365FO
-    - SCM
+    - D365FO SCM
     - Product filter
     - Sales order
-    - tips
-    - 10.0.31
 disableDisclaimer: false
 ---
 
