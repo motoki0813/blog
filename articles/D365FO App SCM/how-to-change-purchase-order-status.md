@@ -1,9 +1,9 @@
 ---
 title: 購買要求から作成された発注書が自動的に "ドラフト" になる場合
-date: 2023-1-25
+date: 2023-1-30
 tags:
-  - D365FO
-  - SCM
+  - D365FO SCM
+  - Draft
 
 disableDisclaimer: false
 ---
