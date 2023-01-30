@@ -1,6 +1,6 @@
 ---
 title: 移動オーダー "FEFO 日付管理の上書き" の使用方法
-date: 2023-01-25
+date: 2023-01-30
 tags: 
     - D365FO SCM
     - Transfer Order
