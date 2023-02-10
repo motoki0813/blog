@@ -3,7 +3,7 @@ title: Dynamics 365 for Finance and Operationsをご利用いただく際の留�
 date: 2023-2-10
 tags:
   - D365FO Tech
-  - 情報採取
+  - Tips
 disableDisclaimer: false
 ---
 
