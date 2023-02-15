@@ -1,8 +1,8 @@
 ---
 title: 適格請求書等保存方式 (インボイス制度) における経過措置の対応方法について
-date: 2023-02-14
+date: 2023-02-15
 tags:
-  - Invoice
+  - D365FO Finance
   - Japan localization
   - New Invoicing system requirements
 
