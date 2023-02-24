@@ -1,6 +1,6 @@
 ---
 title: 適格請求書等保存方式 (インボイス制度) の対応状況について
-date: 2022-12-22
+date: 2023-02-24
 tags:
   - D365FO Finance
   - New Invoicing system requirements
@@ -31,6 +31,10 @@ Dynamics 365 Finance and Operations (D365FO) における対応状況を随時�
       
 2.  Yammer  
     Yammer でのアナウンスを予定しております。投稿が行われましたら投稿先を掲載予定です。  
+
+## 経過措置について
+免税事業者などとの仕入取引に対する経過措置の対応方法を以下の記事で公開しております。
+https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-requirements-transitional-measures/
 
 ## おわりに  
 以上、適格請求書等保存方式 (インボイス制度) の対応状況についてご案内いたしました。  
