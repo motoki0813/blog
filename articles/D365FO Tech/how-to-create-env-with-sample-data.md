@@ -19,6 +19,8 @@ Platform version: PU55
 
 
 ## デモデータを含んだ環境構築方法
+以下の公開資料を基に記載しています。  
+[デモ環境の配置 - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment#deploy-a-demo-environment-1)
 
 1. LCS でクラウドホストの構築画面まで進む  
 実装プロジェクトの場合 : プロジェクト画面 > ハンバーガーボタン > クラウド ホスト環境 > [+ 追加] ボタン  
