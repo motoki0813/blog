@@ -94,7 +94,7 @@ D365FO の販売注文のドキュメントステータスが「確認書」ま�
 </tbody>
 </table>
   
-(参考情報)  
+参考情報  
 [販売注文の状態列のマッピングを設定する](https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map)
 
 ## 修正方針
