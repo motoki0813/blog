@@ -1,6 +1,6 @@
 ---
 title: 請求後の発注書の編集制御方法
-date: 2022-05-24
+date: 2023-03-17
 tags: 
     - D365FO SCM
     - Purchase order
@@ -14,8 +14,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.24  
-Platform version: PU48
+Application version: 10.0.32  
+Platform version: PU56
 
 パラメータの適用方法、動作につきましては以下をご覧ください。  
 
