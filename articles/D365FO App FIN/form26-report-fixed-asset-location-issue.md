@@ -10,12 +10,15 @@ disableDisclaimer: false
 こんにちは、Dynamics ERP サポートチームの尾崎です。  
 この記事では固定資産の保管場所を移動した際に、償却資産税申告書に移動結果が反映されない事象についてご案内します。
 
+<!-- more -->
+
 ## 更新履歴
 2023 年 3 月 20 日 (月) : ブログ公開
 
 ## 検証に用いた製品・バージョン
-Dynamics 365 Finance and Operations
-Application version: 10.0.32 Platform version: PU56
+Dynamics 365 Finance and Operations  
+Application version: 10.0.32  
+Platform version: PU56  
 
 
 ## 事象の再現手順
