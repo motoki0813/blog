@@ -18,7 +18,7 @@ Dynamics 365 for Finance and Operations では、稼働中一時的に接続が�
 少し時間をおいてから操作を再試行していただくことで、高い確率で正常に実行されます。
 
 例としまして、以下の要因により、Dynamics 365 for Finance and Operations にて一時的に接続が失われ、サーバー上での処理が止まる可能性がございますので、その際には再試行を実施して頂きますようお願いします。
-- Dynamics 365 for Finance and Operations にて使用しているAzure SQL Database 上での計画外メンテンナンス、または、Dynamics 365 for Finance and Operations のサーバーと Azure SQL Database の一時的なネットワークの接続の問題。
+- Dynamics 365 for Finance and Operations にて使用している Azure SQL Database 上での計画外メンテンナンス、または、Dynamics 365 for Finance and Operations のサーバーと Azure SQL Database の一時的なネットワークの接続の問題。
 - Dynamics 365 for Finance and Operations のバッチサーバー、AOS サーバーが稼働している基盤の切り替え。何らかの異常を検知した際に、長時間のダウンタイムを防ぐために、Azure 基盤を切り替え、正常な基盤で稼働するような計画外のメンテナンスが発生する場合がございます。こちらが発生した際には、バッチサーバー、AOS サーバーが再起動される場合がございます。
 - Dynamics 365 for Finance and Operations の AOS サーバー の自動再起動。 Dynamics 365 for Finance and Operations の AOS サーバー の負荷が高いことを検知した場合、サーバーの使用率が低い時間帯に限って、負荷を下げるために、サーバーの再起動をする場合がございます。
 
