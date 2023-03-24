@@ -25,7 +25,7 @@ disableDisclaimer: false
 1. [おわりに](#anchor-finish)
 
 ## 更新履歴
-2023 年 3 月 1 日 : ブログ公開
+2023 年 3 月 1 日 : ブログ公開  
 2023 年 3 月 24 日 : 既存 MRP エンジンのロードマップの適用日時を追記
 
 <a id='anchor-mrp'></a>
