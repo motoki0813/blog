@@ -24,13 +24,17 @@ disableDisclaimer: false
 1. [リソース](#anchor-resource)
 1. [おわりに](#anchor-finish)
 
+## 更新履歴
+2023 年 3 月 1 日 : ブログ公開
+2023 年 3 月 24 日 : 既存 MRP エンジンのロードマップの適用日時を追記
+
 <a id='anchor-mrp'></a>
 
 # 既存 MRP エンジンについて
 <a id='anchor-mrp-roadmap'></a>
 
 ## ロードマップ
-既存 MRP エンジンは Dynamics 365 Finance and Operations として非推奨となり、以下の提供方針が 10.0.32 以降適用されます。  
+既存 MRP エンジンは Dynamics 365 Finance and Operations として非推奨となり、以下の提供方針が 10.0.32 以降および 2023 年 3 月 20 日より適用されます。  
 - 既存 MRP エンジンに対して新しい機能の実装は予定しておりません
 - 既存 MRP エンジンに対して基本的にはバグ修正は実施されません (ブロッカーおよびセキュリティ関連を除く)
 - 既存 MRP エンジンを Dynamics 365 Finance and Operations からの排除は予定しておりません
