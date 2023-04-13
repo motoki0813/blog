@@ -14,43 +14,43 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.31
-Platform version: PU55
+Application version: 10.0.32
+Platform version: PU56
 
 ## 手順
-1. LCSを開く
-2. LCSにて対象の環境を選択し、対象環境の詳細画面を開く
-3.  「利用可能な更新プログラム」のパネルを開く
-4.  「品質更新プログラム」の「ビューの更新」を選択する
+1. LCS を開く
+2. LCS にて対象の環境を選択し、対象環境の詳細画面を開く
+3.  [利用可能な更新プログラム] のパネルを開く
+4.  [品質更新プログラム] の [ビューの更新] を選択する
     ![](./apply-quality-update-d365fo/step4.png)
 
-5. 「バイナリ更新プログラム」にて、「パッケージの保存」を選択する
+5. "バイナリ更新プログラム" にて、[パッケージの保存] を選択する
    ![](./apply-quality-update-d365fo/step5.png)
 
     ※ 対象環境の修正プログラムの適用状況により、使用可能な修正プログラムに表示される内容は異なります。
 
-6. 「更新プログラムの確認と保存」にて、「パッケージの保存」を選択する
-7. 「資産ライブラリへのパッケージの保存」にて、名前を入力し「パッケージの保存」を選択する
+6. "更新プログラムの確認と保存" にて、[パッケージの保存] を選択する
+7. "資産ライブラリへのパッケージの保存" にて、名前を入力し [パッケージの保存] を選択する
     ![](./apply-quality-update-d365fo/step7.png)
 
-8. 「資産ライブラリへのパッケージの保存」にて「パッケージの保存」が完了後、「完了」を選択する
+8. "資産ライブラリへのパッケージの保存" にてパッケージの保存が完了後、[完了]を選択する
     ![](./apply-quality-update-d365fo/step8.png)
 
-9.  LCSにて対象の環境を開き、「管理」より「更新プログラムの適用」を選択する
+9.  LCS にて対象の環境を開き、[管理] より [更新プログラムの適用] を選択する
     ![](./apply-quality-update-d365fo/step9.png)
 
-10. 手順7で保存したパッケージを選択し、「適用」を選択する
-※ 手順7の実施後、ダイアログにパッケージが表示されるまでに時間を要する場合があります。
+10. 手順 7 で保存したパッケージを選択し、[適用] を選択する
+※ 手順 7 の実施後、ダイアログにパッケージが表示されるまでに時間を要する場合があります。
     ![](./apply-quality-update-d365fo/step10.png)
 
-11.	確認ダイアログにて「はい」を選択する
-12.	LCSにて対象の環境を開き、「環境の更新」にて適用状況を確認する
+11.	確認ダイアログにて [はい] を選択する
+12.	LCS にて対象の環境を開き、[環境の更新] にて適用状況を確認する
     ![](./apply-quality-update-d365fo/step12.png)
 
 
 
 （関連情報）
-https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system
+(クラウド環境へ更新プログラムを適用 - Finance & Operations | Dynamics 365 | Microsoft Learn)[https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system]
 
 
 ## 注意
