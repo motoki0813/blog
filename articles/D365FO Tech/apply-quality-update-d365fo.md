@@ -10,11 +10,11 @@ disableDisclaimer: false
 
 こんにちは、Dynamics ERP サポートチームの細野です。
 
-この記事では、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法を紹介します。
+この記事では、Dynamics 365 Finance and Operations にて、品質更新プログラムを適用する方法を紹介します。
 <!-- more -->
 ## 検証に用いた製品・バージョン
-Dynamics 365 Finance and Operations      
-Application version: 10.0.32
+Dynamics 365 Finance and Operations   
+Application version: 10.0.32  
 Platform version: PU56
 
 ## 手順
@@ -49,7 +49,7 @@ Platform version: PU56
 
 
 
-（関連情報）
+(関連情報)
 (クラウド環境へ更新プログラムを適用 - Finance & Operations | Dynamics 365 | Microsoft Learn)[https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system]
 
 
@@ -63,5 +63,5 @@ Platform version: PU56
 ---
 ## おわりに  
 
-以上、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法をご紹介させていただきました。
+以上、Dynamics 365 Finance and Operations にて、品質更新プログラムを適用する方法をご紹介させていただきました。
 もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。
