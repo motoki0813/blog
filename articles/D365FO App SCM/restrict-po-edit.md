@@ -14,8 +14,9 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.32  
-Platform version: PU56
+Application version : 10.0.32  
+Platform version : PU56  
+Legal entity : USMF  
 
 パラメータの適用方法、動作につきましては以下をご覧ください。  
 
