@@ -41,7 +41,7 @@ https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-req
 
 ## 経過措置について
 免税事業者などとの仕入取引に対する経過措置の対応方法を以下の記事で公開しております。
-https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-requirements-transitional-measures/
+[適格請求書等保存方式 (インボイス制度) における事業者番号の登録および請求書への印字について | Japan Dynamics ERP Support Blog](https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-requirements-transitional-measures/)
 
 ## おわりに  
 以上、適格請求書等保存方式 (インボイス制度) の対応状況についてご案内いたしました。  
