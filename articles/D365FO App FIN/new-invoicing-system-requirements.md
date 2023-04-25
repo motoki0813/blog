@@ -32,14 +32,16 @@ Dynamics 365 Finance and Operations (D365FO) における対応状況を随時�
 2.  Yammer  
     Yammer でのアナウンスを予定しております。投稿が行われましたら投稿先を掲載予定です。  
 
-## 近日公開予定の機能
-適格請求書発行事業者の登録番号を入力する機能がバージョン 10.0.34 にてリリースされる予定です。
-バージョン 10.0.34 のプレビュー版が公開されましたら登録方法をご案内します。
+## 近日公開の機能
+適格請求書発行事業者の登録番号を入力する機能がバージョン 10.0.34 にてリリースされております。
+登録方法は以下の記事にてご案内しております。
+https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-requirements-QIInumber-setting/
+
 その他の機能についてもリリース時期が決定次第、Issue Search や本記事内で随時更新いたします。
 
 ## 経過措置について
 免税事業者などとの仕入取引に対する経過措置の対応方法を以下の記事で公開しております。
-https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-requirements-transitional-measures/
+[適格請求書等保存方式 (インボイス制度) における事業者番号の登録および請求書への印字について | Japan Dynamics ERP Support Blog](https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-requirements-transitional-measures/)
 
 ## おわりに  
 以上、適格請求書等保存方式 (インボイス制度) の対応状況についてご案内いたしました。  
