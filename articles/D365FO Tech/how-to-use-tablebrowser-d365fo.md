@@ -13,8 +13,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.31
-Platform version: PU55
+Application version: 10.0.33
+Platform version: PU57
 
 ## はじめに
 開発環境や本番環境など、環境ごとに参照権限・編集可否が異なります。  
@@ -39,4 +39,4 @@ Platform version: PU55
 ## おわりに  
 
 以上、Dynamics 365 Finance and Operations の画面上で、データベースのテーブルデータを確認する方法を紹介いたしました。  
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。
+より詳細な情報が必要な場合、弊社テクニカルサポート、貴社担当のアカウントマネージャー (CSAM, PSAM)、弊社営業、およびクラウドソリューションアーキテクト (CSA-E) までお問い合わせください。
