@@ -30,7 +30,7 @@ Legal entity : USMF
 1. 紐づく販売注文画面の [Inventory] > [Maintain] > [Reservation] を押下する
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_2.png)
 
-1. "Reservation" を 「1」 から 「0」 に変更（引当数量をなくす）
+1. "Reservation" を「1」から「0」に変更（引当数量をなくす）
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_3.png)  
 ※ 変更後
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_4.png)
