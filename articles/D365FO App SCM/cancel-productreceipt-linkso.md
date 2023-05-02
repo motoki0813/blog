@@ -14,8 +14,9 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン:
 Dynamics 365 Finance and Operations  
-Application version: 10.0.25  
-Platform version: PU49 
+Application version : 10.0.33  
+Platform version : PU 57  
+Legal entity : USMF  
 
 販売注文に紐づく発注書の製品受領書のキャンセル方法につきましては以下をご覧ください。  
 
@@ -26,20 +27,21 @@ Platform version: PU49
 > 日本語：品目1000の在庫から0.00しか利用できないため、1.00をピッキングできません。
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_1.png)
 
-1. 紐づく販売注文画面の Inventory > Maintain > Resrvation を押下する
+1. 紐づく販売注文画面の [Inventory] > [Maintain] > [Reservation] を押下する
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_2.png)
 
-1. Reservation field を 1 から 0 に変更（引当数量をなくす）
+1. "Reservation" を「1」から「0」に変更（引当数量をなくす）
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_3.png)  
-※変更後
+※ 変更後
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_4.png)
 
 1. 再度、発注書を開く
-1. Receive > Journals > Product receipt を開く
+1. [Receive] > [Journals] > [Product receipt] を開く
 1. 製品受領書のキャンセルを実施
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_5.png) 
 
 ## おわりに
 ---
 以上、販売注文に紐づく発注書の製品受領書のキャンセル方法についてご案内いたしました。  
-また、設定内容や利用方法により上記の手順が適用できない可能性があることを予めご了承ください。
+また、設定内容や利用方法により上記の手順が適用できない可能性があることを予めご了承ください。  
+より詳細な情報が必要な場合、弊社テクニカルサポート、貴社担当のアカウントマネージャー (CSAM, PSAM)、弊社営業、およびクラウドソリューションアーキテクト (CSA-E) までお問い合わせください。
