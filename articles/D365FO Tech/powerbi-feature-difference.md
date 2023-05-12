@@ -14,12 +14,12 @@ D365FO のデータを Power BI レポートで表示、参照する機能は、
 
 <!-- more -->
 ## 更新履歴
-2022 年 11 月 7 日 (月) : Power BI.com integration の制限事項を更新しました。
+2023 年 5 月 12 日 (金) : Power BI.com integration の制限事項を更新しました。
 
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.31
-Platform version: PU55
+Application version: 10.0.32
+Platform version: PU56
 
 D365FO のデータを Power BI レポートで表示、参照する機能は、Power BI.com integration と Power BI Embedded の2つがございます。その違いについて以下の表にまとめましたので、ご参考にして頂けますと幸いです。
 
@@ -29,7 +29,7 @@ D365FO のデータを Power BI レポートで表示、参照する機能は、
 | 開発方法 | Odata フィード でデータを取得する場合、<br>Power BI Desktopもしくは PowerBI.com より行います。<br>Direct query の場合には Power BI Desktop より行います。| Power BI Desktop より行います。  |
 | データ接続 | Odata フィードもしくは Direct Query より<br> Entity Store データベース(AxDW) に接続します。| Direct Query より Entity Store データベース(AxDW) に<br>接続します。  |
 | ライセンス | PowerBI.com で Power BI レポートを<br>共有ワークスペースへ公開する必要があるため、<br>Power BI Pro のライセンス(*2)が必要になります。| D365FO の機能の一部として提供するので<br> Power BI Pro ライセンスは必要ありません。  |
-| 制限事項 | Tier2 以上の環境(*3)で使用できる機能となっております。| Tier2 以上の環境(*3)で使用できる機能となっております。  |
+| 制限事項 | | Tier2 以上の環境(*3)で使用できる機能となっております。  |
 
 (*1) Power BI レポートを D365FO へデプロイする方法と致しましては、以下弊社公式資料をご確認頂けますと幸いです。
 https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces?toc=%2Ffin-and-ops%2Ftoc.json
