@@ -16,8 +16,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations
-Application version: 10.0.30
-Platform version: PU54
+Application version: 10.0.33
+Platform version: PU57
 
 ## PowerAutomate の Fin&Ops Apps(Dynamics365) コネクタにおけるフィルターの設定方法
 
