@@ -16,8 +16,8 @@ WinRM SSL 証明書の有効期限が切れている旨のエラーが出るこ�
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.31
-Platform version: PU55
+Application version: 10.0.33
+Platform version: PU57
 
 ## シークレットの入れ替え方法
 プロジェクトオーナーまたは環境管理者は、LCSからシークレットを入れ替えることが可能です。  
@@ -34,12 +34,12 @@ Platform version: PU55
 2. Windows検索にて "certmgr" と入力してCertificate Managerを開く
 3. Local Machine / Personal / Certificates に遷移する  
 WinRM SSL証明書の名前は、デプロイされたVMの名前と同じになります。  
-![](./how-to-update-WinRM/how-to-update-WinRM1.jpg)
+![](./how-to-update-winrm/how-to-update-winrm1.jpg)
 
 
 ## WinRM SSL 証明書の有効期限が切れている際の対処法
 既に環境構築から1年以上経過し、WinRM SSL証明書の有効期限が切れている場合、[シークレットの入れ替え] にて、WinRM SSL証明書のエラーが出る場合があります。  
-![](./how-to-update-WinRM/how-to-update-WinRM0.jpg)
+![](./how-to-update-winrm/how-to-update-winrm0.jpg)
 
 このWinRM SSL証明書の有効期限は以下の手順にて更新することができます。  
 
@@ -49,7 +49,7 @@ WinRM SSL証明書の名前は、デプロイされたVMの名前と同じにな
 4. 資産タイプにて「モデル」を選択する
 5. 「Renew WinRM certificate」ファイルをダウンロードする
 6. RenewWinRMcertificate.zip ファイルをローカルフォルダで解凍する（2022/07/現在）
-   ![](./how-to-update-WinRM/how-to-update-WinRM2.png)
+   ![](./how-to-update-winrm/how-to-update-winrm2.png)
 
 7. フォルダ内のREADME.txtに記載されている手順に従う
 
@@ -75,11 +75,24 @@ WinRM SSL 証明書の有効期限が切れていない状態になった後、[
 
 ## 履歴の確認
 [シークレットの入れ替え]が完了すると、環境の履歴が更新されます。履歴は、環境の詳細ページで [履歴] > [環境の変更] をクリックすると表示されます。  
-   ![](./how-to-update-WinRM/how-to-update-WinRM3.png)
+   ![](./how-to-update-winrm/how-to-update-winrm3.png)
 
 （関連情報）  
 [シークレットの入れ替え](https://cloudblogs.microsoft.com/dynamics365/it/2018/04/22/rotate-the-expired-or-nearly-expired-ssl-certificate-on-your-subscriptions-one-box-environments)  
 [WinRM SSL証明書の更新方法](https://cloudblogs.microsoft.com/dynamics365/it/2018/05/02/how-to-update-the-winrm-ssl-certificate-on-environments-deployed-in-your-subscription/?source=lcs)
+
+## 既知のエラーと対処策
+“dynamicssupportsa” という名前がストレージアカウント名として使用できない場合、下記のエラーが発生します。
+```javascript
+The storage account named dynamicssupportsa is already taken.
+```
+その場合は、RenewWinRMCertificate フォルダにある、RenewWinRMCertificate.ps1 ファイルをメモ帳等で開き、
+$storageAccountNameForScript の項目を以下のように任意の名前に変更すると、処理が成功します。
+任意の名前に変更する箇所は、$storageAccountNameForScript行のみとなります。
+
+   ![](./how-to-update-winrm/how-to-update-winrm4.png)
+
+
 
 ---
 ## おわりに  
