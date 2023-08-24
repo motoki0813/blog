@@ -1,20 +1,27 @@
 ---
 title: Trace Parserを使用したトレースの実行方法
-date: 2022-09-29
+date: 2023-08-24
 tags:
   - D365FO Tech
   - Trace parser
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートチームの道浦です。  
+こんにちは、Dynamics ERP サポートチームです。  
 この記事では、 Dynamics 365 Finance and Operations にて、 Trace Parser を使用したトレースの実行手順を紹介します。
+
+
+<!-- more -->
+> [!NOTE]
+> 
+> - Trace Parser によりトレースを取得する際には、トレースの取得前または取得後にて、Web ブラウザーのページを更新せずに、[ブラウザーセッション ID の取得](https://jpdynamicserp.github.io/blog/D365FO%20Tech/browser-session-id/) をお願いします。
+> - バッチサーバー上での処理はトレースに記録されませんので、バッチサーバー上での処理のトラブルシューティングに Trace Parser をご利用いただくことはできません。
 
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
-Application version: 10.0.31
-Platform version: PU55
+Application version: 10.0.34
+Platform version: PU58
 
 
 ## Trace Parser を使用したトレースの実行手順
