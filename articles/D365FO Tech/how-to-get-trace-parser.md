@@ -13,11 +13,9 @@ disableDisclaimer: false
 
 <!-- more -->
 > [!NOTE]
-> 
 > - Trace Parser によりトレースを取得する際には、トレースの取得前または取得後にて、Web ブラウザーのページを更新せずに、[ブラウザーセッション ID の取得](https://jpdynamicserp.github.io/blog/D365FO%20Tech/browser-session-id/) をお願いします。
 > - バッチサーバー上での処理はトレースに記録されませんので、バッチサーバー上での処理のトラブルシューティングに Trace Parser をご利用いただくことはできません。
 
-<!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
 Application version: 10.0.34
