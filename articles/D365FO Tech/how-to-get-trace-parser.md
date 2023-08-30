@@ -12,7 +12,7 @@ disableDisclaimer: false
 
 
 <!-- more -->
-> [!NOTE]
+> 注意点
 > - Trace Parser によりトレースを取得する際には、トレースの取得前または取得後にて、Web ブラウザーのページを更新せずに、[ブラウザーセッション ID の取得](https://jpdynamicserp.github.io/blog/D365FO%20Tech/browser-session-id/) をお願いします。
 > - バッチサーバー上での処理はトレースに記録されませんので、バッチサーバー上での処理のトラブルシューティングに Trace Parser をご利用いただくことはできません。
 
