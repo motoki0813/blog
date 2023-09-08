@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Finance and Operations の環境ごとの違い
-date: 2022-09-06
+date: 2023-09-08
 tags:
   - D365FO Tech
   - Tips
@@ -25,11 +25,14 @@ disableDisclaimer: false
 | データベース                   | Azure SQL                | Azure SQL                                | Azure VM 内のオンプレミスSQL Server              | 
 | SSMSによる<br> データベースへの接続 | 不可                     | 可 (*2)                                       | 可                                               | 
 | RDP接続                        | 不可                     | 不可                                     | 可                                               | 
+| フライト有効化方法 (*3)            | Microsoft                | Microsoft                                | 顧客
 
 (*1): 本番環境、サンドボックス環境は、Microsoft 内の Azure Subscription に紐づいて管理されているので、顧客は Azure portal にて環境の情報を見ることができません。クラウドホスト環境は顧客の Azure Subscirption 内で構築されますので、Azure portal にて環境や請求の情報を見ることができます。
 (*2): https://jpdynamicserp.github.io/blog/D365FO%20Tech/database-just-in-time-jit-access/ の手順となります。
+(*3): 本番環境、サンドボックス環境、クラウドホスト環境のフライトの管理方法の違いは https://jpdynamicserp.github.io/blog/D365FO%20Tech/what-is-flight/ にてご案内しております。
 
-(*): 本記事は2022年9月6日時点での情報です。
+
+(*): 本記事は2023年9月8日時点での情報です。
 
 
 ---
