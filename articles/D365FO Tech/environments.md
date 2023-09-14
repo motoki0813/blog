@@ -19,7 +19,7 @@ disableDisclaimer: false
 | 環境名                         | 本番環境                 | サンドボックス環境                       | クラウドホスト環境                               | 
 | :----------------------------- | :----------------------- | :--------------------------------------- | :----------------------------------------------- | 
 | 配置可能なLCSプロジェクト                 | 実装プロジェクト         | 実装プロジェクト                         | 実装プロジェクト<br>  or パートナー試用版プロジェクト | 
-| 呼ばれ方例                   | Production 環境、<br> 運用環境、 <br> Microsoft-managed 環境  | Sandbox環境、<br> Tier2~Tier5環境、非運用環境、 <br> Microsoft-managed 環境   | Cloud-hosted環境、<br> 開発環境            | 
+| 呼ばれ方例                   | Production 環境 <br> 運用環境 <br> Microsoft-managed 環境 <br> セルフサービス環境  | Sandbox環境 <br> Tier2 ~ Tier5 環境 <br> 非運用環境  <br> Microsoft-managed 環境 <br> セルフサービス環境  | Cloud-hosted環境、<br> 開発環境            | 
 | 配置場所                       | Azure                    | Azure                                    | Azure                                            | 
 | Azure Subscription (*1)             | Microsoft                | Microsoft                                | 顧客                                             | 
 | データベース                   | Azure SQL                | Azure SQL                                | Azure VM 内のオンプレミスSQL Server              | 
