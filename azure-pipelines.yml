@@ -31,11 +31,12 @@ steps:
     git checkout -b $(newBranchName)
     git remote add repoA $(workingDirectory)/repoA
     git fetch repoA
-    git merge repoA/main --allow-unrelated-histories -X theirs || true  # Allow the script to continue even if merge fails
-    git rm -f azure-pipelines.yml  # Remove azure-pipelines.yml
-    git commit -m "Remove azure-pipelines.yml"
-  displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution and Remove azure-pipelines.yml'
-
+    git merge repoA/main --allow-unrelated-histories --strategy-option theirs
+    if [ -f "azure-pipelines.yml" ]; then
+      git rm azure-pipelines.yml
+      git commit -m "Remove azure-pipelines.yml"
+    fi
+  displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution and Conditionally Remove azure-pipelines.yml'
 
 - script: |
     cd $(workingDirectory)/repoB
@@ -44,7 +45,6 @@ steps:
       git commit -m "Remove azure-pipelines.yml"
     fi
   displayName: 'Conditionally Remove azure-pipelines.yml from Repo B'
-
 
 - script: |
     cd $(workingDirectory)/repoB
