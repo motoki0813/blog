@@ -1,19 +1,49 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- main
+  branches:
+    include:
+    - main
+  paths:
+    exclude:
+      - azure-pipelines.yml  # このファイル自体の変更はトリガーしない
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: 'ubuntu-latest'
+
+variables:
+  newBranchName: 'new-feature-$(Build.BuildId)'
+  azureDevOpsToken: $(AzureDevOpsPersonalAccessToken)
+  githubToken: $(GithubPersonalAccessToken)
+  workingDirectory: $(Pipeline.Workspace)/s
+  gitUserEmail: 'kanagayo@microsoft.com'
+  gitUserName: 'kanagayo'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: git clone https://$(azureDevOpsToken)@dev.azure.com/jpdynamics/DynamicsERP/_git/blog $(workingDirectory)/repoA
+  displayName: 'Clone Repo A from Azure DevOps'
+
+- script: git clone https://$(githubToken)@github.com/jpdynamicserp/blog.git $(workingDirectory)/repoB
+  displayName: 'Clone Repo B from GitHub'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    cd $(workingDirectory)/repoB
+    git config user.email "$(gitUserEmail)"
+    git config user.name "$(gitUserName)"
+    git checkout -b $(newBranchName)
+    git remote add repoA $(workingDirectory)/repoA
+    git fetch repoA
+    git merge repoA/main --allow-unrelated-histories --strategy-option theirs
+  displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution'
+
+- script: |
+    cd $(workingDirectory)/repoB
+    git push origin $(newBranchName)
+  displayName: 'Push New Branch to Repo B'
+
+- script: |
+    curl -X POST -H "Authorization: token $(githubToken)" -d '{
+    "title": "New Feature",
+    "head": "'$(newBranchName)'",
+    "base": "main",
+    "body": "Please pull these changes."
+    }' https://api.github.com/repos/jpdynamicserp/blog/pulls
+  displayName: 'Create Pull Request in Repo B'
