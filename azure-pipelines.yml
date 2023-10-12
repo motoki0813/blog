@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  newBranchName: 'new-feature-$(Build.BuildId)'
+  newBranchName: 'new-release-$(Build.BuildId)-$(Build.BuildNumber)'
   azureDevOpsToken: $(AzureDevOpsPersonalAccessToken)
   githubToken: $(GithubPersonalAccessToken)
   workingDirectory: $(Pipeline.Workspace)/s
@@ -37,8 +37,7 @@ steps:
 # azure-pipelines.yml を削除
 - script: |
     cd $(workingDirectory)/repoB
-    git rm azure-pipelines.yml
-    git commit -m "Remove azure-pipelines.yml"
+    git rm --cached azure-pipelines.yml
   displayName: 'Remove azure-pipelines.yml from Repo B'
 
 - script: |
@@ -48,7 +47,7 @@ steps:
 
 - script: |
     curl -X POST -H "Authorization: token $(githubToken)" -d '{
-    "title": "New Feature",
+    "title": "New Release $(Pipeline.StartTime:yyyyMMddHHmmss) - $(Build.BuildId)-$(Build.BuildNumber)",
     "head": "'$(newBranchName)'",
     "base": "main",
     "body": "Please pull these changes."
