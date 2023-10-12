@@ -34,6 +34,13 @@ steps:
     git merge repoA/main --allow-unrelated-histories --strategy-option theirs
   displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution'
 
+# azure-pipelines.yml を削除
+- script: |
+    cd $(workingDirectory)/repoB
+    git rm azure-pipelines.yml
+    git commit -m "Remove azure-pipelines.yml"
+  displayName: 'Remove azure-pipelines.yml from Repo B'
+
 - script: |
     cd $(workingDirectory)/repoB
     git push origin $(newBranchName)
