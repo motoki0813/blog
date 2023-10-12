@@ -37,11 +37,14 @@ steps:
   displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution and Remove azure-pipelines.yml'
 
 
-# azure-pipelines.yml を削除
 - script: |
     cd $(workingDirectory)/repoB
-    git rm --cached azure-pipelines.yml
-  displayName: 'Remove azure-pipelines.yml from Repo B'
+    if [ -f azure-pipelines.yml ]; then
+      git rm azure-pipelines.yml
+      git commit -m "Remove azure-pipelines.yml"
+    fi
+  displayName: 'Conditionally Remove azure-pipelines.yml from Repo B'
+
 
 - script: |
     cd $(workingDirectory)/repoB
