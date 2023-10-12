@@ -31,7 +31,7 @@ steps:
     git checkout -b $(newBranchName)
     git remote add repoA $(workingDirectory)/repoA
     git fetch repoA
-    git merge repoA/main --allow-unrelated-histories --strategy-option theirs
+    git merge repoA/main --allow-unrelated-histories -X theirs
   displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution'
 
 # azure-pipelines.yml を削除
