@@ -34,7 +34,7 @@ steps:
     git merge repoA/main --allow-unrelated-histories --strategy-option theirs
     if [ -f "azure-pipelines.yml" ]; then
       git rm azure-pipelines.yml
-      git commit -m "Remove azure-pipelines.yml"
+      git commit -m "Update"
     fi
   displayName: 'Merge Changes from Repo A to New Branch in Repo B with Conflict Resolution and Conditionally Remove azure-pipelines.yml'
 
