@@ -47,4 +47,3 @@ Platform version: PU 55
 
 ## おわりに  
 以上、免税事業者などに対する経過措置について Dynamics 365 Finance and Operations (D365FO) における登録方法についてご案内いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

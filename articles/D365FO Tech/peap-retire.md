@@ -27,4 +27,3 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/pu
 ## おわりに  
 
 以上、 Dynamics 365 Finance and Operations のPEAP(Preview Early Access Program)プロジェクトの変更点についてご紹介させていただきました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

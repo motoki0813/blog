@@ -60,5 +60,3 @@ https://go.microsoft.com/fwlink/p/?LinkId=866544
 ## おわりに  
 
 以上、 Dynamics 365 Finance and Operations の特定操作における必要なロールとライセンスをVisual Studioにて確認する方法についてご紹介させていただきました。
-
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

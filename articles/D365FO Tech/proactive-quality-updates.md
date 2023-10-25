@@ -71,4 +71,3 @@ https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/q
 ## おわりに  
 
 以上、 Dynamics 365 for Finance and Operations のプロアクティブな品質更新プログラムの適用についてご紹介しました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

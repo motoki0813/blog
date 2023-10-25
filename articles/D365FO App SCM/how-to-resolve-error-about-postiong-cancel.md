@@ -47,4 +47,3 @@ https://jpdynamicserp.github.io/blog/D365FO%20App%20SCM/how-to-create-sales-orde
 ---
 ## おわりに  
 以上、販売注文作成時に「梱包明細の転記」を実施した際に処理が中断されるエラーの解決方法についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

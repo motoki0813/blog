@@ -30,4 +30,3 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-se
 ## おわりに  
 
 以上、 Dynamics 365 Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項についてご紹介させていただきました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

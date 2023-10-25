@@ -72,4 +72,3 @@ Microsoft はお客様のプライバシーを尊重し、シャドウ コピー
 
 ## おわりに
 以上、Microsoft が Dynamics 365 Finance and Operations の調査に用いるシャドウ コピー環境について紹介いたしました。  
-より詳細な情報が必要な場合、弊社テクニカル サポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

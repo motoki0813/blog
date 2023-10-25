@@ -49,4 +49,3 @@ Platform version: PU55
 ## おわりに  
 
 以上、 Dynamics 365 Finance and Operations における [購買要求] 画面から作成された発注書のステータスを "ドラフト" にする手順について紹介いたしました。
-より詳細な情報が必要な場合、弊社テクニカル サポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

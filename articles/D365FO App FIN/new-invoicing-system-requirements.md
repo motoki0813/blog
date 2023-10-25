@@ -45,4 +45,3 @@ https://jpdynamicserp.github.io/blog/D365FO%20App%20FIN/new-invoicing-system-req
 
 ## おわりに  
 以上、適格請求書等保存方式 (インボイス制度) の対応状況についてご案内いたしました。  
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

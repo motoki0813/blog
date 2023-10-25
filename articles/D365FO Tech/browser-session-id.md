@@ -36,6 +36,4 @@ Platform version: PU55
 
 ---
 ## おわりに  
-
 以上、 Dynamics 365 Finance and Operations のブラウザーセッション ID の取得方法についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager(CSAM), Customer Engineer(CE) までお問い合わせください。

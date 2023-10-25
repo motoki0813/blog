@@ -78,4 +78,3 @@ https://jpdynamicserp.github.io/blog/D365FO%20App%20SCM/how-to-resolve-warning-w
 ## おわりに  
 
 以上、顧客の一時的な与信限度額の登録に必要な手順についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

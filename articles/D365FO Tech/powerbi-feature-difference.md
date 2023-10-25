@@ -42,4 +42,4 @@ https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-how-to-colla
 ---
 ## おわりに  
 
-Power BI.com integration と Power BI Embedded の違いについて、ご紹介させていただきました。ご不明な点やご質問等ございましたら、弊社サポートまでお問い合わせ頂きますようお願いいたします。
+Power BI.com integration と Power BI Embedded の違いについて、ご紹介させていただきました。

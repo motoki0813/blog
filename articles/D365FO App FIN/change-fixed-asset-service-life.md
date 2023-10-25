@@ -32,4 +32,4 @@ Application version: 10.0.30 Platform version: PU54
 
 ## おわりに  
 以上、固定資産パラメーターにて「減価償却方法を手動での変更を許可」を "はい" に設定している場合における耐用年数の変更手順についてご案内いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
+

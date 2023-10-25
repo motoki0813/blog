@@ -26,4 +26,3 @@ Service health にて表示される Incident や Advisory の件数は、現時
 ---
 ## おわりに  
 以上、Dynamics 365 Business Central (D365BC) の管理センターで表示される Service health についてご紹介いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、貴社担当のアカウントマネージャー (CSAM, PSAM)、弊社営業、およびクラウドソリューションアーキテクト (CSA-E) までお問い合わせください。

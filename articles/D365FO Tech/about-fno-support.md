@@ -33,4 +33,3 @@ https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/
 ## おわりに  
 
 以上、 Dynamics 365 for Finance and Operations をご利用いただく際の留意事項、ご協力いただきたい事項についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager(CSAM), Customer Engineer(CE) までお問い合わせください。

@@ -38,4 +38,3 @@ Join のリクエストを申請後に承認がされ、Project Como グルー�
 ---
 以上、Export to Data Lake の Yammer group をご紹介させていただきました。
 Export to Data Lake 機能に関するアップデート情報は、Yammer group に通知がされますので、ぜひご活用いただけますと幸いです！
-

@@ -88,4 +88,3 @@ disableDisclaimer: false
 # おわりに  
 
 以上、 Dynamics 365 Finance and Operations におけるフライト機能を紹介いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、貴社担当のアカウントマネージャー (CSAM, PSAM)、弊社営業、およびクラウドソリューションアーキテクト (CSA-E) までお問い合わせください。
