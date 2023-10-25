@@ -70,4 +70,3 @@ https://dynftejpnuat.sandbox.operations.dynamics.com/data/BatchJobs?$filter=Stat
 ## おわりに  
 
 以上、、Power Automate の Fin&Ops Apps (Dynamics 365) コネクタにおけるフィルターの設定方法をご紹介させていただきました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。  

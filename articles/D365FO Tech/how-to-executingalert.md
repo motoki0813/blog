@@ -83,6 +83,4 @@ Platform version: PU57
 
 ---
 ## おわりに  
-
 以上、D365FO の Business Event の機能を用いて、Power Automate で Executing のままになっているバッチジョブを検知する方法をご紹介させていただきました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。  

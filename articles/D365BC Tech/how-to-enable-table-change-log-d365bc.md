@@ -65,4 +65,3 @@ https://learn.microsoft.com/en-us/dynamics365/business-central/across-log-change
 ## おわりに  
 
 以上、Dynamics 365 Business Central においてテーブルの変更ログを記録、確認する方法を紹介いたしました。  
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

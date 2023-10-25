@@ -26,4 +26,3 @@ https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/dev-to
 ## おわりに  
 
 以上、パートナー試用版の延長方法 をご紹介させていただきました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

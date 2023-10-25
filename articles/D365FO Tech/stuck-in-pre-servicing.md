@@ -31,4 +31,3 @@ disableDisclaimer: false
 ---
 ## おわりに  
 以上、Dynamics 365 Finance and Operations のサンドボックス環境・本番環境に対してパッケージ適用を開始した際に、LCS 上でサービス提供前 (Pre-Servicing) という環境のステータスが数時間続く場合がございますことを紹介いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

@@ -29,4 +29,4 @@ Application version: 10.0.30 Platform version: PU54
 
 ## おわりに
 弊社標準環境のデモ データの法人の 1 つである USMF にて会計年度が未登録になっていた際の会計カレンダー追加手順についてご案内いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
+

@@ -74,6 +74,4 @@ https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/perf-test/t
 
 ---
 ## おわりに  
-
 以上、 Dynamics 365 Finance and Operations にて、 Trace Parser を使用したトレースの実行手順についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

@@ -39,4 +39,3 @@ disableDisclaimer: false
 ## おわりに  
 
 以上、 Dynamics 365 for Finance and Operations (D365FO) の環境ごとの違いについてご紹介しました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

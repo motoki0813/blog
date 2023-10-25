@@ -43,4 +43,3 @@ Platform version: PU53
 ## おわりに  
 
 以上、 Dynamics 365 Finance and Operations における[既定の注文設定] の[購買管理] フィールド取得元について紹介いたしました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

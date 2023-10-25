@@ -57,4 +57,3 @@ https://learn.microsoft.com/ja-jp/power-platform/admin/restrict-access-online-tr
 
 ## おわりに  
 以上、Azure AD 条件付きアクセスを使用して D365FO へのアクセスを制御する方法を紹介いたしました。  
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

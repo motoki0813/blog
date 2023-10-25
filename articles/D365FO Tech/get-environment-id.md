@@ -30,5 +30,3 @@ disableDisclaimer: false
 
 # おわりに  
 以上、環境名・環境 ID 取得についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
-

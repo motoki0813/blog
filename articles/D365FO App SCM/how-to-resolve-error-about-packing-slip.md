@@ -56,4 +56,3 @@ Platform version: PU53
 ---
 ## おわりに  
 以上、販売注文作成時に「梱包明細の転記」を実施した際に生じる可能性のあるエラーの解決方法についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

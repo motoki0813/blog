@@ -103,4 +103,3 @@ Platform version: PU 55
 ## おわりに
 
 以上、移動オーダーにある項目 "FEFO 日付管理の上書き" の使用方法についてご紹介いたしました。  
-より詳細な情報が必要な場合、弊社テクニカル サポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

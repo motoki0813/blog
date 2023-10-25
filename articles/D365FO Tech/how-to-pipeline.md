@@ -326,4 +326,3 @@ LCS Project ID は、デプロイ対象の環境をブラウザで開いた際�
 ## おわりに  
 
 以上、Dynamics 365 Finance and Operations にて、Azure Pipelines と Microsoft-hosted agents を使用したビルドの手順をご紹介させていただきました。
-もし、お困りのこと等がございましたら、弊社までお問い合わせ頂きますようお願いいたします。

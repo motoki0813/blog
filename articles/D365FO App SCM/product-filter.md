@@ -99,4 +99,3 @@ Platform version: PU 55
 ## おわりに
 ---
 以上、製品フィルターを設定し、特定の顧客にのみ製品の販売を許可する方法についてご紹介いたしました。  
-より詳細な情報が必要な場合、弊社テクニカル サポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。

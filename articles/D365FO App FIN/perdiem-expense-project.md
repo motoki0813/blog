@@ -64,4 +64,3 @@ Platform version: PU50
 
 ## おわりに  
 以上、ワークスペース「経費管理」から特定のプロジェクトに経費カテゴリ「日当」を紐づける方法ついてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
