@@ -8,14 +8,18 @@ tags:
 disableDisclaimer: false
 ---
 
-こんにちは、Dynamics ERP サポートチームの永吉です。
-
+こんにちは、Dynamics ERP サポートチームです。
 この記事では、LCS にて Dynamics 365 Finance and Operations に関するサポートリクエストを起票する方法を紹介します。
+
 <!-- more -->
+> [!NOTE]
+> 2023 年 11 月より、サポートリクエストは LCS からではなく Power Platfrom 管理センターから起票いただくよう変更されます。 LCS 上のサポートリクエストの履歴の確認方法、Power Platfrom 管理センター の起票方法について随時本ブログにて更新いたします。
+
 
 
 ## 更新履歴
 2022 年 10 月 13 日 (木) : Advanced Diagnostic Information 箇所を追記しました。
+2023 年 11 月 2 日 (木) : LCS から Power Platform 管理センターへの移行について追加しました。
 
 ## 手順
 1.  LCSにログインする
