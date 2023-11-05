@@ -1,6 +1,6 @@
 ---
 title: LCSにてDynamics 365 Finance and Operationsに関するサポートリクエストを起票する方法
-date: 2022-10-13
+date: 2023-11-02
 tags:
   - D365FO Tech
   - LCS
