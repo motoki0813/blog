@@ -53,17 +53,23 @@ Platform version: PU55
 ## 検証シナリオ毎のおすすめ法人
 テクニカル サポート チームでは検証時にそれぞれの検証目的に合わせて使用する法人を決めています。  
 以下の法人がそれぞれの検証シナリオにおけるオススメの法人となりますため、ご参考になれば幸いです。  
-| 法人 (Legal Entity) | 検証目的 |
-| :-----------------------------: | :----------------------- |
-| USMF | 基本的な挙動の検証 |
-| JPMF | 日本ローカライズ機能の検証 |
-| DEMF | 会社間取引の検証 |
-| USRT | Commerce の検証 |
-| USSI | プロジェクト マネジメントの検証 |
-| USPM | Project Operations の検証 |
-| CNMF | 中国ローカライズ機能の挙動の検証 |
-| THMF | タイのローカライズ機能の検証 |
-| INMF | インドのローカライズ機能の検証 |
+<table>
+<thead>
+<tr><th>法人 (Legal Entity)<th>検証目的
+</thead>
+<tbody>
+<tr><td>USMF<td>基本的な挙動の検証
+<tr><td>JPMF<td>日本ローカライズ機能の検証
+<tr><td>DEMF<td>会社間取引の検証
+<tr><td>USRT<td>Commerce の検証
+<tr><td>USSI<td>プロジェクト マネジメントの検証
+<tr><td>USPM<td>Project Operations の検証
+<tr><td>CNMF<td>中国ローカライズ機能の挙動の検証
+<tr><td>THMF<td>タイのローカライズ機能の検証
+<tr><td>INMF<td>インドのローカライズ機能の検証
+</tbody>
+</table>
+
 
 
 ---
