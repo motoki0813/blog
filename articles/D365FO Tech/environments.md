@@ -28,6 +28,20 @@ disableDisclaimer: false
 | フライト有効化方法 (*3)            | Microsoft                | Microsoft                                | 顧客
 
 (*1): 本番環境、サンドボックス環境は、Microsoft 内の Azure Subscription に紐づいて管理されているので、顧客は Azure portal にて環境の情報を見ることができません。クラウドホスト環境は顧客の Azure Subscirption 内で構築されますので、Azure portal にて環境や請求の情報を見ることができます。
+
+> [!NOTE]
+> クラウドホスト環境は弊社からアクセスおよびログの取得ができないため、弊社によるトラブルシューティングが制限されております。
+> クラウドホスト環境内の事象が解消しない場合には、クラウドホスト環境の再作成をお願いしていますので、再作成可能という前提でクラウドホスト環境の運用をお願い致します。
+> 以下の弊社公開資料の注意事項もご参考にしていただきますようお願い致します。
+> 
+> [開発環境の配置とアクセス](https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances)
+>---抜粋---
+>注意
+> ・Microsoft サポートでは、レベル 1 の開発環境でのトラブルシューティングが制限される場合があります。
+> ・特定の状況では、問題を解決するために、Microsoft サポートからレベル 1 環境の新規展開が要求される場合があります。
+> ・開発環境にはビジネス クリティカルなデータを含めるべきではなく、破棄可能と見なされます。
+> ・120 の環境だけがテナントごとのサポートです。 特定のテナント下のクラウド ホスト環境数を制限して、サンドボックスおよび運用環境を配置できる十分なキャパシティを許可することをお勧めします。
+
 (*2): https://jpdynamicserp.github.io/blog/D365FO%20Tech/database-just-in-time-jit-access/ の手順となります。
 (*3): 本番環境、サンドボックス環境、クラウドホスト環境のフライトの管理方法の違いは https://jpdynamicserp.github.io/blog/D365FO%20Tech/what-is-flight/ にてご案内しております。
 
