@@ -2,7 +2,7 @@
 title: Azure Pipelines と Microsoft-hosted agents を使用したビルドの手順
 date: 2022-09-06
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Azure DevOps
 disableDisclaimer: false
 ---

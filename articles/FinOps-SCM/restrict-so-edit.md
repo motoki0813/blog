@@ -2,7 +2,7 @@
 title: 請求後の販売注文の編集制御方法
 date: 2022-06-14
 tags: 
-    - D365FO SCM
+    - FinOps-SCM
     - Sales order
     - Accounts receivable parameters
 disableDisclaimer: false

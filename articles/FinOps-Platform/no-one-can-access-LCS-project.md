@@ -2,7 +2,7 @@
 title: LCS プロジェクトにアクセスできるアカウントが見つからない場合の対処法
 date: 2022-05-27
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - LCS
   - Tips
 disableDisclaimer: false

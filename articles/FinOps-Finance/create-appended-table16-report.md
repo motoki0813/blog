@@ -2,7 +2,7 @@
 title: 固定資産別表16シリーズの作成手順
 date: 2022-09-09
 tags:
-  - D365FO Finance
+  - FinOps-Finance
   - Fixed assets
   - Appended table 16 series
   - Japan localization

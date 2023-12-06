@@ -2,7 +2,7 @@
 title: D365FOで使用する言語を一時的に変更する方法
 date: 2022-03-07
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Tips
 disableDisclaimer: false
 ---

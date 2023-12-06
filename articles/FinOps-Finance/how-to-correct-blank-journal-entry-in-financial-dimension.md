@@ -2,7 +2,7 @@
 title: 財務分析コードで空白の仕訳が発生した際の訂正方法
 date: 2022-09-21
 tags:
-  - D365FO Finance
+  - FinOps-Finance
   - Financial dimensions
 disableDisclaimer: false
 ---

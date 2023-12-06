@@ -2,7 +2,7 @@
 title: Dynamics 365 for Finance and Operations の環境ごとの違い
 date: 2023-09-08
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Tips
 disableDisclaimer: false
 ---

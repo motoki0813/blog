@@ -2,7 +2,7 @@
 title: Dynamics 365 Finance and Operations のPEAPの変更点について
 date: 2022-05-06
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - PEAP
 disableDisclaimer: false
 ---

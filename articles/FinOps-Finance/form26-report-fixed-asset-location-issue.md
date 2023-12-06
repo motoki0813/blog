@@ -2,6 +2,7 @@
 title: 保管場所を移動しても償却資産税申告書に反映されない事象について
 date: 2023-03-20
 tags:
+  - FinOps-Finance
   - D365FO Fixed Assets issue
 
 disableDisclaimer: false

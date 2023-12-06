@@ -2,7 +2,7 @@
 title: Power Automateでのデータ イベントのトリガー設定手順
 date: 2023-06-13
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Data event
 
 disableDisclaimer: false

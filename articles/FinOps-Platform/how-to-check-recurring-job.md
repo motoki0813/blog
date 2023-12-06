@@ -2,7 +2,7 @@
 title: 定期統合のREST APIの実行
 date: 2023-06-13
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - recurring integrations
   - REST API
 

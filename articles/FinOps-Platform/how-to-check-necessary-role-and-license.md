@@ -2,7 +2,7 @@
 title: 特定操作における必要なロールとライセンスをVisual Studioにて確認する方法
 date: 2022-06-13
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Visual Studio
   - Security Roles
 disableDisclaimer: false

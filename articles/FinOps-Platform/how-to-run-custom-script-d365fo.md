@@ -2,7 +2,7 @@
 title: D365FOでダウンタイムなしでカスタム X++ スクリプトを実行する方法
 date: 2022-08-30
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Data fix
 disableDisclaimer: false
 ---

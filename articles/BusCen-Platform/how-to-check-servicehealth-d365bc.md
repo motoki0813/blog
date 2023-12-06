@@ -2,7 +2,7 @@
 title: D365BCの管理センターで表示される Service health について
 date: 2023-03-23
 tags:
-  - D365BC Tech
+  - BusCen-Platform
   - Service health
 
 disableDisclaimer: false

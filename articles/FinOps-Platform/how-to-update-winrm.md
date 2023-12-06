@@ -2,7 +2,7 @@
 title: クラウドホスト環境でWinRM 証明書をアップデートする方法
 date: 2022-07-04
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - LCS
   - WinRM
 disableDisclaimer: false

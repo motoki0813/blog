@@ -2,7 +2,7 @@
 title: 発注書作成の一連の流れ
 date: 2022-09-21
 tags:
-  - D365FO SCM
+  - FinOps-SCM
   - Purchase order
 disableDisclaimer: false
 ---

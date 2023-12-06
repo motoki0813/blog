@@ -2,7 +2,7 @@
 title: Power BI.com integration と Power BI Embedded の違いについて
 date: 2022-11-07
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Power BI.com integration
   - Power BI Embedded
 disableDisclaimer: false

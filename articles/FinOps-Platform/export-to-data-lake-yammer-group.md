@@ -2,7 +2,7 @@
 title: Export to Data Lake の Yammer group について
 date: 2022-04-04
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Export to Data Lake
 disableDisclaimer: false
 ---

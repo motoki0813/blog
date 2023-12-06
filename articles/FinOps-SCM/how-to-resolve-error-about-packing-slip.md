@@ -2,7 +2,7 @@
 title: 販売注文にて「梱包明細の転記」を実施した際に生じるエラーの解決方法
 date: 2022-09-27
 tags:
-  - D365FO SCM
+  - FinOps-SCM
   - Packing slip
 disableDisclaimer: false
 ---

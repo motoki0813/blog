@@ -2,7 +2,7 @@
 title: 償却資産申告書の作成手順
 date: 2022-08-25
 tags:
-  - D365FO Finance
+  - FinOps-Finance
   - Fixed assets
   - Japan localization
 disableDisclaimer: false
