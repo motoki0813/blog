@@ -26,13 +26,13 @@ author: Dynamics ERP Support Japan
 # Tag (hexo helper)
 root_tag_generator:
   root_tag_names:
-  - D365FO Tech
-  - D365FO SCM
-  - D365FO Finance
-  - Dynamics 365 Commerce
-  - D365BC Tech
-  - D365BC SCM
-  - D365BC Finance
+  - FinOps-Platform
+  - FinOps-SCM
+  - FinOps-Finance
+  - FinOps-Commerce
+  - BusCen-Platform
+  - BusCen-SCM
+  - BusCen-Finance
   - Information
   - 重要な変更点
   - 重要な変更点 (廃止)
