@@ -61,11 +61,7 @@ WinRM SSL 証明書の名前は、デプロイされた VM の名前と同じに
    Azure PowerShell のインストール手順は以下のリンクにあります。    
    （README.txt 記載の URL のリンクが切れているため、別の URL を下記に記載しています）  
 
-<<<<<<< HEAD:articles/D365FO Tech/how-to-update-winrm.md
-　　https://docs.microsoft.com/ja-jp/powershell/azure/azurerm/install-azurerm-ps?view=azurermps-6.13.0
-=======
 　　https://learn.microsoft.com/ja-jp/powershell/azure/azurerm/install-azurerm-ps?view=azurermps-6.13.0
->>>>>>> repoA/main:articles/FinOps-Platform/how-to-update-winrm.md
 
 5. PowerShell のスクリプトを実行するための入力データを準備する。  
    a. VM が配置されている Azure Subscription ID  
