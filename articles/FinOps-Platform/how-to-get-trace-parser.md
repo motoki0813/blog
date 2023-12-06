@@ -2,7 +2,7 @@
 title: Trace Parserを使用したトレースの実行方法
 date: 2023-08-24
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Trace parser
 disableDisclaimer: false
 ---

@@ -2,7 +2,7 @@
 title: 電子帳簿保存法に関する Dynamics 365 Finance and Operations のホワイトペーパー
 date: 2023-02-28
 tags:
-  - D365FO Finance
+  - FinOps-Finance
   - the Act on Book and Record Keeping through Electronic Method 
   - Japan localization
 disableDisclaimer: false

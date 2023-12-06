@@ -2,7 +2,7 @@
 title: ワークスペース「経費管理」から特定のプロジェクトに経費カテゴリ「日当」を紐づける方法
 date: 2022-10-04
 tags:
-  - D365FO Finance
+  - FinOps-Finance
   - Project management
   - Japan localization
 disableDisclaimer: false

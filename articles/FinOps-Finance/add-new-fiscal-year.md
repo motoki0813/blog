@@ -2,7 +2,7 @@
 title: 会計年度の追加方法について
 date: 2023-01-05
 tags:
-  - D365FO
+  - FinOps-Finance
   - General Ledger
   
 disableDisclaimer: false

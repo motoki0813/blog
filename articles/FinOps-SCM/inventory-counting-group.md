@@ -2,7 +2,7 @@
 title: 棚卸グループを使用した棚卸の実施方法
 date: 2022-07-01
 tags: 
-    - D365FO SCM
+    - FinOps-SCM
     - Inventory counting
 disableDisclaimer: false
 ---

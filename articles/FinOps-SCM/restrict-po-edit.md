@@ -2,7 +2,7 @@
 title: 請求後の発注書の編集制御方法
 date: 2022-05-24
 tags: 
-    - D365FO SCM
+    - FinOps-SCM
     - Purchase order
     - Procurement and sourcing parameters
 disableDisclaimer: false

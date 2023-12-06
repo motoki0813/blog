@@ -2,7 +2,7 @@
 title: Dynamics 365 for Finance and Operations の本番環境を使用するユーザー数が増えた場合の注意事項
 date: 2022-05-12
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - LCS
   - Subscription estimator
 disableDisclaimer: false

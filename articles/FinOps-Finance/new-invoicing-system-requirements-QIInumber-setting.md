@@ -2,6 +2,7 @@
 title: 適格請求書等保存方式 (インボイス制度) における事業者番号の登録および請求書への印字について
 date: 2023-04-25
 tags:
+  - FinOps-Finance
   - Invoice
   - Japan localization
   - New Invoicing system requirements

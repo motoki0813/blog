@@ -2,7 +2,7 @@
 title: 既定の注文設定の購買管理フィールド取得元について
 date: 2022-10-13
 tags:
-  - D365FO SCM
+  - FinOps-SCM
   - Sales order
 disableDisclaimer: false
 ---

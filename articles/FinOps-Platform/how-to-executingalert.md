@@ -2,7 +2,7 @@
 title: Power Automate と Business Event を使用した Executing のままになっているバッチジョブの検知方法
 date: 2023-08-09
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Power Automate
   - Business Event
 

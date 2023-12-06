@@ -2,7 +2,7 @@
 title: 環境名・環境IDの取得方法
 date: 2022-09-27
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Tips
 disableDisclaimer: false
 ---

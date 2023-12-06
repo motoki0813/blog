@@ -1,25 +1,25 @@
 ---
-title: Azure AD 条件付きアクセスを使用して D365FO へのアクセスを制御する方法
+title: Microsoft Entra ID 条件付きアクセスを使用して D365FO へのアクセスを制御する方法
 date: 2022-10-04
 tags:
-  - D365FO Tech
-  - Azure AD
+  - FinOps-Platform
+  - Microsoft Entra ID
 disableDisclaimer: false
 ---
 
 こんにちは、Dynamics ERP サポートチームの福原です。  
-この記事では、 Azure AD 条件付きアクセスを使用して Dynamics 365 for Finance and Operations (D365FO) へのアクセスを制御する方法をご案内します。
-Azure Active Directory (以下 Azure AD) の条件付きアクセス により、ユーザー、デバイス、場所などを基にして、 D365FO の環境へのアクセスを制御することが可能となります。
+この記事では、 Microsoft Entra ID 条件付きアクセスを使用して Dynamics 365 for Finance and Operations (D365FO) へのアクセスを制御する方法をご案内します。
+Microsoft Entra ID の条件付きアクセス により、ユーザー、デバイス、場所などを基にして、 D365FO の環境へのアクセスを制御することが可能となります。
 
 <!-- more -->
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations      
 Application version: 10.0.31
 Platform version: PU55
-Azure AD Premium P2 ライセンス
+Microsoft Entra ID Premium P2 ライセンス
 
 ## はじめに
-以下の弊社 FastTrack の記事及び公開資料にも、 Azure AD 条件付きアクセスによる D365FO へのアクセス制御の手順が同様にご案内致しておりますのでご参考にして頂けますと幸いでございます。  
+以下の弊社 FastTrack の記事及び公開資料にも、 Microsoft Entra ID 条件付きアクセスによる D365FO へのアクセス制御の手順が同様にご案内致しておりますのでご参考にして頂けますと幸いでございます。  
 FastTrack の記事:  
 https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/CloudSecurity/ConditionalAccess  
 公開資料:  
@@ -27,8 +27,8 @@ https://learn.microsoft.com/ja-jp/power-platform/admin/restrict-access-online-tr
 
 
 ## 注意点
-- Azure AD 条件付きアクセスをご利用いただくには、Azure Active Directory Premium (https://azure.microsoft.com/ja-jp/pricing/details/active-directory/) の ライセンスが必要となります。
-- Azure AD 条件付きアクセスにより設定されるアクセス制御は Azure AD テナント内の全ての D365FO の環境 (本番環境、サンドボックス環境、クラウドホスト環境等) に適用されます。個別の環境のみに限ったアクセス制御を設定することはできません。
+- Microsoft Entra ID 条件付きアクセスをご利用いただくには、Microsoft Entra ID Premium (https://azure.microsoft.com/ja-jp/pricing/details/active-directory/) の ライセンスが必要となります。
+- Microsoft Entra ID 条件付きアクセスにより設定されるアクセス制御は Microsoft Entra ID テナント内の全ての D365FO の環境 (本番環境、サンドボックス環境、クラウドホスト環境等) に適用されます。個別の環境のみに限ったアクセス制御を設定することはできません。
 
 ## 手順
 以下の手順では、 Windows を使用しているすべてのユーザーからの D365FO へのアクセスをブロックするようなポリシーを作成します。
@@ -56,4 +56,4 @@ https://learn.microsoft.com/ja-jp/power-platform/admin/restrict-access-online-tr
 ---
 
 ## おわりに  
-以上、Azure AD 条件付きアクセスを使用して D365FO へのアクセスを制御する方法を紹介いたしました。  
+以上、Microsoft Entra ID 条件付きアクセスを使用して D365FO へのアクセスを制御する方法を紹介いたしました。  

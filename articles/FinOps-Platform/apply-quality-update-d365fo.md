@@ -2,7 +2,7 @@
 title: D365FOで品質更新プログラムを適用する方法
 date: 2022-05-30
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - LCS
   - Quality Update
 disableDisclaimer: false

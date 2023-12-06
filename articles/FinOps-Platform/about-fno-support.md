@@ -2,7 +2,7 @@
 title: Dynamics 365 for Finance and Operations をご利用いただく際の留意事項、ご協力いただきたい事項
 date: 2023-2-10
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Tips
 disableDisclaimer: false
 ---

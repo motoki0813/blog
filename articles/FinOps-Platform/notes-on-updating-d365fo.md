@@ -2,6 +2,7 @@
 title: D365FOのアップデートに関する注意事項
 date: 2023-11-10
 tags:
+  - FinOps-Platform
   - Information
 disableDisclaimer: false
 ---

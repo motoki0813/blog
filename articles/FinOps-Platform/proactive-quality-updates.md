@@ -2,6 +2,7 @@
 title: Dynamics 365 for Finance and Operations のプロアクティブな品質更新プログラムの適用について
 date: 2022-09-15
 tags:
+  - FinOps-Platform
   - 重要な変更点
 disableDisclaimer: false
 ---

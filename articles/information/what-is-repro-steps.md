@@ -2,8 +2,7 @@
 title: テクニカル サポートにて提供を依頼する「再現手順」について
 date: 2023-10-19
 tags:
-  - D365FO SCM
-  - D365FO FIN
+  - Information
   - repro steps
 disableDisclaimer: false
 ---

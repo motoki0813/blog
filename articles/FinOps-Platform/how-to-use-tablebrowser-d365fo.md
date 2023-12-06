@@ -2,7 +2,7 @@
 title: D365FOの画面上でテーブルデータを確認する方法
 date: 2022-09-07
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Tips
 disableDisclaimer: false
 ---

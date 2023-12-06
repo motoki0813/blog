@@ -2,7 +2,7 @@
 title: Power Automate の Fin&Ops Apps (Dynamics 365) コネクタにおけるフィルターの設定方法
 date: 2023-01-16
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Power Automate
   - OData
 

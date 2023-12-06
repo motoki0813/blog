@@ -2,7 +2,7 @@
 title: D365FO でデモデータを含んだ環境の構築方法と検証シナリオ毎のおすすめ法人
 date: 2023-03-13
 tags:
-  - D365FO Tech
+  - FinOps-Platform
   - Demo data
   - Standard
 disableDisclaimer: false

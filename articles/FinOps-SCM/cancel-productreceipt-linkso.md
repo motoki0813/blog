@@ -2,7 +2,7 @@
 title: 販売注文に紐づく発注書の製品受領書のキャンセル方法
 date: 2022-09-07
 tags: 
-    - D365FO SCM
+    - FinOps-SCM
     - Sales order
     - Purchase order    
 disableDisclaimer: false
