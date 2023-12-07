@@ -18,14 +18,14 @@ Ideas に投稿された内容は、弊社開発部門に直接送付されま�
 Ideas の投稿手順、及び投稿への投票手順につきまして以下にご案内させていただきますので、是非 Ideas をご活用頂けますと幸いでございます。
 
 ## Ideas の投稿手順
-(1) https://experience.dynamics.com/ を開きます。
-(2) Ideas をクリックします。
+1. https://experience.dynamics.com/ を開きます。
+1. Ideas をクリックします。
 ![](./how-to-post-ideas/ideas1.png)
-(3) Suggest a new Idea をクリックします。
+1. Suggest a new Idea をクリックします。
 ![](./how-to-post-ideas/ideas2.png)
-(4) Work Account をクリックします。
+1.  Work Account をクリックします。
 ![](./how-to-post-ideas/ideas3.png)
-(5) Idea name, Product, Category, Idea Description を埋めて頂き、Submit ボタンをクリックします。
+1.  Idea name, Product, Category, Idea Description を埋めて頂き、Submit ボタンをクリックします。
 ![](./how-to-post-ideas/ideas4.png)
 ※ Product の入力項目につきましては、
    SCM 系の機能は、Dynamics 365 Supply Chain Management
