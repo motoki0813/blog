@@ -30,11 +30,8 @@ Ideas の詳細につきましては、以下のブログをご参照くださ�
 是非本ブログの読者の皆様におかれましては、以下のリンクにてリストされている Ideas をご一読いただき、共感いただける要望があれば賛成票 (Vote) を投じていただけますと幸いです。  
 [Ideas のリスト | Japan Dynamics ERP Support Blog (jpdynamicserp.github.io)](https://jpdynamicserp.github.io/blog/information/ideas-list/)
 
-<<<<<<< HEAD
-> [!Note]  
-=======
+
 > [!NOTE]  
->>>>>>> repoA/main
 > 本活動は日本のテクニカル サポート独自の活動となりますため、Ideas のトリアージ プロセス等が変わることもなく、引き続きテクニカル サポートからは Ideas を元に直接開発チームにエスカレーションすることが難しいこと、ご了承ください。  
 
 <a id='how-to-use-it'></a>
