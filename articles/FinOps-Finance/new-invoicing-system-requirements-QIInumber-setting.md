@@ -12,6 +12,7 @@ disableDisclaimer: false
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 こんにちは、Dynamics ERP サポートチームの尾崎です。  
 この記事では、 2023 年 10 月 1 日より開始される適格請求書等保存方式 (インボイス制度) における  
 事業者番号を Dynamics 365 Finance and Operations (D365FO) に登録する方法および請求書に事業者番号を印字する方法をご紹介します。  
@@ -71,6 +72,8 @@ Legal entity : JPMF
 ## おわりに  
 以上、適格請求書等保存方式 (インボイス制度) における事業者番号を Dynamics 365 Finance and Operations (D365FO) に登録する方法および請求書に事業者番号を印字する方法をご案内いたしました。  
 =======
+=======
+>>>>>>> repoA/main
 =======
 >>>>>>> repoA/main
 こんにちは、Dynamics ERP サポートチームの木村です。  
@@ -154,6 +157,9 @@ Legal entity : JPMF
 ## おわりに  
 以上、適格請求書等保存方式 (インボイス制度) における事業者番号を Dynamics 365 Finance に登録する方法および請求書に事業者番号を印字する方法をご案内いたしました。  
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> repoA/main
+=======
 >>>>>>> repoA/main
 =======
 >>>>>>> repoA/main
