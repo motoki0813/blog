@@ -26,10 +26,10 @@ Platform version: PU61
 ## 新規で配置したクラウドホスト環境で証明書のエラーが発生した際の対処法
 下記の手順で新しいアプリケーションと証明書の登録を設定します。また以下の手順は、下記の公開資料に記載されている手順となっております。
 
-[Set up a new application and certificate registration - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/secure-developer-vm#set-up-a-new-application-and-certificate-registration)  
+[新しいアプリケーションと証明書の登録をセットアップする - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/secure-developer-vm#set-up-a-new-application-and-certificate-registration)  
 
 1. [Azure Portal](https://portal.azure.com/) から下記の手順でアプリケーションをテナントに作成します。  
-[アプリケーションを登録する - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app#register-an-application)  
+[アプリケーションを登録する - Microsoft identity platform | Microsoft Learn](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app#register-an-application)  
 ![](./secure-one-box-development-environments/secure-one-box-development-environments01.png)
 
 1. 証明書を作成し、アプリケーションに追加します。  
@@ -56,7 +56,7 @@ Power Shell起動後、下記のコマンドを C:\Users\Admin*** ディレク�
     <add key="GraphApi.GraphAPIServicePrincipalCert" value="<certificate thumbprint>" />
     ```
 
-1. 環境 URL をアプリケーションのリダイレクト URI として追加します。詳細は [リダイレクト URI を追加する- Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app#add-a-redirect-uri) を参照してください。  
+1. 環境 URL をアプリケーションのリダイレクト URI として追加します。詳細は [リダイレクト URI を追加する - Microsoft identity platform | Microsoft Learn](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app#add-a-redirect-uri) を参照してください。  
 
 1. アプリケーションの API アクセス許可を割り当てます。  
     1. [Azure Portal](https://portal.azure.com/) から手順1で作成したアプリケーションにて、[APIのアクセス許可] から下記の項目について設定します。  
