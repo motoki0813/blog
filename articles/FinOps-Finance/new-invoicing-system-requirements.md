@@ -69,6 +69,7 @@ Dynamics 365 Finance における対応状況を随時更新して参ります�
 | ---- | ---- | ---- |
 | 1 | 仕訳伝票に自由書式で説明を記載できる項目がない | [Issue 862451](https://fix.lcs.dynamics.com/Issue/Details?bugId=862451) <br> [自動転記の既定の説明の設定 - Finance \| Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/ja-jp/dynamics365/finance/general-ledger/set-up-default-descriptions-for-automatic-posting#set-up-default-descriptions) |
 | 2 | 月次締め請求書の通貨として JPY 以外が設定できない | [Issue 861848](https://fix.lcs.dynamics.com/Issue/Details?bugId=861848) <br> [Consolidated invoices for Japan - Finance \| Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/finance/localizations/japan/apac-jpn-consolidate-invoices#assumptions-and-limitations) |
+| 3 | 「請求書売上レポート」出力時に「実際の消費税額」が合計金額に含まれない | - |
 
 > [!NOTE]  
 > 対応予定 (時期未定) の事象 および 既知の制限 につきましては、Ideas を新規で投稿または既存の投稿に賛成票 (Vote) を投じることで、日本における影響度を開発チームに伝えることが出来るため、積極的にご投稿・ご投票ください。
