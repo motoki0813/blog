@@ -48,16 +48,16 @@ Dynamics 365 Finance における対応状況を随時更新して参ります�
 ## 既知の事象一覧
 | No. | 事象 | 方針 | 関連情報 |
 | ---- | ---- | :----: | ---- |
-|  1 | 消費税の照会をすると「実際の消費税の合計金額」に関係ない値が表示される | 修正済み | [Issue 862723](https://fix.lcs.dynamics.com/Issue/Details?bugId=862723) |
-|  2 | 10 %と 8 %の税調整金額の合計が 0 円のときに消費税金額に再計算された金額が<br>月次締め請求書に表示されていない | 修正予定 | [Issue 868315](https://fix.lcs.dynamics.com/Issue/Details?bugId=868315) |
+|  1 | 消費税の照会をすると「実際の消費税の合計金額」に関係ない値が表示される | 修正済み | [Issue 862723](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=862723&dbType=3&qc=123e2bb4dbd398f8806c38f8d9762c700bc4252c18701c7ff6a91d3c627b4c2d) |
+|  2 | 10 %と 8 %の税調整金額の合計が 0 円のときに消費税金額に再計算された金額が<br>月次締め請求書に表示されていない | 修正予定 | [Issue 868315](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=868315&dbType=3&qc=1a5d7c73e01fb306a7b1ff69f066d6102465865a22547d5138f387bb5741489b) |
 |  3 | 10 %と 8 %の税調整金額の合計が 0 円のときに作成される消費税調整の伝票トランザクションに<br>顧客 ID が設定されていない | 対応予定<br>(時期未定) | [Ideas](https://experience.dynamics.com/ideas/idea/?ideaid=fd1411fd-06b1-ee11-92bd-6045bdaf814b) |
 |  4 | 消費税調整で作成された顧客トランザクションに支払期日が自動計算されておらず<br>転記日と同じ日付が設定されていて、支払条件や支払方法も設定されていない。 | 対応予定<br>(時期未定) | [Ideas](https://experience.dynamics.com/ideas/idea/?ideaid=d1f95876-f4b0-ee11-92bd-6045bdaf814b) |
-|  5 | 税調整金額に対して入金消込を実行したが月次締め請求書の未払金額に税調整金額が表示される | 修正予定 | [Issue 864075](https://fix.lcs.dynamics.com/Issue/Details?bugId=864075) |
+|  5 | 税調整金額に対して入金消込を実行したが月次締め請求書の未払金額に税調整金額が表示される | 修正予定 | [Issue 864075](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=864075&dbType=3&qc=fea454aa599fdaa26937d12e9e8bc48b663a73704782eadd65aa1a55a3305034) |
 |  6 | 税調整金額がマイナス金額の場合に入金処理を実行して全額消込したが<br>支払済金額には税調整分の金額しか表示されず、未払い金額に金額が表示される | 修正予定 | No.5 と同様 |
 |  7 | プロジェクト請求書で適格請求書を出力できない | 対応予定<br>(時期未定) | [Ideas](https://experience.dynamics.com/ideas/idea/?ideaid=6abad8dc-3293-ee11-a81c-000d3a7e6e50) |
 |  8 | 適格請求書 (黒伝票) と適格返還請求書 (赤伝票) が分けて計算されない | 対応予定<br>(時期未定) | - |
-|  9 | 言語設定が "EN-US" 以外に設定されているとき、事業者番号が印字されない | 修正済み | [Issue 843227](https://fix.lcs.dynamics.com/Issue/Details?bugId=843227) |
-| 10 | 月次締め請求書の転記後、「一時売上税取引」画面で売上税の詳細等が表示されない | 対応予定<br>(時期未定) | [Issue 862481](https://fix.lcs.dynamics.com/Issue/Details?bugId=862481) |
+|  9 | 言語設定が "EN-US" 以外に設定されているとき、事業者番号が印字されない | 修正済み | [Issue 843227](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=843227&dbType=3&qc=44bf9b8ffa1fd15facbc5a2ea32f576af8603a069ac10338665f78e9c438941d) |
+| 10 | 月次締め請求書の転記後、「一時売上税取引」画面で売上税の詳細等が表示されない | 対応予定<br>(時期未定) | [Issue 862481](https://fix.lcs.dynamics.com/Issue/Details?bugId=862481&dbType=3&qc=de4d0061c5cccd43e3c4657f3c11d4b95980649f039429917a75491d94a741c8) |
 | 11 | 顧客ごとに税調整データを作成するかどうか設定できない | 対応予定<br>(時期未定) | - |
 
 <a id='limit-list'></a>
@@ -67,8 +67,8 @@ Dynamics 365 Finance における対応状況を随時更新して参ります�
 
 | No. | 事象 | 関連情報 |
 | ---- | ---- | ---- |
-| 1 | 仕訳伝票に自由書式で説明を記載できる項目がない | [Issue 862451](https://fix.lcs.dynamics.com/Issue/Details?bugId=862451) <br> [自動転記の既定の説明の設定 - Finance \| Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/ja-jp/dynamics365/finance/general-ledger/set-up-default-descriptions-for-automatic-posting#set-up-default-descriptions) |
-| 2 | 月次締め請求書の通貨として JPY 以外が設定できない[*](#note-limit-no2) | [Issue 861848](https://fix.lcs.dynamics.com/Issue/Details?bugId=861848) <br> [Consolidated invoices for Japan - Finance \| Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/finance/localizations/japan/apac-jpn-consolidate-invoices#assumptions-and-limitations) |
+| 1 | 仕訳伝票に自由書式で説明を記載できる項目がない | [Issue 862451](https://fix.lcs.dynamics.com/Issue/Details?bugId=862451&dbType=3&qc=eded77cc7363325332285dd7347c41836bb866bd1dafb4e3f5b90abdea4c9ab8) <br> [自動転記の既定の説明の設定 - Finance \| Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/ja-jp/dynamics365/finance/general-ledger/set-up-default-descriptions-for-automatic-posting#set-up-default-descriptions) |
+| 2 | 月次締め請求書の通貨として JPY 以外が設定できない[*](#note-limit-no2) | [Issue 861848](https://fix.lcs.dynamics.com/Issue/Details?bugId=861848&dbType=3&qc=a6d13a2c4fcf86ae5504e5e7c15794f152c266d9a04a30d8431af19e3c1a9e89) <br> [Consolidated invoices for Japan - Finance \| Dynamics 365 \| Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/finance/localizations/japan/apac-jpn-consolidate-invoices#assumptions-and-limitations) |
 | 3 | 「請求書売上レポート」出力時に「実際の消費税額」が合計金額に含まれない | - |
 
 > [!NOTE]  
