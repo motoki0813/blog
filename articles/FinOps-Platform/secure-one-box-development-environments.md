@@ -65,7 +65,9 @@ Power Shell起動後、下記のコマンドを C:\Users\Admin*** ディレク�
     1. [Azure Portal](https://portal.azure.com/) から手順1で作成したアプリケーションにて、[APIのアクセス許可] から下記の項目について設定します。  
         - Dynamics ERP – このアクセス許可は、Dynamics 365 Finance and Operations 環境にアクセスするために必要になります。  
         - Microsoft Graph (User.Read.All および Group.Read.All のアクセス許可) - クラウドホスト環境で、新しくインストールした証明書のネットワーク サービスへの読み取りアクセス権を付与します。  
-        ![](./secure-one-box-development-environments/secure-one-box-development-environments06.png)  
+        ![](./secure-one-box-development-environments/secure-one-box-development-environments06.png)
+        ![](./secure-one-box-development-environments/secure-one-box-development-environments11.png)  
+
     1. リモート デスクトップ接続先のクラウドホスト環境にて、[Manage computer certificate] を開き、CHECert に対し、[Manage Private Key] を設定します。  
     ![](./secure-one-box-development-environments/secure-one-box-development-environments07.png)  
     1. [Permissions for CHECert private keys] の画面が開いたら、[Add] を選択します。  
