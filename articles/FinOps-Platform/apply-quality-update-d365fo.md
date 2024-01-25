@@ -50,7 +50,7 @@ Platform version: PU56
 
 
 (関連情報)
-(クラウド環境へ更新プログラムを適用 - Finance & Operations | Dynamics 365 | Microsoft Learn)[https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system]
+[クラウド環境へ更新プログラムを適用 - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system)
 
 
 ## 注意
