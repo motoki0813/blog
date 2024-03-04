@@ -1,6 +1,6 @@
 ---
 title: LCSにてDynamics 365 Finance and Operationsに関するサポートリクエストを起票する方法
-date: 2023-11-02
+date: 2024-03-04
 tags:
   - FinOps-Platform
   - LCS
@@ -13,14 +13,17 @@ disableDisclaimer: false
 
 <!-- more -->
 > [!NOTE]
-> 今後、サポートリクエストは LCS からではなく Power Platform 管理センターから起票いただくよう変更されます。当初、2023 年 11 月中には移行される予定でしたが、 予定は変更される見通しです。予定、及び、LCS 上のサポートリクエストの履歴の確認方法、Power Platform 管理センター の起票方法について随時本ブログにて更新いたします。
-
+> 今後、サポートリクエストは LCS からではなく Power Platform 管理センターから起票いただくよう変更されます。当初、2023 年 11 月中には移行される予定でしたが予定は変更されました。移行に関しましては以下の公開資料をご確認いただきますようお願いいたします。
+> [Migration of the Lifecycle Services Support experience to Power Platform admin center - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/support-migration-to-ppac)
+> また、以下の Yammer でもご案内しておりますのでご参考にしていただけますと幸いでございます。
+> https://www.yammer.com/dynamicsaxfeedbackprograms/threads/2690219038474240
 
 
 ## 更新履歴
 2022 年 10 月 13 日 (木) : Advanced Diagnostic Information 箇所を追記しました。
 2023 年 11 月 2 日 (木) : LCS から Power Platform 管理センターへの移行について追加しました。
 2023 年 11 月 10 日 (金) : LCS から Power Platform 管理センターへの移行の予定の変更について追加しました。
+2024 年 3 月 4 日 (月) : LCS から Power Platform 管理センターへの移行の予定に関する公開資料のリンクを追加しました。
 
 
 ## 手順
