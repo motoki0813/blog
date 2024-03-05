@@ -21,6 +21,9 @@ disableDisclaimer: false
 >この変更により、2023 年 11 月 15 日以降に構築されたクラウドホスト環境では、外部統合 (例: ユーザーのインポート、Microsoft Entra ID グループのインポート、電子申告 (ER) コンフィギュレーションのインポート) をデフォルトでは使用することができません。  
 > 有効化するには、テナントへの証明書のアクセスを構成する必要があるため、本ブログではその手順をご案内いたします。
 
+## 更新履歴
+2024 年 3 月 5 日 (火) : SSRS レポートの出力時にエラーが発生した場合の対処法を追加しました。 (福原)
+
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations  
 Application version: 10.0.37  
@@ -78,6 +81,28 @@ Power Shell起動後、下記のコマンドを C:\Users\Admin*** ディレク�
     ![](./secure-one-box-development-environments/secure-one-box-development-environments10.png)  
 
 上記の設定により、テナントへの証明書のアクセスを構成できます。  
+
+## 上記の手順の実施後に SSRS レポートの出力時にエラーが発生した場合の対処法
+上記の手順を実施しますと該当のクラウドホスト環境にて SSRS レポートの出力時に以下のエラーが発生することを弊社でも確認しており、対処策としまして以下の手順の実施をお客様にはお願い致しております。
+> At least one security token in the message could not be validated.
+
+1. クラウドホスト環境の VM 内の K:\AosService\WebRoot 配下の wif.config を開き、作成した Entra ID のアプリケーションのクライアント ID (アプリケーション ID ) を audienceUris の値に追加します。
+例は以下となります。
+デフォルトで 00000015-0000-0000-c000-000000000000 というものがございますが、その下に追加して頂く必要がございます。
+以下の例では fd0351b6-************************** というクライアント ID を追加しています。
+        <audienceUris>
+          <!-- WARNING: MUST be first element; updated at web role instance startup -->
+          <add value="spn:00000015-0000-0000-c000-000000000000" />
+          <add value="spn:fd0351b6-**************************" />
+        </audienceUris>
+
+また、以下のスクリーンショットもご参考にしていただけますと幸いでございます。
+    ![](./secure-one-box-development-environments/secure-one-box-development-environments12.png)  
+
+2. wif.config の変更後、SSRS レポートが出力できるか確認致します。wif.config の編集後は VM や IIS の再起動は不要でございますが、もし編集後も事象が解消されないようでしたら念のため VM 及び IIS の再起動をご実施いただけますと幸いでございます。
+
+
+
 
 ---
 ## おわりに  
