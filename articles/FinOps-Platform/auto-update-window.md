@@ -14,6 +14,16 @@ Dynamics 365 for Finance and Operations のバージョン 10.0.39 より導入�
 このオプションにより自動更新の日程をより柔軟に選択できることができます。
 <!-- more -->
 
+> [!NOTE]
+> 本記事は以下の弊社公開資料を基に作成しております。詳細については以下の弊社公開資料をご参照ください。また、Microsoft 365 管理センターのメッセージセンターにて ID: MC746250 でもアナウンスいたしております。
+> [What can I expect with the new (autoupdate) cadence? - Finance & Operations | Dynamics 365 | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/get-started/one-version?context=%2Fdynamics365%2Fcontext%2Fcommerce#what-can-i-expect-with-the-new-autoupdate-cadence)
+>
+>    
+> なお、公開資料に記載の通り、リリースを一時停止する資格がある場合、両方の自動更新ウィンドウを一時停止することが明示的に要求されます。1 つ目の自動更新ウィンドウを一時停止しても、2 つ目のウィンドウは自動で一時停止されません。
+> 以前バージョン 10.0.39 の自動更新を一時停止した場合にも、10.0.39 の 2 つ目の自動更新ウィンドウを一時停止することが必要です。
+
+## 更新履歴
+2024 年 3 月 22 日 (金) : 注意事項 (Note) を追記しました。
 
 ## 検証に用いた製品・バージョン
 Dynamics 365 Finance and Operations  
