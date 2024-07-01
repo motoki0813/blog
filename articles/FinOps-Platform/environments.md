@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Finance and Operations の環境ごとの違い
-date: 2023-09-08
+date: 2024-07-01
 tags:
   - FinOps-Platform
   - Tips
@@ -14,18 +14,32 @@ disableDisclaimer: false
 <!-- more -->
 
 
+## 更新履歴
+2023 年 9 月 8 日 : ブログ公開しました。
+2024 年 7 月 1 日 : UDE (Unified developer environment) の GA に合わせ UDE を追加しました。 UDE の詳細は https://devblogs.microsoft.com/powerplatform/the-unified-development-environment-is-ga/ をご確認ください。
 
 
-| 環境名                         | 本番環境                 | サンドボックス環境                       | クラウドホスト環境                               | 
-| :----------------------------- | :----------------------- | :--------------------------------------- | :----------------------------------------------- | 
-| 配置可能なLCSプロジェクト                 | 実装プロジェクト         | 実装プロジェクト                         | 実装プロジェクト<br>  or パートナー試用版プロジェクト | 
-| 呼ばれ方例                   | Production 環境 <br> 運用環境 <br> Microsoft-managed 環境 <br> セルフサービス環境  | Sandbox環境 <br> Tier2 ~ Tier5 環境 <br> 非運用環境  <br> Microsoft-managed 環境 <br> セルフサービス環境  | Cloud-hosted環境、<br> 開発環境            | 
-| 配置場所                       | Azure                    | Azure                                    | Azure                                            | 
-| Azure Subscription (*1)             | Microsoft                | Microsoft                                | 顧客                                             | 
-| データベース                   | Azure SQL                | Azure SQL                                | Azure VM 内のオンプレミスSQL Server              | 
-| SSMSによる<br> データベースへの接続 | 不可                     | 可 (*2)                                       | 可                                               | 
-| RDP接続                        | 不可                     | 不可                                     | 可                                               | 
-| フライト有効化方法 (*3)            | Microsoft                | Microsoft                                | 顧客
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+| 環境名                         | 本番環境                 | サンドボックス環境                       | クラウドホスト環境                               | UDE | 
+| :----------------------------- | :----------------------- | :--------------------------------------- | :----------------------------------------------- | :----------- | 
+| 配置可能なLCSプロジェクト                 | 実装プロジェクト         | 実装プロジェクト                         | 実装プロジェクト<br>  or パートナー試用版プロジェクト | LCS プロジェクト上には作成されないので該当なし        | 
+| 呼ばれ方例                   | Production 環境 <br> 運用環境 <br> Microsoft-managed 環境 <br> セルフサービス環境  | Sandbox環境 <br> Tier2 ~ Tier5 環境 <br> 非運用環境  <br> Microsoft-managed 環境 <br> セルフサービス環境  | Cloud-hosted環境、<br> 開発環境            | Unified developer environment         | 
+| 配置場所                       | Azure                    | Azure                                    | Azure                                            | Azure         | 
+| Azure Subscription (*1)             | Microsoft                | Microsoft                                | 顧客                                             | Microsoft       | 
+| データベース                   | Azure SQL                | Azure SQL                                | Azure VM 内のオンプレミスSQL Server              | Azure SQL         | 
+| SSMSによる<br> データベースへの接続 | 不可                     | 可 (*2)                                       | 可                                               | 可 (*3)         | 
+| RDP接続                        | 不可                     | 不可                                     | 可                                               | 不可         | 
+| フライト有効化方法 (*4)            | Microsoft                | Microsoft                                | 顧客                                             | Microsoft       |
+
+
 
 (*1): 本番環境、サンドボックス環境は、Microsoft 内の Azure Subscription に紐づいて管理されているので、顧客は Azure portal にて環境の情報を見ることができません。クラウドホスト環境は顧客の Azure Subscirption 内で構築されますので、Azure portal にて環境や請求の情報を見ることができます。
 
@@ -43,10 +57,11 @@ disableDisclaimer: false
 > ・120 の環境だけがテナントごとのサポートです。 特定のテナント下のクラウド ホスト環境数を制限して、サンドボックスおよび運用環境を配置できる十分なキャパシティを許可することをお勧めします。
 
 (*2): https://jpdynamicserp.github.io/blog/FinOps-Platform/database-just-in-time-jit-access/ の手順となります。
-(*3): 本番環境、サンドボックス環境、クラウドホスト環境のフライトの管理方法の違いは https://jpdynamicserp.github.io/blog/FinOps-Platform/what-is-flight/ にてご案内しております。
+(*3): https://learn.microsoft.com/ja-jp/power-platform/developer/unified-experience/finance-operations-product-db-access の手順となります。
+(*4): 本番環境、サンドボックス環境、クラウドホスト環境のフライトの管理方法の違いは https://jpdynamicserp.github.io/blog/FinOps-Platform/what-is-flight/ にてご案内しております。
 
 
-(*): 本記事は2023年9月8日時点での情報です。
+(*): 本記事は2024 年 7 月 1 日時点での情報です。
 
 
 ---
