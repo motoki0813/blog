@@ -1,6 +1,6 @@
 ---
 title: 発注書作成の一連の流れ
-date: 2022-09-21
+date: 2024-07-03
 tags:
   - FinOps-SCM
   - Purchase order
@@ -12,6 +12,11 @@ disableDisclaimer: false
 この記事では、Dynamics 365 Finance and Operations にて、 発注書を作成する際の一連の流れ (購買処理) について紹介します。  
 
 <!-- more -->
+## 更新履歴
+2022 年 9 月 21 日 : ブログ公開しました。  
+2024 年 7 月 3 日 : 最新バージョンでの検証及び、手順など追記しました。
+
+
 ## 検証に用いた製品・バージョン  
 Dynamics 365 Finance and Operations  
 Application version : 10.0.40   
